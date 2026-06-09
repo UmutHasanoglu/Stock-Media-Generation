@@ -5,7 +5,7 @@ This repository contains a daily automation for a stock-safe AI image generation
 ## What the automation does
 
 The automation runs once per day at **10:00 AM Europe/Istanbul** and creates a batch under `generated/YYYY-MM-DD/`.
-It is configured for **5 concepts**, **4 images per concept**, and a target of **20 final images per day**. Generated image files are requested directly from Nano Banana 2 as native **4K PNG** files; the automation does not resize or upscale generated images after download.
+It is configured for **5 concepts**, **4 images per concept**, and a target of **20 final images per day**. Generated image files are requested directly from Nano Banana 2 as native **4K** files; the automation saves the exact format returned by the model (`.png`, `.jpg`, or `.webp`) and does not resize or upscale generated images after download.
 
 Pipeline stages:
 
@@ -31,7 +31,7 @@ The automated review step approves only commercially useful, non-editorial, stoc
 
 ## Troubleshooting GitHub Actions
 
-If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, image-generation responses that do not contain image bytes, and image responses that are not PNG files. Gemini image generation uses Nano Banana 2 (`gemini-3.1-flash-image`) with `generationConfig.imageConfig.imageSize` set to `4K`.
+If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, image-generation responses that do not contain image bytes, and image responses that are not a supported image file type. Gemini image generation uses Nano Banana 2 (`gemini-3.1-flash-image`) with `generationConfig.imageConfig.imageSize` set to `4K`.
 
 The workflow opts JavaScript actions into Node.js 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` to avoid the GitHub-hosted runner warning about Node.js 20 action deprecation.
 
@@ -70,7 +70,7 @@ After generation, images are stored in:
 generated/YYYY-MM-DD/images/
 ```
 
-Generated files use `.png` extensions and are written directly from the PNG bytes returned by Nano Banana 2. The automation does not resize them.
+Generated files use the extension that matches the bytes returned by Nano Banana 2, such as `.png` or `.jpg`. The automation writes those bytes directly and does not resize them.
 
 OpenAI reviews each generated image automatically. Approved images are copied into:
 

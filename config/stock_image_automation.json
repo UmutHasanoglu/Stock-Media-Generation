@@ -32,9 +32,15 @@
     ]
   },
   "image_output": {
-    "format": "PNG",
-    "extension": ".png",
+    "format": "AUTO",
+    "extension": "auto",
     "image_size": "4K",
+    "allowed_extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
     "direct_from_model": true,
     "resize_after_generation": false
   },

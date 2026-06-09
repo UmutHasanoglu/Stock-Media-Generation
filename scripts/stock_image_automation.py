@@ -33,9 +33,9 @@ from typing import Any
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
 GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-SUPPORTED_IMAGE_SUFFIXES = {".png"}
-DEFAULT_OUTPUT_FORMAT = "PNG"
-DEFAULT_OUTPUT_EXTENSION = ".png"
+SUPPORTED_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
+DEFAULT_OUTPUT_FORMAT = "AUTO"
+DEFAULT_OUTPUT_EXTENSION = "auto"
 DEFAULT_IMAGE_SIZE = "4K"
 
 
@@ -69,7 +69,7 @@ def image_output_settings(config: dict[str, Any]) -> tuple[str, str]:
     extension = str(image_settings.get("extension", DEFAULT_OUTPUT_EXTENSION)).lower()
     if output_format == "JPG":
         output_format = "JPEG"
-    if not extension.startswith("."):
+    if extension not in {"", "auto"} and not extension.startswith("."):
         extension = f".{extension}"
     return output_format, extension
 
@@ -97,18 +97,31 @@ def detect_image_extension(image_bytes: bytes, mime_type: str | None = None) -> 
     return None
 
 
-def write_direct_png(image_bytes: bytes, mime_type: str | None, destination: Path) -> dict[str, Any]:
+def image_format_from_extension(extension: str) -> str:
+    return {".jpg": "JPEG", ".jpeg": "JPEG", ".png": "PNG", ".webp": "WEBP"}.get(extension, extension.lstrip(".").upper())
+
+
+def existing_generated_image(images_dir: Path, image_id: str) -> Path | None:
+    for suffix in sorted(SUPPORTED_IMAGE_SUFFIXES):
+        candidate = images_dir / f"{image_id}{suffix}"
+        if candidate.exists():
+            return candidate
+    return None
+
+
+def write_direct_image(image_bytes: bytes, mime_type: str | None, destination_stem: Path) -> tuple[Path, dict[str, Any]]:
     detected_extension = detect_image_extension(image_bytes, mime_type)
-    if detected_extension != ".png":
+    if detected_extension not in SUPPORTED_IMAGE_SUFFIXES:
         raise RuntimeError(
-            f"Gemini returned {mime_type or 'an unknown image type'} ({detected_extension or 'unrecognized bytes'}) "
-            "instead of a PNG. The automation did not rename or convert it; adjust the model/output settings and rerun."
+            f"Gemini returned {mime_type or 'an unknown image type'} ({detected_extension or 'unrecognized bytes'}), "
+            f"which is not one of the supported direct formats: {', '.join(sorted(SUPPORTED_IMAGE_SUFFIXES))}."
         )
+    destination = destination_stem.with_suffix(detected_extension)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(image_bytes)
-    return {
-        "source_mime_type": mime_type or "image/png",
-        "output_format": "PNG",
+    return destination, {
+        "source_mime_type": mime_type or f"image/{detected_extension.lstrip('.')}",
+        "output_format": image_format_from_extension(detected_extension),
         "extension": destination.suffix,
         "direct_from_model": True,
         "resized": False,
@@ -367,7 +380,7 @@ def build_gemini_prompt_text(packet: dict[str, Any]) -> str:
 
     prompt_parts = [positive_prompt]
     prompt_parts.append(
-        "Create a native 4K PNG commercial stock image suitable for Adobe Stock submission. Do not upscale or resize; generate at 4K resolution directly."
+        "Create a native 4K commercial stock image suitable for Adobe Stock submission. Do not upscale or resize; generate at 4K resolution directly."
     )
     aspect_ratio = str(packet.get("aspect_ratio") or "").strip()
     if aspect_ratio:
@@ -411,17 +424,15 @@ def build_gemini_payload(packet: dict[str, Any], image_size: str = DEFAULT_IMAGE
 def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dict[str, Any]], api_key: str) -> list[Path]:
     generated: list[Path] = []
     model = config["models"]["image_model"]
-    output_format, extension = image_output_settings(config)
+    image_output_settings(config)
     image_size = image_size_setting(config)
-    if output_format != "PNG" or extension != ".png":
-        raise RuntimeError("Image output must be configured as native PNG with a .png extension.")
     url = GEMINI_GENERATE_URL.format(model=model)
     for packet in packets:
         image_id = packet["id"]
-        image_path = paths.images / f"{image_id}{extension}"
         context_path = paths.images / f"{image_id}.json"
-        if image_path.exists():
-            generated.append(image_path)
+        existing_path = existing_generated_image(paths.images, image_id)
+        if existing_path:
+            generated.append(existing_path)
             continue
         payload = build_gemini_payload(packet, image_size)
         response = post_json(url, payload, headers={"x-goog-api-key": api_key})
@@ -430,7 +441,7 @@ def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dic
             write_json(paths.images / f"{image_id}.response.json", redact_binary(response))
             raise RuntimeError(f"No image bytes returned for packet {image_id}; saved redacted response for debugging")
         image_bytes, mime_type = inline_image
-        image_info = write_direct_png(image_bytes, mime_type, image_path)
+        image_path, image_info = write_direct_image(image_bytes, mime_type, paths.images / image_id)
         write_json(
             context_path,
             {
