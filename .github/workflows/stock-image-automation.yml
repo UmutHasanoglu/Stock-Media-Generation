@@ -1,0 +1,47 @@
+name: Daily Stock Image Automation
+
+on:
+  schedule:
+    # 10:00 Europe/Istanbul is 07:00 UTC. Turkey does not currently use DST.
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stock-image-batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run stock image automation
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          STOCK_AUTOMATION_EMAIL_TO: ${{ secrets.STOCK_AUTOMATION_EMAIL_TO }}
+          STOCK_AUTOMATION_EMAIL_FROM: ${{ secrets.STOCK_AUTOMATION_EMAIL_FROM }}
+          STOCK_AUTOMATION_SMTP_HOST: ${{ secrets.STOCK_AUTOMATION_SMTP_HOST }}
+          STOCK_AUTOMATION_SMTP_PORT: ${{ secrets.STOCK_AUTOMATION_SMTP_PORT }}
+          STOCK_AUTOMATION_SMTP_USERNAME: ${{ secrets.STOCK_AUTOMATION_SMTP_USERNAME }}
+          STOCK_AUTOMATION_SMTP_PASSWORD: ${{ secrets.STOCK_AUTOMATION_SMTP_PASSWORD }}
+        run: python scripts/stock_image_automation.py --config config/stock_image_automation.json
+
+      - name: Commit generated batch artifacts
+        run: |
+          if [[ -n "$(git status --porcelain generated)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add generated
+            git commit -m "Add daily stock image batch artifacts"
+            git push
+          else
+            echo "No generated artifacts to commit."
+          fi

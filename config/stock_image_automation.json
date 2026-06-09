@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "timezone": "Europe/Istanbul",
+    "local_time": "10:00",
+    "github_actions_cron_utc": "0 7 * * *"
+  },
+  "batch": {
+    "concepts_per_day": 5,
+    "images_per_concept": 4,
+    "target_final_images_per_day": 20,
+    "output_root": "generated",
+    "approval_folder_name": "approved"
+  },
+  "models": {
+    "research_model": "gpt-4.1-mini",
+    "metadata_model": "gpt-4.1-mini",
+    "image_model": "gemini-2.5-flash-image"
+  },
+  "stock_rules": {
+    "primary_marketplace": "Adobe Stock",
+    "allow_editorial": false,
+    "allow_real_people": false,
+    "allow_brands_or_logos": false,
+    "allow_public_figures": false,
+    "require_commercial_stock_safe_concepts": true
+  },
+  "notifications": {
+    "channel": "email",
+    "events": [
+      "image_review_request",
+      "metadata_review_request",
+      "final_batch_ready_alert"
+    ]
+  }
+}
