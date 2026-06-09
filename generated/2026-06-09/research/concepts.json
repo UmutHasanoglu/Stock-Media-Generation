@@ -1,0 +1,111 @@
+[
+  {
+    "id": "concept_001",
+    "trend_signal": "Remote work and digital nomad lifestyle continue to rise",
+    "topic": "Home Office Ergonomics",
+    "stock_safe_concept": "Minimalistic home office setup with ergonomic furniture and natural light, featuring a clean desk, adjustable chair, laptop, and potted plants",
+    "buyer_use_cases": [
+      "Blog articles on remote work productivity",
+      "Corporate wellness presentations",
+      "E-commerce sites selling office furniture",
+      "Social media posts about work-life balance"
+    ],
+    "visual_elements": [
+      "Modern ergonomic chair",
+      "Laptop on desk",
+      "Indoor plants",
+      "Natural sunlight through window",
+      "Neutral color palette"
+    ],
+    "risk_notes": "No real persons or identifiable brands; all objects generic and stylized",
+    "score_0_to_100": 92,
+    "score_reason": "Strong relevance to ongoing remote work trends, broad commercial applicability, and low risk for copyright or privacy issues."
+  },
+  {
+    "id": "concept_002",
+    "trend_signal": "Sustainability and eco-friendly living gaining momentum",
+    "topic": "Zero Waste Kitchen",
+    "stock_safe_concept": "Stylized zero waste kitchen scene with reusable containers, glass jars, cloth bags, fresh vegetables, and compost bin, no people included",
+    "buyer_use_cases": [
+      "Sustainability blogs and websites",
+      "Eco-friendly product packaging",
+      "Educational materials on waste reduction",
+      "Advertisements for reusable kitchen goods"
+    ],
+    "visual_elements": [
+      "Glass jars with dry goods",
+      "Cloth produce bags",
+      "Wooden cutting board with fresh vegetables",
+      "Compost bin with food scraps",
+      "Natural textures like wood and linen"
+    ],
+    "risk_notes": "Completely generic kitchen scene, no identifiable items or brands present",
+    "score_0_to_100": 89,
+    "score_reason": "High commercial appeal in sustainability niche, visually clean and safe for broad use."
+  },
+  {
+    "id": "concept_003",
+    "trend_signal": "Health and wellness focus, especially mental health and mindfulness",
+    "topic": "Meditation and Mindfulness Space",
+    "stock_safe_concept": "Cozy indoor meditation corner with cushions, candles, incense, and soft natural light, featuring abstract art and plants but no persons",
+    "buyer_use_cases": [
+      "Wellness app backgrounds",
+      "Mindfulness blog headers",
+      "Spa and wellness center marketing",
+      "Social media content for mental health"
+    ],
+    "visual_elements": [
+      "Meditation cushions",
+      "Lit candles and incense",
+      "Abstract wall art",
+      "Indoor plants",
+      "Soft, warm lighting"
+    ],
+    "risk_notes": "No identifiable people or copyrighted art, all elements generic and stylized",
+    "score_0_to_100": 90,
+    "score_reason": "Timely wellness theme with strong visual appeal, low risk, and wide buyer interest."
+  },
+  {
+    "id": "concept_004",
+    "trend_signal": "Technology integration in daily life, especially smart home devices",
+    "topic": "Smart Home Automation Interface",
+    "stock_safe_concept": "Abstract digital interface depicting smart home control dashboard on tablet screen, with icons for lights, thermostat, security, and music, no real UI or brand elements",
+    "buyer_use_cases": [
+      "Tech blogs and articles",
+      "Smart home product advertising",
+      "Corporate presentations on IoT",
+      "App UI design showcases"
+    ],
+    "visual_elements": [
+      "Tablet device with digital dashboard",
+      "Generic smart home icons (light bulb, thermostat, lock, music note)",
+      "Clean, modern UI style",
+      "Blue and white color scheme"
+    ],
+    "risk_notes": "Avoids real UI screenshots or branded icons, all icons are generic and newly designed",
+    "score_0_to_100": 87,
+    "score_reason": "Strong trend relevance and demand, but slightly niche compared to broader lifestyle themes."
+  },
+  {
+    "id": "concept_005",
+    "trend_signal": "Plant-based diets and home cooking popularity",
+    "topic": "Vibrant Plant-Based Meal Preparation",
+    "stock_safe_concept": "Top-down view of colorful plant-based ingredients and dishes on rustic kitchen table, including fresh vegetables, grains, and herbs, no persons or brands visible",
+    "buyer_use_cases": [
+      "Food blogs and recipe books",
+      "Healthy lifestyle marketing",
+      "Meal kit service promotions",
+      "Social media food content"
+    ],
+    "visual_elements": [
+      "Assorted fresh vegetables (tomatoes, leafy greens, bell peppers)",
+      "Grains in bowls",
+      "Fresh herbs",
+      "Rustic wooden table",
+      "Bright natural lighting"
+    ],
+    "risk_notes": "No branded food packaging or products, purely generic ingredients and dishes",
+    "score_0_to_100": 93,
+    "score_reason": "Highly commercially useful, visually attractive, and perfectly aligned with ongoing food trends."
+  }
+]

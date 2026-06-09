@@ -1,0 +1,16 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains readable text on the interface",
+    "Contains UI elements that resemble real UI screenshots",
+    "Includes brand-like interface design elements"
+  ],
+  "issues": [
+    "The interface has visible text labels such as 'Lighting', 'Thermostat', 'Lock', and 'Music'.",
+    "The thermostat display shows a numeric temperature reading '72°', which resembles a real UI element.",
+    "The lock section has toggle buttons labeled 'Secure' and 'Unlock', which are text-based UI controls.",
+    "The music section includes playback controls with recognizable icons and a slider, resembling real UI."
+  ],
+  "confidence_0_to_100": 95
+}

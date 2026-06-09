@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on labels of jars",
+    "Image includes branded or labeled products which are not generic"
+  ],
+  "issues": [
+    "Readable text: 'LENTILS', 'OATS', 'RICE', 'PASTA', 'COFFEE', 'CHICKPEAS' on jars",
+    "Labels on jars are considered branded or identifiable product design"
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image depicts an abstract smart home automation interface on a tablet as requested.",
+    "Icons for lighting, thermostat, security (lock), and music are generic and non-branded.",
+    "No real UI elements, logos, text, or watermarks are present.",
+    "The color scheme is clean blue and white, matching the prompt.",
+    "Image is visually coherent, modern, and suitable for commercial use.",
+    "No real people, editorial content, or trademarked elements detected."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

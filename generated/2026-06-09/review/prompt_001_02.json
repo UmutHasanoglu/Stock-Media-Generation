@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image depicts a minimalistic home office setup with ergonomic furniture, including an office chair and a clean desk with a laptop.",
+    "There are indoor plants and natural sunlight coming through the window, matching the positive prompt.",
+    "No people, logos, brands, or text are present in the image.",
+    "The composition is balanced and visually coherent with neutral colors and a bright, inviting atmosphere.",
+    "The image is suitable for commercial use and aligns well with the concept of home office ergonomics."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image is commercially useful for food and meal kit promotions.",
+    "No people, brands, logos, or text present.",
+    "Visually coherent and vibrant with natural warm lighting.",
+    "Square format suitable for social media use.",
+    "No AI artifacts or distortions detected."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}
