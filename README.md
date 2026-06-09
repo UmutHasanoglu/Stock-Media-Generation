@@ -13,10 +13,10 @@ Pipeline stages:
 2. **Research service** performs trend-informed ideation, converts trends into stock-safe concepts, and scores each concept.
 3. **Prompt service** creates prompt packets, technical specs, aspect-ratio decisions, and Gemini/Nano Banana 2 payloads.
 4. **Generation service** calls Gemini/Nano Banana 2 and stores generated outputs.
-5. **Review service** emails an image review request. Approve images by moving them into the batch `approved/` folder.
-6. **Metadata service** calls OpenAI with the approved image plus prompt/topic context to generate Adobe Stock-oriented metadata.
+5. **Review service** uses OpenAI to automatically approve or reject generated images against stock-safety and quality criteria.
+6. **Metadata service** calls OpenAI with each auto-approved image plus prompt/topic context to generate Adobe Stock-oriented metadata.
 7. **Export service** writes an Adobe Stock metadata CSV package.
-8. **Notification service** emails image review, metadata review, and final batch-ready alerts.
+8. **Notification service** sends one email only when the full batch is complete and ready.
 
 ## Stock-safety guardrails
 
@@ -27,7 +27,7 @@ Every stage is instructed to avoid:
 - brands, logos, trademarks, copyrighted characters, franchises, or protected product designs;
 - misleading metadata that describes the prompt instead of the actual generated image.
 
-The metadata step uses prompt data as hints only. It must describe the approved image itself.
+The automated review step approves only commercially useful, non-editorial, stock-safe images. The metadata step uses prompt data as hints only and must describe the approved image itself.
 
 ## Troubleshooting GitHub Actions
 
@@ -62,9 +62,9 @@ For a specific batch date:
 python scripts/stock_image_automation.py --config config/stock_image_automation.json --date 2026-06-09
 ```
 
-## Human approval workflow
+## Automated approval workflow
 
-After generation, review images in:
+After generation, images are stored in:
 
 ```text
 generated/YYYY-MM-DD/images/
@@ -72,14 +72,22 @@ generated/YYYY-MM-DD/images/
 
 Generated files use `.png` extensions and are written directly from the PNG bytes returned by Nano Banana 2. The automation does not resize them.
 
-Move approved images into:
+OpenAI reviews each generated image automatically. Approved images are copied into:
 
 ```text
 generated/YYYY-MM-DD/approved/
 ```
 
-Each run creates this `approved/` folder with a `.gitkeep` placeholder so it is visible in Git/GitHub before you move images into it. The next automation run will detect approved images, generate metadata from each approved image and its prompt context, and create:
+The run writes an automated review summary to:
+
+```text
+generated/YYYY-MM-DD/review/automated_review_summary.json
+```
+
+Metadata and the Adobe Stock CSV are created in the same run for the auto-approved images:
 
 ```text
 generated/YYYY-MM-DD/exports/adobe_stock_metadata.csv
 ```
+
+You receive a single email only after review, metadata, and export steps are complete.

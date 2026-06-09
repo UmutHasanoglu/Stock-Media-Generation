@@ -5,10 +5,10 @@ Pipeline stages:
 1. Research: trend research, stock-safe concept conversion, concept scoring.
 2. Prompt: prompt packets, technical specs, Nano Banana JSON payloads.
 3. Generation: calls Gemini/Nano Banana and stores outputs.
-4. Review: emails image approval instructions.
-5. Metadata: for images moved to approved/, calls OpenAI with image + prompt context.
+4. Review: OpenAI evaluates generated images and auto-approves stock-safe assets.
+5. Metadata: for auto-approved images, calls OpenAI with image + prompt context.
 6. Export: writes Adobe Stock-oriented CSV package.
-7. Notification: emails metadata/final status.
+7. Notification: emails the final batch-ready status only.
 """
 from __future__ import annotations
 
@@ -20,6 +20,7 @@ import json
 import mimetypes
 import os
 import re
+import shutil
 import smtplib
 import ssl
 import sys
@@ -236,6 +237,48 @@ def openai_text(model: str, instructions: str, user_content: str, api_key: str) 
     return "\n".join(chunks)
 
 
+def openai_image_approval(model: str, image_path: Path, prompt_context: dict[str, Any], api_key: str) -> dict[str, Any]:
+    media_type = mimetypes.guess_type(image_path.name)[0] or "image/png"
+    image_b64 = base64.b64encode(image_path.read_bytes()).decode("ascii")
+    payload = {
+        "model": model,
+        "instructions": (
+            "You are the automated quality-control reviewer for an Adobe Stock-safe AI image batch. "
+            "Approve only if the actual image is commercially useful, non-editorial, visually coherent, and suitable for Adobe Stock. "
+            "Reject images with real or public persons, brands, logos, trademarks, copyrighted characters, protected product designs, "
+            "readable text, watermarks, news/editorial framing, obvious AI artifacts, distorted objects, unsafe content, or misleading prompt mismatch. "
+            "Return strict JSON with approved boolean, decision one of approve/reject, reasons array, issues array, and confidence_0_to_100."
+        ),
+        "input": [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "input_text", "text": json.dumps(prompt_context, ensure_ascii=False)},
+                    {"type": "input_image", "image_url": f"data:{media_type};base64,{image_b64}"},
+                ],
+            }
+        ],
+        "temperature": 0.2,
+    }
+    response = post_json(
+        OPENAI_RESPONSES_URL,
+        payload,
+        headers={"Authorization": f"Bearer {api_key}"},
+    )
+    text = response.get("output_text", "")
+    if not text:
+        parts: list[str] = []
+        for item in response.get("output", []):
+            for content in item.get("content", []):
+                if content.get("text"):
+                    parts.append(content["text"])
+        text = "\n".join(parts)
+    review = extract_json_object(text)
+    if not isinstance(review, dict):
+        raise RuntimeError(f"Image review for {image_path.name} did not return a JSON object")
+    return review
+
+
 def openai_image_metadata(model: str, image_path: Path, prompt_context: dict[str, Any], api_key: str) -> dict[str, Any]:
     media_type = mimetypes.guess_type(image_path.name)[0] or "image/png"
     image_b64 = base64.b64encode(image_path.read_bytes()).decode("ascii")
@@ -443,20 +486,67 @@ def send_email(subject: str, body: str) -> None:
         server.send_message(message)
 
 
-def create_review_sheet(paths: BatchPaths, generated: list[Path]) -> None:
-    review_file = paths.review / "image_review_request.md"
-    lines = [
-        "# Image review request",
-        "",
-        f"Generated images: {len(generated)}",
-        "",
-        "Review each image in `images/`. Move approved images into `approved/` to continue metadata/export processing.",
-        "Rejected images can remain in `images/` or be deleted.",
-        "",
-        "## Files",
-    ]
-    lines.extend(f"- `{path.name}`" for path in generated)
-    review_file.write_text("\n".join(lines) + "\n", encoding="utf-8")
+def review_is_approved(review: dict[str, Any]) -> bool:
+    approved = review.get("approved")
+    if isinstance(approved, bool):
+        return approved
+    return str(approved).strip().lower() in {"true", "yes", "approved", "approve"}
+
+
+def automated_review_images(
+    config: dict[str, Any],
+    paths: BatchPaths,
+    packets: list[dict[str, Any]],
+    generated: list[Path],
+    api_key: str,
+) -> dict[str, Any]:
+    packet_by_id = {packet["id"]: packet for packet in packets}
+    review_model = config["models"].get("review_model", config["models"]["metadata_model"])
+    approved: list[str] = []
+    rejected: list[str] = []
+    decisions: list[dict[str, Any]] = []
+
+    for image_path in generated:
+        image_id = image_path.stem
+        review_path = paths.review / f"{image_id}.json"
+        prompt_context = packet_by_id.get(image_id, {"image_id": image_id})
+        if review_path.exists():
+            review = load_json(review_path)
+        else:
+            review = openai_image_approval(review_model, image_path, prompt_context, api_key)
+            write_json(review_path, review)
+
+        approved_path = paths.approved / image_path.name
+        if review_is_approved(review):
+            if not approved_path.exists():
+                shutil.copy2(image_path, approved_path)
+            approved.append(image_path.name)
+        else:
+            if approved_path.exists():
+                approved_path.unlink()
+            rejected.append(image_path.name)
+
+        decisions.append(
+            {
+                "filename": image_path.name,
+                "approved": review_is_approved(review),
+                "review_path": str(review_path),
+                "reasons": review.get("reasons", []),
+                "issues": review.get("issues", []),
+                "confidence_0_to_100": review.get("confidence_0_to_100"),
+            }
+        )
+
+    summary = {
+        "generated_count": len(generated),
+        "approved_count": len(approved),
+        "rejected_count": len(rejected),
+        "approved": approved,
+        "rejected": rejected,
+        "decisions": decisions,
+    }
+    write_json(paths.review / "automated_review_summary.json", summary)
+    return summary
 
 
 def metadata_for_approved(config: dict[str, Any], paths: BatchPaths, packets: list[dict[str, Any]], api_key: str) -> list[dict[str, Any]]:
@@ -500,28 +590,24 @@ def export_csv(paths: BatchPaths, rows: list[dict[str, Any]]) -> Path | None:
     return export_path
 
 
-def process_approved_batch(config: dict[str, Any], paths: BatchPaths, batch_date: str, openai_key: str) -> None:
-    prompts_path = paths.prompts / "prompt_packets.json"
-    if not prompts_path.exists():
-        return
-    approved_images = approved_image_paths(paths)
-    if not approved_images:
-        return
-    packets = load_json(prompts_path)
-    rows = metadata_for_approved(config, paths, packets, openai_key)
-    if rows:
-        send_email(f"Metadata review ready: {batch_date}", f"Metadata generated for {len(rows)} approved images in `{paths.metadata}`.")
-        export_path = export_csv(paths, rows)
-        send_email(f"Final stock batch ready: {batch_date}", f"Export package is ready: `{export_path}`")
-
-
-def process_all_approved_batches(config: dict[str, Any], openai_key: str) -> None:
-    output_root = Path(config["batch"]["output_root"])
-    if not output_root.exists():
-        return
-    for batch_dir in sorted(path for path in output_root.iterdir() if path.is_dir() and path.name != "approved"):
-        paths = batch_paths(config["batch"]["output_root"], config["batch"]["approval_folder_name"], batch_dir.name)
-        process_approved_batch(config, paths, batch_dir.name, openai_key)
+def send_final_batch_email(batch_date: str, paths: BatchPaths, review_summary: dict[str, Any], rows: list[dict[str, Any]], export_path: Path | None) -> None:
+    export_message = str(export_path) if export_path else "No CSV export was created because no images were approved."
+    body = "\n".join(
+        [
+            f"Stock image batch is complete: {batch_date}",
+            "",
+            f"Generated images: {review_summary.get('generated_count', 0)}",
+            f"OpenAI-approved images: {review_summary.get('approved_count', 0)}",
+            f"OpenAI-rejected images: {review_summary.get('rejected_count', 0)}",
+            f"Metadata rows: {len(rows)}",
+            "",
+            f"Images folder: {paths.images}",
+            f"Approved folder: {paths.approved}",
+            f"Review summary: {paths.review / 'automated_review_summary.json'}",
+            f"Export: {export_message}",
+        ]
+    )
+    send_email(f"Final stock batch ready: {batch_date}", body)
 
 
 def run(config_path: Path, batch_date: str) -> None:
@@ -533,15 +619,10 @@ def run(config_path: Path, batch_date: str) -> None:
     concepts = research_concepts(config, paths, openai_key)
     packets = prompt_packets(config, paths, concepts, openai_key)
     generated = generate_images(config, paths, packets, gemini_key)
-    create_review_sheet(paths, generated)
-    send_email(
-        f"Stock image review ready: {batch_date}",
-        f"{len(generated)} images are ready. Review `{paths.images}` and move approved images into `{paths.approved}`.",
-    )
-
-    process_all_approved_batches(config, openai_key)
-    if not approved_image_paths(paths):
-        print(f"No approved images found in {paths.approved}; metadata/export will run after approvals are moved there.")
+    review_summary = automated_review_images(config, paths, packets, generated, openai_key)
+    rows = metadata_for_approved(config, paths, packets, openai_key)
+    export_path = export_csv(paths, rows)
+    send_final_batch_email(batch_date, paths, review_summary, rows, export_path)
 
 
 def parse_args() -> argparse.Namespace:

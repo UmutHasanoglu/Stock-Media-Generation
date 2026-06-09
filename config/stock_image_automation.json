@@ -14,7 +14,8 @@
   "models": {
     "research_model": "gpt-4.1-mini",
     "metadata_model": "gpt-4.1-mini",
-    "image_model": "gemini-3.1-flash-image"
+    "image_model": "gemini-3.1-flash-image",
+    "review_model": "gpt-4.1-mini"
   },
   "stock_rules": {
     "primary_marketplace": "Adobe Stock",
@@ -27,8 +28,6 @@
   "notifications": {
     "channel": "email",
     "events": [
-      "image_review_request",
-      "metadata_review_request",
       "final_batch_ready_alert"
     ]
   },
@@ -38,5 +37,10 @@
     "image_size": "4K",
     "direct_from_model": true,
     "resize_after_generation": false
+  },
+  "approval": {
+    "mode": "openai_auto_review",
+    "human_in_the_loop": false,
+    "approved_folder_name": "approved"
   }
 }
