@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-002-2",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio ideal for blog post images and educational materials focusing on sustainability and zero waste concepts.",
+    "positive_prompt": "Top view flat lay of reusable shopping bags, glass jars filled with grains, bamboo cutlery, fresh fruits and vegetables on rustic wooden table, earth tones, natural wood and linen textures, no logos, no brand names, no copyrighted packaging, bright and natural lighting",
+    "negative_prompt": "Visible logos, brand names, copyrighted packaging, text, watermarks, people, editorial scenes, public figures",
+    "technical_specs": "Sharp focus on textures and materials, warm natural light, clear detail",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Top view flat lay of reusable shopping bags, glass jars with grains, bamboo utensils, fresh produce on rustic wooden surface, earth tones, no logos, no brand names"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Top view flat lay of reusable shopping bags, glass jars filled with grains, bamboo cutlery, fresh fruits and vegetables on rustic wooden table, earth tones, natural wood and linen textures, no logos, no brand names, no copyrighted packaging, bright and natural lighting\n\nCompose the final stock image for a 4:3 aspect ratio. Use framing, subject placement, and copy space appropriate for 4:3 stock usage.\n\nTechnical specs: Sharp focus on textures and materials, warm natural light, clear detail\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: Visible logos, brand names, copyrighted packaging, text, watermarks, people, editorial scenes, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 166,
+      "candidatesTokenCount": 1552,
+      "totalTokenCount": 1718,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 166
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "51Aoav-rO6Dm_uMPho-hmAQ"
+  }
+}
