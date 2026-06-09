@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-005-1",
+    "concept_id": "img-concept-005",
+    "topic": "Minimalist camping gear setup in nature",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio ideal for outdoor gear marketing, travel blogs, and adventure lifestyle banners showcasing natural surroundings and camping setup.",
+    "positive_prompt": "Neatly arranged minimalist campsite with simple tent, portable camping stove, backpack, natural forest background with pine trees and rocks, clear daylight or golden hour lighting, earthy color tones, no people, no branded gear, no logos or copyrighted designs",
+    "negative_prompt": "Branded outdoor gear, visible logos, people, text, watermarks, editorial or news scenes, copyrighted designs, public figures",
+    "technical_specs": "Natural daylight or golden hour lighting, sharp focus on camping gear and nature elements, earthy tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist campsite with tent, portable stove, backpack, pine forest and rocks background, clear daylight or golden hour light, earthy tones, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Neatly arranged minimalist campsite with simple tent, portable camping stove, backpack, natural forest background with pine trees and rocks, clear daylight or golden hour lighting, earthy color tones, no people, no branded gear, no logos or copyrighted designs\n\nCompose the final stock image for a 16:9 aspect ratio. Use framing, subject placement, and copy space appropriate for 16:9 stock usage.\n\nTechnical specs: Natural daylight or golden hour lighting, sharp focus on camping gear and nature elements, earthy tones\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: Branded outdoor gear, visible logos, people, text, watermarks, editorial or news scenes, copyrighted designs, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 173,
+      "candidatesTokenCount": 1357,
+      "totalTokenCount": 1530,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "VFEoaoH8CairsOIP4NWIyQg"
+  }
+}

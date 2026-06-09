@@ -1,0 +1,382 @@
+[
+  {
+    "id": "packet-001-1",
+    "concept_id": "img-concept-001",
+    "topic": "Modern home office workspace setup",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio ideal for website backgrounds, presentations, and marketing banners to showcase an inviting home office environment.",
+    "positive_prompt": "Cozy, well-organized home office desk with minimalist design, open laptop with generic screen, indoor houseplants, coffee mug, warm natural light streaming through window, neutral color palette, clean and clutter-free workspace, no people, no logos, no text, no personal items, bright and inviting atmosphere",
+    "negative_prompt": "Visible brand logos, identifiable personal items, people, watermarks, text overlays, editorial or news scenes, copyrighted designs, public figures",
+    "technical_specs": "High resolution, natural lighting emphasis, sharp focus on desk and plants, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy, well-organized home office desk with minimalist design, open laptop with generic screen, indoor houseplants, coffee mug, warm natural light through window, neutral color palette, no people, no logos, no personal items"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-001-2",
+    "concept_id": "img-concept-001",
+    "topic": "Modern home office workspace setup",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for e-learning platform hero images and corporate presentations where focus on workspace details is important.",
+    "positive_prompt": "Minimalist home office desk setup with open laptop showing generic screen, indoor plants, coffee mug, warm natural light from window, neutral tones, tidy and cozy, no people, no brand logos, no personal items, soft shadows",
+    "negative_prompt": "Brand logos, people, text, watermarks, personal items, editorial scenes, copyrighted elements, public figures",
+    "technical_specs": "Sharp focus on laptop and plants, well-balanced lighting, natural daylight ambiance",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office desk with open laptop with generic screen, indoor plants, coffee mug, warm natural light from window, neutral color palette, no people, no logos, no personal items"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-001-3",
+    "concept_id": "img-concept-001",
+    "topic": "Modern home office workspace setup",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media posts and marketing materials requiring a balanced and focused composition on the workspace elements.",
+    "positive_prompt": "Cozy, minimalist home office desk with open laptop showing generic screen, indoor plants, coffee mug, natural warm light from window, neutral colors, no people, no brand logos, no personal belongings, clean and inviting setup",
+    "negative_prompt": "Visible logos, people, text, watermarks, personal items, copyrighted designs, public figures",
+    "technical_specs": "Even natural lighting, sharp focus on desk items, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy minimalist home office desk with open laptop with generic screen, indoor plants, coffee mug, natural warm light, neutral colors, no people, no logos, no personal items"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-001-4",
+    "concept_id": "img-concept-001",
+    "topic": "Modern home office workspace setup",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio for marketing materials and website hero sections that balances horizontal and vertical composition.",
+    "positive_prompt": "Minimalist home office desk with open laptop showing generic screen, indoor plants, coffee mug, warm natural window light, neutral color scheme, clutter-free, no people, no logos, no personal effects",
+    "negative_prompt": "Brand logos, people, text, watermarks, personal items, editorial content, copyrighted designs, public figures",
+    "technical_specs": "Natural warm lighting, crisp focus on laptop and plants, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office desk with open laptop with generic screen, indoor plants, coffee mug, warm natural light, neutral colors, no people, no logos, no personal items"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-002-1",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suitable for packaging backgrounds, blog headers, and advertising banners emphasizing sustainable lifestyle.",
+    "positive_prompt": "Flat lay of reusable shopping bags, glass jars filled with grains, bamboo utensils, fresh organic produce on rustic wooden surface, natural textures like wood and linen, earth-tone colors, biodegradable materials, no brand names, no logos, no copyrighted packaging, bright natural light",
+    "negative_prompt": "Brand names, logos, copyrighted packaging, text, watermarks, people, editorial content, public figures",
+    "technical_specs": "High detail flat lay, natural daylight, warm earthy tones, sharp focus on textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of reusable shopping bags, glass jars with grains, bamboo utensils, fresh organic produce on rustic wooden surface, natural textures, earth-tone colors, no brand names or logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-002-2",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio ideal for blog post images and educational materials focusing on sustainability and zero waste concepts.",
+    "positive_prompt": "Top view flat lay of reusable shopping bags, glass jars filled with grains, bamboo cutlery, fresh fruits and vegetables on rustic wooden table, earth tones, natural wood and linen textures, no logos, no brand names, no copyrighted packaging, bright and natural lighting",
+    "negative_prompt": "Visible logos, brand names, copyrighted packaging, text, watermarks, people, editorial scenes, public figures",
+    "technical_specs": "Sharp focus on textures and materials, warm natural light, clear detail",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Top view flat lay of reusable shopping bags, glass jars with grains, bamboo utensils, fresh produce on rustic wooden surface, earth tones, no logos, no brand names"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-002-3",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media and packaging label design that highlights eco-conscious products and natural textures.",
+    "positive_prompt": "Flat lay of eco-friendly reusable shopping bags, glass jars with grains, bamboo utensils, fresh organic vegetables and fruits on rustic wood surface, earth-tone colors, natural textures like linen and wood, no visible logos or brand names, no copyrighted packaging, bright natural light",
+    "negative_prompt": "Brand logos, text overlays, watermarks, people, editorial content, copyrighted designs, public figures",
+    "technical_specs": "High resolution, natural daylight, detailed textures, warm tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of reusable shopping bags, glass jars filled with grains, bamboo utensils, fresh organic produce on rustic wooden surface, earth-tone colors, no logos or brand names"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-002-4",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile ratio for advertising and educational materials that need a balanced horizontal and vertical composition.",
+    "positive_prompt": "Flat lay of reusable shopping bags, glass jars with grains, bamboo cutlery, fresh organic fruits and vegetables on rustic wooden table, earth-tone colors, natural wood and linen textures, no brand logos, no copyrighted packaging, bright natural light",
+    "negative_prompt": "Visible brand logos, text, watermarks, people, editorial or news scenes, copyrighted packaging, public figures",
+    "technical_specs": "Sharp focus on natural textures, warm daylight, high resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of reusable shopping bags, glass jars filled with grains, bamboo utensils, fresh produce on rustic wooden surface, earth tones, no logos or brand names"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-003-1",
+    "concept_id": "img-concept-003",
+    "topic": "Mindfulness and relaxation at home",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio perfect for wellness app backgrounds and website hero images emphasizing calm and serene indoor spaces.",
+    "positive_prompt": "Serene indoor meditation corner with soft pastel and earth tone colors, cushions, lit candles, small indoor water fountain, potted plant, soft natural light, minimalist uncluttered space, no people, no personal items, no meditation logos, calm atmosphere",
+    "negative_prompt": "People, visible personal items, meditation logos or specific symbols, text, watermarks, editorial scenes, public figures, logos",
+    "technical_specs": "Soft natural lighting, warm pastel tones, gentle shadows, high resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Serene indoor meditation corner with cushions, candles, small water fountain, potted plant, soft natural light, pastel and earth tones, minimalist and calm, no people, no personal items, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-003-2",
+    "concept_id": "img-concept-003",
+    "topic": "Mindfulness and relaxation at home",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for mental health blog illustrations and yoga course marketing images focusing on a calm environment.",
+    "positive_prompt": "Calm indoor meditation space with cushions, lit candles, small indoor water fountain, potted plant, soft natural light, pastel and earth tone color palette, minimalist layout, no people, no personal items, no trademarked meditation logos, uncluttered",
+    "negative_prompt": "People, personal items, meditation brand logos, text, watermarks, editorial or news content, public figures",
+    "technical_specs": "Soft warm lighting, pastel tones, gentle shadows, detailed focus on elements",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Calm indoor meditation area with cushions, candles, water fountain, potted plant, soft natural light, pastel and earth tones, minimalist, no people, no personal items, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-003-3",
+    "concept_id": "img-concept-003",
+    "topic": "Mindfulness and relaxation at home",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media posts and wellness brand marketing requiring a balanced, focused composition on relaxation elements.",
+    "positive_prompt": "Indoor meditation corner with soft pastel and earth tone cushions, burning candles, small indoor water fountain, potted plant, soft natural light, minimalist and uncluttered, no people, no personal items, no logos or trademarked symbols",
+    "negative_prompt": "Visible personal effects, people, meditation logos, text, watermarks, editorial content, public figures",
+    "technical_specs": "Warm natural light, detailed textures, soft shadows, high resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Indoor meditation corner with cushions, candles, water fountain, potted plant, soft natural light, pastel and earth tones, minimalist, no people, no personal items, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-003-4",
+    "concept_id": "img-concept-003",
+    "topic": "Mindfulness and relaxation at home",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio for spa and relaxation brand websites and digital marketing campaigns emphasizing calm indoor spaces.",
+    "positive_prompt": "Serene meditation corner indoors with cushions in pastel and earth tones, candles burning, small indoor water fountain, potted plant, soft natural light, minimalist, no people, no personal belongings, no trademarked meditation symbols or logos",
+    "negative_prompt": "People, personal items, meditation logos, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "Soft diffuse natural light, warm pastel color scheme, focused detail on relaxation items",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Serene indoor meditation corner with cushions, candles, water fountain, potted plant, soft natural light, pastel and earth tones, minimalist, no people, no personal items, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-004-1",
+    "concept_id": "img-concept-004",
+    "topic": "Smart home automation concept",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suited for tech product ads, smart home service websites, and digital marketing banners showcasing modern living room with devices.",
+    "positive_prompt": "Modern living room with contemporary furniture, smart speaker, smart thermostat, tablet displaying generic home automation app screen, clean bright indoor lighting, neutral and modern color scheme, no people, no brand logos, no visible text or watermarks",
+    "negative_prompt": "Brand logos, text, watermarks, people, editorial or news content, copyrighted UI designs, public figures",
+    "technical_specs": "High resolution, bright even lighting, sharp focus on smart devices, neutral tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern living room with contemporary furniture, smart speaker, smart thermostat, tablet showing generic home automation app, clean bright light, neutral colors, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-004-2",
+    "concept_id": "img-concept-004",
+    "topic": "Smart home automation concept",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio good for tech blog feature images and presentations focusing on smart home devices in a modern setting.",
+    "positive_prompt": "Contemporary living room featuring smart speaker, smart thermostat, tablet with generic home automation UI, clean bright indoor lighting, neutral modern colors, no people, no brand logos, no visible text, no watermarks",
+    "negative_prompt": "Visible brand logos, text overlays, watermarks, people, editorial content, copyrighted UI, public figures",
+    "technical_specs": "Sharp focus on smart devices, bright natural light, neutral color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Contemporary living room with smart speaker, smart thermostat, tablet displaying generic home automation app, clean bright light, neutral colors, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-004-3",
+    "concept_id": "img-concept-004",
+    "topic": "Smart home automation concept",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media and digital marketing posts focusing on smart home technology aesthetics.",
+    "positive_prompt": "Modern living room with contemporary furniture, smart speaker, smart thermostat, tablet showing generic home automation app interface, clean bright lighting, neutral and modern color scheme, no people, no logos, no text or watermarks",
+    "negative_prompt": "Brand logos, text, watermarks, people, editorial scenes, copyrighted UI, public figures",
+    "technical_specs": "Bright indoor lighting, sharp focus, neutral tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern living room with smart speaker, smart thermostat, tablet with generic home automation app, clean bright light, neutral colors, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-004-4",
+    "concept_id": "img-concept-004",
+    "topic": "Smart home automation concept",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio suitable for digital marketing campaigns and smart home product advertisements balancing horizontal and vertical composition.",
+    "positive_prompt": "Modern living room with contemporary furniture, visible smart speaker, smart thermostat, tablet displaying generic home automation UI, clean bright indoor lighting, neutral modern color scheme, no people, no visible logos or text",
+    "negative_prompt": "Visible brand logos, text, watermarks, people, editorial content, copyrighted UI, public figures",
+    "technical_specs": "High resolution, bright lighting, sharp focus on devices, neutral tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern living room with smart speaker, smart thermostat, tablet showing generic home automation app, clean bright light, neutral colors, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-005-1",
+    "concept_id": "img-concept-005",
+    "topic": "Minimalist camping gear setup in nature",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio ideal for outdoor gear marketing, travel blogs, and adventure lifestyle banners showcasing natural surroundings and camping setup.",
+    "positive_prompt": "Neatly arranged minimalist campsite with simple tent, portable camping stove, backpack, natural forest background with pine trees and rocks, clear daylight or golden hour lighting, earthy color tones, no people, no branded gear, no logos or copyrighted designs",
+    "negative_prompt": "Branded outdoor gear, visible logos, people, text, watermarks, editorial or news scenes, copyrighted designs, public figures",
+    "technical_specs": "Natural daylight or golden hour lighting, sharp focus on camping gear and nature elements, earthy tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist campsite with tent, portable stove, backpack, pine forest and rocks background, clear daylight or golden hour light, earthy tones, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-005-2",
+    "concept_id": "img-concept-005",
+    "topic": "Minimalist camping gear setup in nature",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for travel magazines, blog posts, and environmental campaign visuals focusing on outdoor lifestyle.",
+    "positive_prompt": "Minimalist camping setup with tent, portable stove, backpack, natural forest or mountain background with pine trees and rocks, clear daylight or golden hour lighting, earth-tone color palette, no people, no branded gear or logos, no copyrighted designs",
+    "negative_prompt": "Visible brand logos, people, text overlays, watermarks, editorial content, copyrighted designs, public figures",
+    "technical_specs": "Sharp focus on equipment and nature, warm natural light, high resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist camping gear setup with tent, stove, backpack, pine trees and rocks background, daylight or golden hour light, earthy tones, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-005-3",
+    "concept_id": "img-concept-005",
+    "topic": "Minimalist camping gear setup in nature",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media posts and promotional materials that highlight camping gear and natural surroundings.",
+    "positive_prompt": "Neatly arranged minimalist campsite featuring modern tent, portable stove, backpack, pine forest and rocks background, clear daylight or golden hour light, earthy colors, no people, no visible brand logos or copyrighted designs",
+    "negative_prompt": "Brand logos, people, text, watermarks, editorial or news scenes, copyrighted gear designs, public figures",
+    "technical_specs": "Bright natural lighting, sharp details on gear and nature, warm earthy tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist camping gear with tent, stove, backpack, pine trees and rocks, daylight or golden hour light, earthy tones, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-005-4",
+    "concept_id": "img-concept-005",
+    "topic": "Minimalist camping gear setup in nature",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio for environmental campaigns and adventure lifestyle social media posts balancing horizontal and vertical composition.",
+    "positive_prompt": "Minimalist camping site with simple tent, portable stove, backpack, natural forest or mountain setting with pine trees and rocks, golden hour or clear daylight lighting, earth-tone colors, no people, no branded gear, no logos or copyrighted designs",
+    "negative_prompt": "Visible brand logos, people, text, watermarks, editorial content, copyrighted designs, public figures",
+    "technical_specs": "Natural warm lighting, sharp focus on camping equipment and natural elements, earthy color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist camping gear setup with tent, stove, backpack, pine forest and rocks, golden hour or daylight light, earthy tones, no people, no logos"
+          }
+        ]
+      }
+    }
+  }
+]

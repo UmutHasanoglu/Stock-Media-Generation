@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-003-4",
+    "concept_id": "img-concept-003",
+    "topic": "Mindfulness and relaxation at home",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio for spa and relaxation brand websites and digital marketing campaigns emphasizing calm indoor spaces.",
+    "positive_prompt": "Serene meditation corner indoors with cushions in pastel and earth tones, candles burning, small indoor water fountain, potted plant, soft natural light, minimalist, no people, no personal belongings, no trademarked meditation symbols or logos",
+    "negative_prompt": "People, personal items, meditation logos, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "Soft diffuse natural light, warm pastel color scheme, focused detail on relaxation items",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Serene indoor meditation corner with cushions, candles, water fountain, potted plant, soft natural light, pastel and earth tones, minimalist, no people, no personal items, no logos"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Serene meditation corner indoors with cushions in pastel and earth tones, candles burning, small indoor water fountain, potted plant, soft natural light, minimalist, no people, no personal belongings, no trademarked meditation symbols or logos\n\nCompose the final stock image for a 3:2 aspect ratio. Use framing, subject placement, and copy space appropriate for 3:2 stock usage.\n\nTechnical specs: Soft diffuse natural light, warm pastel color scheme, focused detail on relaxation items\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: People, personal items, meditation logos, text, watermarks, editorial scenes, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 158,
+      "candidatesTokenCount": 1564,
+      "totalTokenCount": 1722,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 158
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "IlEoatKbLIGQjMcPnaqrwAg"
+  }
+}

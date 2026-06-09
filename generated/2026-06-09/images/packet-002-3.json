@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-002-3",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media and packaging label design that highlights eco-conscious products and natural textures.",
+    "positive_prompt": "Flat lay of eco-friendly reusable shopping bags, glass jars with grains, bamboo utensils, fresh organic vegetables and fruits on rustic wood surface, earth-tone colors, natural textures like linen and wood, no visible logos or brand names, no copyrighted packaging, bright natural light",
+    "negative_prompt": "Brand logos, text overlays, watermarks, people, editorial content, copyrighted designs, public figures",
+    "technical_specs": "High resolution, natural daylight, detailed textures, warm tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of reusable shopping bags, glass jars filled with grains, bamboo utensils, fresh organic produce on rustic wooden surface, earth-tone colors, no logos or brand names"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Flat lay of eco-friendly reusable shopping bags, glass jars with grains, bamboo utensils, fresh organic vegetables and fruits on rustic wood surface, earth-tone colors, natural textures like linen and wood, no visible logos or brand names, no copyrighted packaging, bright natural light\n\nCompose the final stock image for a 1:1 aspect ratio. Use framing, subject placement, and copy space appropriate for 1:1 stock usage.\n\nTechnical specs: High resolution, natural daylight, detailed textures, warm tones\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: Brand logos, text overlays, watermarks, people, editorial content, copyrighted designs, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 165,
+      "candidatesTokenCount": 1578,
+      "totalTokenCount": 1743,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 165
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "8FAoapPuNpuZ-8YP--TTgAw"
+  }
+}

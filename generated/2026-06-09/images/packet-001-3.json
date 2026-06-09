@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-001-3",
+    "concept_id": "img-concept-001",
+    "topic": "Modern home office workspace setup",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media posts and marketing materials requiring a balanced and focused composition on the workspace elements.",
+    "positive_prompt": "Cozy, minimalist home office desk with open laptop showing generic screen, indoor plants, coffee mug, natural warm light from window, neutral colors, no people, no brand logos, no personal belongings, clean and inviting setup",
+    "negative_prompt": "Visible logos, people, text, watermarks, personal items, copyrighted designs, public figures",
+    "technical_specs": "Even natural lighting, sharp focus on desk items, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy minimalist home office desk with open laptop with generic screen, indoor plants, coffee mug, natural warm light, neutral colors, no people, no logos, no personal items"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Cozy, minimalist home office desk with open laptop showing generic screen, indoor plants, coffee mug, natural warm light from window, neutral colors, no people, no brand logos, no personal belongings, clean and inviting setup\n\nCompose the final stock image for a 1:1 aspect ratio. Use framing, subject placement, and copy space appropriate for 1:1 stock usage.\n\nTechnical specs: Even natural lighting, sharp focus on desk items, soft shadows\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: Visible logos, people, text, watermarks, personal items, copyrighted designs, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 155,
+      "candidatesTokenCount": 1562,
+      "totalTokenCount": 1717,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 155
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "x1AoaqjkM_ne_uMP_9OmgAE"
+  }
+}

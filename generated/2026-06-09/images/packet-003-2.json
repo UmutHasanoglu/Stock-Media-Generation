@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-003-2",
+    "concept_id": "img-concept-003",
+    "topic": "Mindfulness and relaxation at home",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for mental health blog illustrations and yoga course marketing images focusing on a calm environment.",
+    "positive_prompt": "Calm indoor meditation space with cushions, lit candles, small indoor water fountain, potted plant, soft natural light, pastel and earth tone color palette, minimalist layout, no people, no personal items, no trademarked meditation logos, uncluttered",
+    "negative_prompt": "People, personal items, meditation brand logos, text, watermarks, editorial or news content, public figures",
+    "technical_specs": "Soft warm lighting, pastel tones, gentle shadows, detailed focus on elements",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Calm indoor meditation area with cushions, candles, water fountain, potted plant, soft natural light, pastel and earth tones, minimalist, no people, no personal items, no logos"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Calm indoor meditation space with cushions, lit candles, small indoor water fountain, potted plant, soft natural light, pastel and earth tone color palette, minimalist layout, no people, no personal items, no trademarked meditation logos, uncluttered\n\nCompose the final stock image for a 4:3 aspect ratio. Use framing, subject placement, and copy space appropriate for 4:3 stock usage.\n\nTechnical specs: Soft warm lighting, pastel tones, gentle shadows, detailed focus on elements\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: People, personal items, meditation brand logos, text, watermarks, editorial or news content, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 164,
+      "candidatesTokenCount": 1475,
+      "totalTokenCount": 1639,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 164
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "D1Eoav3kF-y8jrEPkcT1mAk"
+  }
+}
