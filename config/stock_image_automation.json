@@ -31,5 +31,12 @@
       "metadata_review_request",
       "final_batch_ready_alert"
     ]
+  },
+  "image_output": {
+    "format": "PNG",
+    "extension": ".png",
+    "image_size": "4K",
+    "direct_from_model": true,
+    "resize_after_generation": false
   }
 }

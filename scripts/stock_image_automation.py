@@ -32,6 +32,10 @@ from typing import Any
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
 GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1/models/{model}:generateContent"
+SUPPORTED_IMAGE_SUFFIXES = {".png"}
+DEFAULT_OUTPUT_FORMAT = "PNG"
+DEFAULT_OUTPUT_EXTENSION = ".png"
+DEFAULT_IMAGE_SIZE = "4K"
 
 
 @dataclass(frozen=True)
@@ -58,6 +62,58 @@ def write_json(path: Path, payload: Any) -> None:
         handle.write("\n")
 
 
+def image_output_settings(config: dict[str, Any]) -> tuple[str, str]:
+    image_settings = config.get("image_output", {})
+    output_format = str(image_settings.get("format", DEFAULT_OUTPUT_FORMAT)).upper()
+    extension = str(image_settings.get("extension", DEFAULT_OUTPUT_EXTENSION)).lower()
+    if output_format == "JPG":
+        output_format = "JPEG"
+    if not extension.startswith("."):
+        extension = f".{extension}"
+    return output_format, extension
+
+
+def image_size_setting(config: dict[str, Any]) -> str:
+    return str(config.get("image_output", {}).get("image_size", DEFAULT_IMAGE_SIZE)).upper()
+
+
+def approved_image_paths(paths: BatchPaths) -> list[Path]:
+    return sorted(path for path in paths.approved.iterdir() if path.suffix.lower() in SUPPORTED_IMAGE_SUFFIXES)
+
+
+def keep_directory(path: Path) -> None:
+    (path / ".gitkeep").touch(exist_ok=True)
+
+
+def detect_image_extension(image_bytes: bytes, mime_type: str | None = None) -> str | None:
+    normalized_mime = (mime_type or "").split(";", 1)[0].strip().lower()
+    if normalized_mime == "image/png" or image_bytes.startswith(b"\x89PNG\r\n\x1a\n"):
+        return ".png"
+    if normalized_mime in {"image/jpeg", "image/jpg"} or image_bytes.startswith(b"\xff\xd8\xff"):
+        return ".jpg"
+    if normalized_mime == "image/webp" or image_bytes.startswith(b"RIFF") and image_bytes[8:12] == b"WEBP":
+        return ".webp"
+    return None
+
+
+def write_direct_png(image_bytes: bytes, mime_type: str | None, destination: Path) -> dict[str, Any]:
+    detected_extension = detect_image_extension(image_bytes, mime_type)
+    if detected_extension != ".png":
+        raise RuntimeError(
+            f"Gemini returned {mime_type or 'an unknown image type'} ({detected_extension or 'unrecognized bytes'}) "
+            "instead of a PNG. The automation did not rename or convert it; adjust the model/output settings and rerun."
+        )
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_bytes(image_bytes)
+    return {
+        "source_mime_type": mime_type or "image/png",
+        "output_format": "PNG",
+        "extension": destination.suffix,
+        "direct_from_model": True,
+        "resized": False,
+    }
+
+
 def today_iso() -> str:
     return dt.datetime.now(dt.UTC).date().isoformat()
 
@@ -76,6 +132,7 @@ def batch_paths(output_root: str, approval_folder_name: str, batch_date: str) ->
     )
     for path in paths.__dict__.values():
         path.mkdir(parents=True, exist_ok=True)
+    keep_directory(paths.approved)
     return paths
 
 
@@ -249,8 +306,8 @@ Each packet must choose the best aspect ratio for stock usefulness and include:
 id, concept_id, topic, aspect_ratio, aspect_ratio_reason, positive_prompt, negative_prompt, technical_specs,
 nano_banana_payload.
 The nano_banana_payload should be a minimal Gemini generateContent REST object with only contents.parts.text.
-Do not include model_hint, generationConfig, responseModalities, responseFormat, tools, or other API options.
-The automation will rebuild the final request for {image_model} and add the selected aspect ratio to the prompt text.
+Do not include model_hint, tools, or other unsupported API options.
+The automation will rebuild the final request for {image_model} with responseFormat.image.aspectRatio and imageSize=4K.
 Ensure prompts ban logos, brands, text, watermarks, real people, public figures,
 editorial/news scenes, and recognizable protected designs.
 Return strict JSON array only.
@@ -266,6 +323,9 @@ def build_gemini_prompt_text(packet: dict[str, Any]) -> str:
         raise RuntimeError(f"Packet {packet.get('id', '<unknown>')} is missing positive_prompt")
 
     prompt_parts = [positive_prompt]
+    prompt_parts.append(
+        "Create a native 4K PNG commercial stock image suitable for Adobe Stock submission. Do not upscale or resize; generate at 4K resolution directly."
+    )
     aspect_ratio = str(packet.get("aspect_ratio") or "").strip()
     if aspect_ratio:
         prompt_parts.append(
@@ -288,34 +348,57 @@ def build_gemini_prompt_text(packet: dict[str, Any]) -> str:
     return "\n\n".join(prompt_parts)
 
 
-def build_gemini_payload(packet: dict[str, Any]) -> dict[str, Any]:
-    # Build a known-good REST payload instead of trusting model-generated
-    # nano_banana_payload content. The Gemini REST examples accept a minimal
-    # contents.parts.text object; generated extra fields such as model_hint,
-    # responseModalities, or responseFormat have caused 400 INVALID_ARGUMENT
-    # failures on the v1 endpoint.
-    return {"contents": [{"parts": [{"text": build_gemini_prompt_text(packet)}]}]}
+def build_gemini_payload(packet: dict[str, Any], image_size: str = DEFAULT_IMAGE_SIZE) -> dict[str, Any]:
+    aspect_ratio = str(packet.get("aspect_ratio") or "1:1").strip()
+    # Build the request ourselves instead of trusting model-generated
+    # nano_banana_payload content. Gemini 3.1 Flash Image (Nano Banana 2)
+    # supports native image sizing through generationConfig.responseFormat.image.
+    return {
+        "contents": [{"parts": [{"text": build_gemini_prompt_text(packet)}]}],
+        "generationConfig": {
+            "responseModalities": ["Image"],
+            "responseFormat": {
+                "image": {
+                    "aspectRatio": aspect_ratio,
+                    "imageSize": image_size,
+                }
+            },
+        },
+    }
 
 
 def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dict[str, Any]], api_key: str) -> list[Path]:
     generated: list[Path] = []
     model = config["models"]["image_model"]
+    output_format, extension = image_output_settings(config)
+    image_size = image_size_setting(config)
+    if output_format != "PNG" or extension != ".png":
+        raise RuntimeError("Image output must be configured as native PNG with a .png extension.")
     url = GEMINI_GENERATE_URL.format(model=model)
     for packet in packets:
         image_id = packet["id"]
-        image_path = paths.images / f"{image_id}.png"
+        image_path = paths.images / f"{image_id}{extension}"
         context_path = paths.images / f"{image_id}.json"
         if image_path.exists():
             generated.append(image_path)
             continue
-        payload = build_gemini_payload(packet)
+        payload = build_gemini_payload(packet, image_size)
         response = post_json(url, payload, headers={"x-goog-api-key": api_key})
-        write_json(context_path, {"packet": packet, "request_payload": payload, "response_metadata": redact_binary(response)})
-        image_bytes = first_inline_image(response)
-        if not image_bytes:
+        inline_image = first_inline_image(response)
+        if not inline_image:
             write_json(paths.images / f"{image_id}.response.json", redact_binary(response))
             raise RuntimeError(f"No image bytes returned for packet {image_id}; saved redacted response for debugging")
-        image_path.write_bytes(image_bytes)
+        image_bytes, mime_type = inline_image
+        image_info = write_direct_png(image_bytes, mime_type, image_path)
+        write_json(
+            context_path,
+            {
+                "packet": packet,
+                "request_payload": payload,
+                "image_output": image_info,
+                "response_metadata": redact_binary(response),
+            },
+        )
         generated.append(image_path)
     return generated
 
@@ -328,12 +411,13 @@ def redact_binary(value: Any) -> Any:
     return value
 
 
-def first_inline_image(response: dict[str, Any]) -> bytes | None:
+def first_inline_image(response: dict[str, Any]) -> tuple[bytes, str | None] | None:
     for candidate in response.get("candidates", []):
         for part in candidate.get("content", {}).get("parts", []):
             inline = part.get("inlineData") or part.get("inline_data")
             if inline and inline.get("data"):
-                return base64.b64decode(inline["data"])
+                mime_type = inline.get("mimeType") or inline.get("mime_type")
+                return base64.b64decode(inline["data"]), mime_type
     return None
 
 
@@ -378,7 +462,7 @@ def create_review_sheet(paths: BatchPaths, generated: list[Path]) -> None:
 def metadata_for_approved(config: dict[str, Any], paths: BatchPaths, packets: list[dict[str, Any]], api_key: str) -> list[dict[str, Any]]:
     packet_by_id = {packet["id"]: packet for packet in packets}
     rows: list[dict[str, Any]] = []
-    for image_path in sorted(paths.approved.glob("*.png")):
+    for image_path in approved_image_paths(paths):
         image_id = image_path.stem
         metadata_path = paths.metadata / f"{image_id}.json"
         if metadata_path.exists():
@@ -420,7 +504,7 @@ def process_approved_batch(config: dict[str, Any], paths: BatchPaths, batch_date
     prompts_path = paths.prompts / "prompt_packets.json"
     if not prompts_path.exists():
         return
-    approved_images = sorted(paths.approved.glob("*.png"))
+    approved_images = approved_image_paths(paths)
     if not approved_images:
         return
     packets = load_json(prompts_path)
@@ -456,7 +540,7 @@ def run(config_path: Path, batch_date: str) -> None:
     )
 
     process_all_approved_batches(config, openai_key)
-    if not sorted(paths.approved.glob("*.png")):
+    if not approved_image_paths(paths):
         print(f"No approved images found in {paths.approved}; metadata/export will run after approvals are moved there.")
 
 

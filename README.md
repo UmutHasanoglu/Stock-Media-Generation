@@ -5,7 +5,7 @@ This repository contains a daily automation for a stock-safe AI image generation
 ## What the automation does
 
 The automation runs once per day at **10:00 AM Europe/Istanbul** and creates a batch under `generated/YYYY-MM-DD/`.
-It is configured for **5 concepts**, **4 images per concept**, and a target of **20 final images per day**.
+It is configured for **5 concepts**, **4 images per concept**, and a target of **20 final images per day**. Generated image files are requested directly from Nano Banana 2 as native **4K PNG** files; the automation does not resize or upscale generated images after download.
 
 Pipeline stages:
 
@@ -31,7 +31,7 @@ The metadata step uses prompt data as hints only. It must describe the approved 
 
 ## Troubleshooting GitHub Actions
 
-If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, and image-generation responses that do not contain image bytes. Gemini image generation uses the official minimal REST `contents.parts.text` payload and sends the selected aspect ratio inside the prompt text, rather than trusting model-generated API fields.
+If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, image-generation responses that do not contain image bytes, and image responses that are not PNG files. Gemini image generation uses Nano Banana 2 (`gemini-3.1-flash-image`) with `responseFormat.image.imageSize` set to `4K`.
 
 The workflow opts JavaScript actions into Node.js 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` to avoid the GitHub-hosted runner warning about Node.js 20 action deprecation.
 
@@ -70,13 +70,15 @@ After generation, review images in:
 generated/YYYY-MM-DD/images/
 ```
 
+Generated files use `.png` extensions and are written directly from the PNG bytes returned by Nano Banana 2. The automation does not resize them.
+
 Move approved images into:
 
 ```text
 generated/YYYY-MM-DD/approved/
 ```
 
-The next automation run will detect approved images, generate metadata from each approved image and its prompt context, and create:
+Each run creates this `approved/` folder with a `.gitkeep` placeholder so it is visible in Git/GitHub before you move images into it. The next automation run will detect approved images, generate metadata from each approved image and its prompt context, and create:
 
 ```text
 generated/YYYY-MM-DD/exports/adobe_stock_metadata.csv
