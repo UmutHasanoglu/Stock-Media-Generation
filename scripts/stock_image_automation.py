@@ -32,7 +32,7 @@ from pathlib import Path
 from typing import Any
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
-GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1/models/{model}:generateContent"
+GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 SUPPORTED_IMAGE_SUFFIXES = {".png"}
 DEFAULT_OUTPUT_FORMAT = "PNG"
 DEFAULT_OUTPUT_EXTENSION = ".png"
@@ -350,7 +350,7 @@ id, concept_id, topic, aspect_ratio, aspect_ratio_reason, positive_prompt, negat
 nano_banana_payload.
 The nano_banana_payload should be a minimal Gemini generateContent REST object with only contents.parts.text.
 Do not include model_hint, tools, or other unsupported API options.
-The automation will rebuild the final request for {image_model} with responseFormat.image.aspectRatio and imageSize=4K.
+The automation will rebuild the final request for {image_model} with generationConfig.imageConfig.aspectRatio and imageSize=4K.
 Ensure prompts ban logos, brands, text, watermarks, real people, public figures,
 editorial/news scenes, and recognizable protected designs.
 Return strict JSON array only.
@@ -394,17 +394,15 @@ def build_gemini_prompt_text(packet: dict[str, Any]) -> str:
 def build_gemini_payload(packet: dict[str, Any], image_size: str = DEFAULT_IMAGE_SIZE) -> dict[str, Any]:
     aspect_ratio = str(packet.get("aspect_ratio") or "1:1").strip()
     # Build the request ourselves instead of trusting model-generated
-    # nano_banana_payload content. Gemini 3.1 Flash Image (Nano Banana 2)
-    # supports native image sizing through generationConfig.responseFormat.image.
+    # nano_banana_payload content. Gemini image REST requests accept image
+    # settings under generationConfig.imageConfig; responseModalities and
+    # responseFormat are rejected by the REST schema for this endpoint.
     return {
         "contents": [{"parts": [{"text": build_gemini_prompt_text(packet)}]}],
         "generationConfig": {
-            "responseModalities": ["Image"],
-            "responseFormat": {
-                "image": {
-                    "aspectRatio": aspect_ratio,
-                    "imageSize": image_size,
-                }
+            "imageConfig": {
+                "aspectRatio": aspect_ratio,
+                "imageSize": image_size,
             },
         },
     }

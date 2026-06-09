@@ -31,7 +31,7 @@ The automated review step approves only commercially useful, non-editorial, stoc
 
 ## Troubleshooting GitHub Actions
 
-If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, image-generation responses that do not contain image bytes, and image responses that are not PNG files. Gemini image generation uses Nano Banana 2 (`gemini-3.1-flash-image`) with `responseFormat.image.imageSize` set to `4K`.
+If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, image-generation responses that do not contain image bytes, and image responses that are not PNG files. Gemini image generation uses Nano Banana 2 (`gemini-3.1-flash-image`) with `generationConfig.imageConfig.imageSize` set to `4K`.
 
 The workflow opts JavaScript actions into Node.js 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` to avoid the GitHub-hosted runner warning about Node.js 20 action deprecation.
 
