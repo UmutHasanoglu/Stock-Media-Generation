@@ -31,7 +31,7 @@ from pathlib import Path
 from typing import Any
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
-GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1/models/{model}:generateContent?key={api_key}"
+GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1/models/{model}:generateContent"
 
 
 @dataclass(frozen=True)
@@ -248,8 +248,9 @@ Create {per_concept} image prompt packets per concept from this JSON:
 Each packet must choose the best aspect ratio for stock usefulness and include:
 id, concept_id, topic, aspect_ratio, aspect_ratio_reason, positive_prompt, negative_prompt, technical_specs,
 nano_banana_payload.
-The nano_banana_payload must be a JSON object for Gemini generateContent with contents containing the prompt text.
-Use model hint: {image_model}. Add generationConfig.responseModalities=["Image"] and generationConfig.responseFormat.image.aspectRatio.
+The nano_banana_payload should be a minimal Gemini generateContent REST object with only contents.parts.text.
+Do not include model_hint, generationConfig, responseModalities, responseFormat, tools, or other API options.
+The automation will rebuild the final request for {image_model} and add the selected aspect ratio to the prompt text.
 Ensure prompts ban logos, brands, text, watermarks, real people, public figures,
 editorial/news scenes, and recognizable protected designs.
 Return strict JSON array only.
@@ -259,26 +260,47 @@ Return strict JSON array only.
     return packets
 
 
-def build_gemini_payload(packet: dict[str, Any]) -> dict[str, Any]:
-    payload = packet.get("nano_banana_payload") or {"contents": [{"parts": [{"text": packet["positive_prompt"]}]}]}
-    if not isinstance(payload, dict):
-        raise RuntimeError(f"Packet {packet.get('id', '<unknown>')} has a non-object nano_banana_payload")
-    if "contents" not in payload:
-        payload["contents"] = [{"parts": [{"text": packet["positive_prompt"]}]}]
-    generation_config = payload.setdefault("generationConfig", {})
-    generation_config.setdefault("responseModalities", ["Image"])
-    aspect_ratio = packet.get("aspect_ratio")
+def build_gemini_prompt_text(packet: dict[str, Any]) -> str:
+    positive_prompt = str(packet.get("positive_prompt") or "").strip()
+    if not positive_prompt:
+        raise RuntimeError(f"Packet {packet.get('id', '<unknown>')} is missing positive_prompt")
+
+    prompt_parts = [positive_prompt]
+    aspect_ratio = str(packet.get("aspect_ratio") or "").strip()
     if aspect_ratio:
-        response_format = generation_config.setdefault("responseFormat", {})
-        image_format = response_format.setdefault("image", {})
-        image_format.setdefault("aspectRatio", aspect_ratio)
-    return payload
+        prompt_parts.append(
+            f"Compose the final stock image for a {aspect_ratio} aspect ratio. "
+            f"Use framing, subject placement, and copy space appropriate for {aspect_ratio} stock usage."
+        )
+
+    technical_specs = packet.get("technical_specs")
+    if technical_specs:
+        prompt_parts.append(f"Technical specs: {technical_specs}")
+
+    negative_prompt = str(packet.get("negative_prompt") or "").strip()
+    stock_safety = (
+        "Stock safety requirements: non-editorial commercial stock image; no real people or public figures; "
+        "no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks."
+    )
+    prompt_parts.append(stock_safety)
+    if negative_prompt:
+        prompt_parts.append(f"Negative prompt: {negative_prompt}")
+    return "\n\n".join(prompt_parts)
+
+
+def build_gemini_payload(packet: dict[str, Any]) -> dict[str, Any]:
+    # Build a known-good REST payload instead of trusting model-generated
+    # nano_banana_payload content. The Gemini REST examples accept a minimal
+    # contents.parts.text object; generated extra fields such as model_hint,
+    # responseModalities, or responseFormat have caused 400 INVALID_ARGUMENT
+    # failures on the v1 endpoint.
+    return {"contents": [{"parts": [{"text": build_gemini_prompt_text(packet)}]}]}
 
 
 def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dict[str, Any]], api_key: str) -> list[Path]:
     generated: list[Path] = []
     model = config["models"]["image_model"]
-    url = GEMINI_GENERATE_URL.format(model=model, api_key=api_key)
+    url = GEMINI_GENERATE_URL.format(model=model)
     for packet in packets:
         image_id = packet["id"]
         image_path = paths.images / f"{image_id}.png"
@@ -287,7 +309,7 @@ def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dic
             generated.append(image_path)
             continue
         payload = build_gemini_payload(packet)
-        response = post_json(url, payload)
+        response = post_json(url, payload, headers={"x-goog-api-key": api_key})
         write_json(context_path, {"packet": packet, "request_payload": payload, "response_metadata": redact_binary(response)})
         image_bytes = first_inline_image(response)
         if not image_bytes:

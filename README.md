@@ -31,7 +31,7 @@ The metadata step uses prompt data as hints only. It must describe the approved 
 
 ## Troubleshooting GitHub Actions
 
-If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, and image-generation responses that do not contain image bytes.
+If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, and image-generation responses that do not contain image bytes. Gemini image generation uses the official minimal REST `contents.parts.text` payload and sends the selected aspect ratio inside the prompt text, rather than trusting model-generated API fields.
 
 The workflow opts JavaScript actions into Node.js 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` to avoid the GitHub-hosted runner warning about Node.js 20 action deprecation.
 
