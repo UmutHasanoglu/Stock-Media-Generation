@@ -41,6 +41,9 @@ jobs:
             if [[ -z "${!name}" ]]; then
               echo "::error title=Missing secret::$name is not configured or is empty."
               missing=1
+            elif [[ "${!name}" == *$'\n'* || "${!name}" == *$'\r'* ]]; then
+              echo "::error title=Invalid secret::$name contains a line break. Edit the secret and paste only the raw value."
+              missing=1
             fi
           done
           exit "$missing"

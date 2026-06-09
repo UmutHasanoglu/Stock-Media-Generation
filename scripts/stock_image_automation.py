@@ -88,12 +88,49 @@ def github_error(title: str, message: str) -> None:
     print(f"::error title={title}::{escaped}", file=sys.stderr)
 
 
+def secret_from_env(name: str) -> str:
+    """Read and validate a secret from the environment before it is used.
+
+    GitHub masks secret values in tracebacks as `***`, so a pasted key with a
+    trailing newline otherwise fails later as a vague `Invalid header value
+    b'***'` error when urllib builds the Authorization header. Stripping common
+    surrounding whitespace keeps pasted secrets usable, while rejecting any
+    remaining control characters gives the user a clear, actionable message.
+    """
+    value = os.environ[name].strip()
+    if not value:
+        raise KeyError(name)
+    if any(ord(character) < 32 or ord(character) == 127 for character in value):
+        raise RuntimeError(
+            f"{name} contains a line break or other control character. "
+            "Edit the GitHub Actions secret and paste only the raw key/password value."
+        )
+    return value
+
+
+def optional_secret_from_env(name: str) -> str | None:
+    if name not in os.environ:
+        return None
+    return secret_from_env(name)
+
+
+def validate_http_headers(headers: dict[str, str]) -> None:
+    for name, value in headers.items():
+        if any(ord(character) < 32 or ord(character) == 127 for character in value):
+            raise RuntimeError(
+                f"HTTP header {name} contains a line break or other control character. "
+                "Check the related GitHub Actions secret and paste only the raw value."
+            )
+
+
 def post_json(url: str, payload: dict[str, Any], headers: dict[str, str] | None = None) -> dict[str, Any]:
     data = json.dumps(payload).encode("utf-8")
+    request_headers = {"Content-Type": "application/json", **(headers or {})}
+    validate_http_headers(request_headers)
     request = urllib.request.Request(
         url,
         data=data,
-        headers={"Content-Type": "application/json", **(headers or {})},
+        headers=request_headers,
         method="POST",
     )
     try:
@@ -279,12 +316,12 @@ def first_inline_image(response: dict[str, Any]) -> bytes | None:
 
 
 def send_email(subject: str, body: str) -> None:
-    to_addr = os.getenv("STOCK_AUTOMATION_EMAIL_TO")
-    from_addr = os.getenv("STOCK_AUTOMATION_EMAIL_FROM")
-    host = os.getenv("STOCK_AUTOMATION_SMTP_HOST")
-    username = os.getenv("STOCK_AUTOMATION_SMTP_USERNAME")
-    password = os.getenv("STOCK_AUTOMATION_SMTP_PASSWORD")
-    port = int(os.getenv("STOCK_AUTOMATION_SMTP_PORT", "587"))
+    to_addr = optional_secret_from_env("STOCK_AUTOMATION_EMAIL_TO")
+    from_addr = optional_secret_from_env("STOCK_AUTOMATION_EMAIL_FROM")
+    host = optional_secret_from_env("STOCK_AUTOMATION_SMTP_HOST")
+    username = optional_secret_from_env("STOCK_AUTOMATION_SMTP_USERNAME")
+    password = optional_secret_from_env("STOCK_AUTOMATION_SMTP_PASSWORD")
+    port = int((os.getenv("STOCK_AUTOMATION_SMTP_PORT") or "587").strip())
     if not all([to_addr, from_addr, host, username, password]):
         print(f"Email not sent; missing SMTP environment. Subject: {subject}")
         return
@@ -384,8 +421,8 @@ def process_all_approved_batches(config: dict[str, Any], openai_key: str) -> Non
 def run(config_path: Path, batch_date: str) -> None:
     config = load_json(config_path)
     paths = batch_paths(config["batch"]["output_root"], config["batch"]["approval_folder_name"], batch_date)
-    openai_key = os.environ["OPENAI_API_KEY"]
-    gemini_key = os.environ["GEMINI_API_KEY"]
+    openai_key = secret_from_env("OPENAI_API_KEY")
+    gemini_key = secret_from_env("GEMINI_API_KEY")
 
     concepts = research_concepts(config, paths, openai_key)
     packets = prompt_packets(config, paths, concepts, openai_key)

@@ -48,6 +48,8 @@ Add these repository or environment secrets before enabling the workflow:
 - `STOCK_AUTOMATION_SMTP_USERNAME`
 - `STOCK_AUTOMATION_SMTP_PASSWORD`
 
+Paste only the raw secret values. Do not include labels such as `OPENAI_API_KEY=`, quotes, or extra lines. The workflow strips surrounding whitespace but rejects secrets that still contain embedded line breaks because they can make API authorization headers invalid.
+
 ## Manual run
 
 ```bash
