@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-002-1",
+    "concept_id": "img-concept-002",
+    "topic": "Eco-friendly shopping and zero waste lifestyle",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suitable for packaging backgrounds, blog headers, and advertising banners emphasizing sustainable lifestyle.",
+    "positive_prompt": "Flat lay of reusable shopping bags, glass jars filled with grains, bamboo utensils, fresh organic produce on rustic wooden surface, natural textures like wood and linen, earth-tone colors, biodegradable materials, no brand names, no logos, no copyrighted packaging, bright natural light",
+    "negative_prompt": "Brand names, logos, copyrighted packaging, text, watermarks, people, editorial content, public figures",
+    "technical_specs": "High detail flat lay, natural daylight, warm earthy tones, sharp focus on textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of reusable shopping bags, glass jars with grains, bamboo utensils, fresh organic produce on rustic wooden surface, natural textures, earth-tone colors, no brand names or logos"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Flat lay of reusable shopping bags, glass jars filled with grains, bamboo utensils, fresh organic produce on rustic wooden surface, natural textures like wood and linen, earth-tone colors, biodegradable materials, no brand names, no logos, no copyrighted packaging, bright natural light\n\nCompose the final stock image for a 16:9 aspect ratio. Use framing, subject placement, and copy space appropriate for 16:9 stock usage.\n\nTechnical specs: High detail flat lay, natural daylight, warm earthy tones, sharp focus on textures\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: Brand names, logos, copyrighted packaging, text, watermarks, people, editorial content, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 172,
+      "candidatesTokenCount": 1537,
+      "totalTokenCount": 1709,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 172
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "3VAoapCcEYTSjMcPyeW4wQg"
+  }
+}

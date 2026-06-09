@@ -1,0 +1,68 @@
+{
+  "packet": {
+    "id": "packet-004-1",
+    "concept_id": "img-concept-004",
+    "topic": "Smart home automation concept",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suited for tech product ads, smart home service websites, and digital marketing banners showcasing modern living room with devices.",
+    "positive_prompt": "Modern living room with contemporary furniture, smart speaker, smart thermostat, tablet displaying generic home automation app screen, clean bright indoor lighting, neutral and modern color scheme, no people, no brand logos, no visible text or watermarks",
+    "negative_prompt": "Brand logos, text, watermarks, people, editorial or news content, copyrighted UI designs, public figures",
+    "technical_specs": "High resolution, bright even lighting, sharp focus on smart devices, neutral tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern living room with contemporary furniture, smart speaker, smart thermostat, tablet showing generic home automation app, clean bright light, neutral colors, no people, no logos"
+          }
+        ]
+      }
+    }
+  },
+  "request_payload": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Modern living room with contemporary furniture, smart speaker, smart thermostat, tablet displaying generic home automation app screen, clean bright indoor lighting, neutral and modern color scheme, no people, no brand logos, no visible text or watermarks\n\nCompose the final stock image for a 16:9 aspect ratio. Use framing, subject placement, and copy space appropriate for 16:9 stock usage.\n\nTechnical specs: High resolution, bright even lighting, sharp focus on smart devices, neutral tones\n\nStock safety requirements: non-editorial commercial stock image; no real people or public figures; no brands, logos, trademarks, copyrighted characters, protected product designs, readable text, or watermarks.\n\nNegative prompt: Brand logos, text, watermarks, people, editorial or news content, copyrighted UI designs, public figures"
+          }
+        ]
+      }
+    ]
+  },
+  "response_metadata": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inlineData": "<base64 image omitted>"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 164,
+      "candidatesTokenCount": 1571,
+      "totalTokenCount": 1735,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 164
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.1-flash-image",
+    "responseId": "LFEoapvzG8CgjrEPpczb4Ao"
+  }
+}
