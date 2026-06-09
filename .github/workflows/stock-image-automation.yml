@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   stock-image-batch:
     runs-on: ubuntu-latest
@@ -21,6 +24,26 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Validate required secrets
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          STOCK_AUTOMATION_EMAIL_TO: ${{ secrets.STOCK_AUTOMATION_EMAIL_TO }}
+          STOCK_AUTOMATION_EMAIL_FROM: ${{ secrets.STOCK_AUTOMATION_EMAIL_FROM }}
+          STOCK_AUTOMATION_SMTP_HOST: ${{ secrets.STOCK_AUTOMATION_SMTP_HOST }}
+          STOCK_AUTOMATION_SMTP_PORT: ${{ secrets.STOCK_AUTOMATION_SMTP_PORT }}
+          STOCK_AUTOMATION_SMTP_USERNAME: ${{ secrets.STOCK_AUTOMATION_SMTP_USERNAME }}
+          STOCK_AUTOMATION_SMTP_PASSWORD: ${{ secrets.STOCK_AUTOMATION_SMTP_PASSWORD }}
+        run: |
+          missing=0
+          for name in OPENAI_API_KEY GEMINI_API_KEY STOCK_AUTOMATION_EMAIL_TO STOCK_AUTOMATION_EMAIL_FROM STOCK_AUTOMATION_SMTP_HOST STOCK_AUTOMATION_SMTP_PORT STOCK_AUTOMATION_SMTP_USERNAME STOCK_AUTOMATION_SMTP_PASSWORD; do
+            if [[ -z "${!name}" ]]; then
+              echo "::error title=Missing secret::$name is not configured or is empty."
+              missing=1
+            fi
+          done
+          exit "$missing"
 
       - name: Run stock image automation
         env:

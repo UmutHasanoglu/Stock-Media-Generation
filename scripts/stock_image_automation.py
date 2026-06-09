@@ -31,7 +31,7 @@ from pathlib import Path
 from typing import Any
 
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
-GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+GEMINI_GENERATE_URL = "https://generativelanguage.googleapis.com/v1/models/{model}:generateContent?key={api_key}"
 
 
 @dataclass(frozen=True)
@@ -79,6 +79,15 @@ def batch_paths(output_root: str, approval_folder_name: str, batch_date: str) ->
     return paths
 
 
+def safe_url_for_error(url: str) -> str:
+    return re.sub(r"([?&]key=)[^&]+", r"\1<redacted>", url)
+
+
+def github_error(title: str, message: str) -> None:
+    escaped = message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+    print(f"::error title={title}::{escaped}", file=sys.stderr)
+
+
 def post_json(url: str, payload: dict[str, Any], headers: dict[str, str] | None = None) -> dict[str, Any]:
     data = json.dumps(payload).encode("utf-8")
     request = urllib.request.Request(
@@ -92,7 +101,7 @@ def post_json(url: str, payload: dict[str, Any], headers: dict[str, str] | None 
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as error:
         body = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"POST {url} failed with {error.code}: {body}") from error
+        raise RuntimeError(f"POST {safe_url_for_error(url)} failed with {error.code}: {body}") from error
 
 
 def extract_json_object(text: str) -> Any:
@@ -203,13 +212,30 @@ Each packet must choose the best aspect ratio for stock usefulness and include:
 id, concept_id, topic, aspect_ratio, aspect_ratio_reason, positive_prompt, negative_prompt, technical_specs,
 nano_banana_payload.
 The nano_banana_payload must be a JSON object for Gemini generateContent with contents containing the prompt text.
-Use model hint: {image_model}. Ensure prompts ban logos, brands, text, watermarks, real people, public figures,
+Use model hint: {image_model}. Add generationConfig.responseModalities=["Image"] and generationConfig.responseFormat.image.aspectRatio.
+Ensure prompts ban logos, brands, text, watermarks, real people, public figures,
 editorial/news scenes, and recognizable protected designs.
 Return strict JSON array only.
 """.strip()
     packets = extract_json_object(openai_text(config["models"]["research_model"], instructions, request, api_key))
     write_json(output, packets)
     return packets
+
+
+def build_gemini_payload(packet: dict[str, Any]) -> dict[str, Any]:
+    payload = packet.get("nano_banana_payload") or {"contents": [{"parts": [{"text": packet["positive_prompt"]}]}]}
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"Packet {packet.get('id', '<unknown>')} has a non-object nano_banana_payload")
+    if "contents" not in payload:
+        payload["contents"] = [{"parts": [{"text": packet["positive_prompt"]}]}]
+    generation_config = payload.setdefault("generationConfig", {})
+    generation_config.setdefault("responseModalities", ["Image"])
+    aspect_ratio = packet.get("aspect_ratio")
+    if aspect_ratio:
+        response_format = generation_config.setdefault("responseFormat", {})
+        image_format = response_format.setdefault("image", {})
+        image_format.setdefault("aspectRatio", aspect_ratio)
+    return payload
 
 
 def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dict[str, Any]], api_key: str) -> list[Path]:
@@ -223,12 +249,13 @@ def generate_images(config: dict[str, Any], paths: BatchPaths, packets: list[dic
         if image_path.exists():
             generated.append(image_path)
             continue
-        payload = packet.get("nano_banana_payload") or {"contents": [{"parts": [{"text": packet["positive_prompt"]}]}]}
+        payload = build_gemini_payload(packet)
         response = post_json(url, payload)
-        write_json(context_path, {"packet": packet, "response_metadata": redact_binary(response)})
+        write_json(context_path, {"packet": packet, "request_payload": payload, "response_metadata": redact_binary(response)})
         image_bytes = first_inline_image(response)
         if not image_bytes:
-            raise RuntimeError(f"No image bytes returned for packet {image_id}")
+            write_json(paths.images / f"{image_id}.response.json", redact_binary(response))
+            raise RuntimeError(f"No image bytes returned for packet {image_id}; saved redacted response for debugging")
         image_path.write_bytes(image_bytes)
         generated.append(image_path)
     return generated
@@ -386,8 +413,11 @@ def main() -> int:
     try:
         run(args.config, args.date)
     except KeyError as error:
-        print(f"Missing required environment variable: {error}", file=sys.stderr)
+        github_error("Missing environment variable", f"Required environment variable is missing: {error}")
         return 2
+    except RuntimeError as error:
+        github_error("Stock automation failed", str(error))
+        return 1
     return 0
 
 

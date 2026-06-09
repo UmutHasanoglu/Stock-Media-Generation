@@ -11,8 +11,8 @@ Pipeline stages:
 
 1. **Scheduler service** starts the workflow from GitHub Actions.
 2. **Research service** performs trend-informed ideation, converts trends into stock-safe concepts, and scores each concept.
-3. **Prompt service** creates prompt packets, technical specs, aspect-ratio decisions, and Gemini/Nano Banana payloads.
-4. **Generation service** calls Gemini/Nano Banana and stores generated outputs.
+3. **Prompt service** creates prompt packets, technical specs, aspect-ratio decisions, and Gemini/Nano Banana 2 payloads.
+4. **Generation service** calls Gemini/Nano Banana 2 and stores generated outputs.
 5. **Review service** emails an image review request. Approve images by moving them into the batch `approved/` folder.
 6. **Metadata service** calls OpenAI with the approved image plus prompt/topic context to generate Adobe Stock-oriented metadata.
 7. **Export service** writes an Adobe Stock metadata CSV package.
@@ -28,6 +28,12 @@ Every stage is instructed to avoid:
 - misleading metadata that describes the prompt instead of the actual generated image.
 
 The metadata step uses prompt data as hints only. It must describe the approved image itself.
+
+## Troubleshooting GitHub Actions
+
+If the workflow fails, open the failed run and expand **Run stock image automation**. The script emits GitHub error annotations for missing secrets, API failures, and image-generation responses that do not contain image bytes.
+
+The workflow opts JavaScript actions into Node.js 24 with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` to avoid the GitHub-hosted runner warning about Node.js 20 action deprecation.
 
 ## Required secrets
 

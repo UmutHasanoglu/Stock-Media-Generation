@@ -14,7 +14,7 @@
   "models": {
     "research_model": "gpt-4.1-mini",
     "metadata_model": "gpt-4.1-mini",
-    "image_model": "gemini-2.5-flash-image"
+    "image_model": "gemini-3.1-flash-image"
   },
   "stock_rules": {
     "primary_marketplace": "Adobe Stock",
