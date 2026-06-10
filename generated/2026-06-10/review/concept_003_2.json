@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image visually represents a calm yoga and meditation corner as described in the prompt.",
+    "No visible branding, logos, or text are present in the image.",
+    "No people or faces are visible, meeting the negative prompt criteria.",
+    "The image is commercially useful for fitness, wellness, or lifestyle content.",
+    "The composition is visually coherent with warm natural light and detailed textures.",
+    "The aspect ratio is suitable for fitness blogs and newsletters as requested."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 95
+}

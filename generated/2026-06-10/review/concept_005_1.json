@@ -1,0 +1,12 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on the smart home interface screen",
+    "Text on screen includes UI labels and temperature readings, which is considered readable text"
+  ],
+  "issues": [
+    "Readable text on touchscreen panel UI"
+  ],
+  "confidence_0_to_100": 95
+}

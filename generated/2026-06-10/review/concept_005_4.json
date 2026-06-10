@@ -1,0 +1,14 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains a real person's hand, which is considered a real person element.",
+    "The touchscreen interface includes readable text and icons that may be considered branded or trademarked UI elements."
+  ],
+  "issues": [
+    "Presence of real human hand",
+    "Readable text on touchscreen interface",
+    "Potential branded or trademarked UI icons"
+  ],
+  "confidence_0_to_100": 95
+}

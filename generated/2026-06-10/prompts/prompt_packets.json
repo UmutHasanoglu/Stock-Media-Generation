@@ -1,0 +1,382 @@
+[
+  {
+    "id": "concept_001_1",
+    "concept_id": "concept_001",
+    "topic": "Modern remote work setup",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Ideal for website hero images and corporate presentations requiring wide, cinematic framing.",
+    "positive_prompt": "Minimalist home office with a laptop on a wooden desk, ergonomic office chair, several indoor potted plants, soft natural daylight streaming through a window, neutral and calming color palette, no identifiable faces, no visible brand logos, clean and tidy workspace",
+    "negative_prompt": "No logos, no text, no watermarks, no people, no faces, no public figures, no editorial or news content, no branded devices or furniture, no clutter, no harsh lighting",
+    "technical_specs": "High resolution, sharp focus on laptop and chair, natural lighting emphasis, balanced color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office setup with laptop on wooden desk, ergonomic chair, potted plants, natural soft daylight, neutral calming colors, no logos, no people, clean environment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_001_2",
+    "concept_id": "concept_001",
+    "topic": "Modern remote work setup",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for blog post illustrations and corporate presentation slides.",
+    "positive_prompt": "Cozy minimalist home office featuring a wooden desk with laptop, ergonomic chair, indoor plants, natural soft light from window, neutral and calming tones, no visible brand logos or identifiable faces",
+    "negative_prompt": "Exclude logos, brands, watermarks, text, faces, people, public figures, editorial scenes, clutter, harsh shadows",
+    "technical_specs": "Well-lit scene with natural daylight, focus on laptop and desk, soft shadows, neutral color grading",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office with laptop on wooden desk, ergonomic chair, indoor plants, soft natural light, neutral colors, no logos or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_001_3",
+    "concept_id": "concept_001",
+    "topic": "Modern remote work setup",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimal for social media posts and blog thumbnails.",
+    "positive_prompt": "Minimalist home office corner with laptop on wooden desk, ergonomic chair, various indoor plants, soft natural light, calming neutral color palette, no brand logos or identifiable human features",
+    "negative_prompt": "No logos, no text, no watermarks, no people or faces, no public figures, no editorial content, no branded items, no clutter",
+    "technical_specs": "Balanced exposure with natural lighting, clear focus, smooth textures, harmonious neutral color scheme",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office with laptop, ergonomic chair, indoor plants, natural soft light, neutral tones, no logos or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_001_4",
+    "concept_id": "concept_001",
+    "topic": "Modern remote work setup",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile ratio suitable for both print and digital presentations.",
+    "positive_prompt": "Minimalist home office scene showing laptop on a wooden desk, ergonomic office chair, several indoor plants, bathed in soft natural daylight, neutral calming colors, no logos, no visible faces or people",
+    "negative_prompt": "Avoid logos, brands, watermarks, text overlays, faces, people, public figures, editorial or news scenes, branded devices or furniture",
+    "technical_specs": "High resolution, natural light emphasis, sharp detail on desk and chair, neutral color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office with laptop on wooden desk, ergonomic chair, indoor plants, soft daylight, neutral colors, no logos or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_1",
+    "concept_id": "concept_002",
+    "topic": "Zero waste lifestyle essentials",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide flat lay suitable for website banners and social media headers promoting eco-friendly products.",
+    "positive_prompt": "Flat lay of zero waste household items including bamboo toothbrush, metal straws, reusable cloth bags, glass jars with food on natural linen fabric background, soft diffuse lighting, no branded packaging or logos, generic product designs only",
+    "negative_prompt": "No logos, no brand names, no text, no watermarks, no people, no faces, no editorial content, no branded packaging, no copyrighted designs",
+    "technical_specs": "Sharp focus on all items, natural colors, even lighting, texture detail on linen fabric",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of zero waste essentials: bamboo toothbrush, metal straws, cloth bags, glass jars on natural linen background, no logos or brands"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_2",
+    "concept_id": "concept_002",
+    "topic": "Zero waste lifestyle essentials",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic format ideal for blog posts and eco-product promotions.",
+    "positive_prompt": "Top view flat lay of reusable household items: bamboo toothbrush, metal straws, cloth bags, glass jars with food, all arranged on natural linen fabric, soft natural light, no branding or logos",
+    "negative_prompt": "Exclude logos, brand names, text, watermarks, people, faces, editorial scenes, branded packaging, copyrighted product designs",
+    "technical_specs": "High resolution, soft natural lighting, detailed textures on fabric and products, neutral color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of reusable eco items including bamboo toothbrush, metal straws, cloth bags, glass jars on linen fabric, no brand logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_3",
+    "concept_id": "concept_002",
+    "topic": "Zero waste lifestyle essentials",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format perfect for social media posts and eco-conscious brand profiles.",
+    "positive_prompt": "Flat lay of zero waste essentials: bamboo toothbrush, metal straws, reusable cloth bags, glass jars with food, placed on natural linen fabric background, neutral tones, no visible branding or logos",
+    "negative_prompt": "No logos, no text, no watermarks, no people or faces, no editorial or news scenes, no branded items or packaging",
+    "technical_specs": "Even lighting, sharp focus on product textures, natural color grading",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Zero waste lifestyle flat lay with bamboo toothbrush, metal straws, cloth bags, glass jars, natural linen background, no logos or branding"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_4",
+    "concept_id": "concept_002",
+    "topic": "Zero waste lifestyle essentials",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile ratio suitable for print and digital eco-friendly campaigns.",
+    "positive_prompt": "Flat lay composition of eco-conscious household items including bamboo toothbrush, metal straws, reusable cloth bags, and glass jars with food, arranged on natural linen fabric background, soft natural light, no visible brands or logos",
+    "negative_prompt": "Exclude all logos, brand names, text, watermarks, people, faces, editorial content, and branded packaging or products",
+    "technical_specs": "High resolution, detailed textures, soft diffuse lighting, neutral earthy color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Eco-friendly flat lay: bamboo toothbrush, metal straws, cloth bags, glass jars on linen fabric, no brands or logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_1",
+    "concept_id": "concept_003",
+    "topic": "At-home yoga and meditation corner",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format suited for wellness app marketing and website banners.",
+    "positive_prompt": "Serene at-home yoga and meditation corner with yoga mat, cushions, lit candles, small indoor plants, water bottle, cozy living room corner bathed in soft natural light, neutral calming colors, no people or faces, no branded items",
+    "negative_prompt": "No logos, brand names, text, watermarks, people, faces, public figures, editorial scenes, branded candles or props",
+    "technical_specs": "Soft focus, warm natural lighting, balanced composition highlighting wellness elements, neutral palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy yoga and meditation corner with mat, cushions, candles, indoor plants, water bottle, soft natural light, no logos or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_2",
+    "concept_id": "concept_003",
+    "topic": "At-home yoga and meditation corner",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio for fitness blogs and newsletters.",
+    "positive_prompt": "Calm yoga and meditation setup featuring yoga mat, meditation cushions, candles and incense holders, small indoor plants, water bottle, cozy living room corner with soft natural daylight, no visible branding or people",
+    "negative_prompt": "Exclude logos, brands, text, watermarks, people, faces, editorial content, branded props or furniture",
+    "technical_specs": "Warm natural light, detailed textures on cushions and plants, neutral soft color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Yoga and meditation corner with mat, cushions, candles, plants, water bottle, soft daylight, no logos or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_3",
+    "concept_id": "concept_003",
+    "topic": "At-home yoga and meditation corner",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media wellness posts and app icons.",
+    "positive_prompt": "Peaceful yoga mat and meditation cushions setup with candles and incense holders, small indoor plants, water bottle on cozy living room floor, soft natural lighting, neutral and calming colors, no faces or branded items",
+    "negative_prompt": "No logos, text, watermarks, people, faces, public figures, editorial scenes, branded props",
+    "technical_specs": "Soft focus, warm tones, natural light emphasis, clear textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Yoga and meditation area with mat, cushions, candles, plants, water bottle, soft natural light, no branding or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_4",
+    "concept_id": "concept_003",
+    "topic": "At-home yoga and meditation corner",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio for print wellness magazines and digital content.",
+    "positive_prompt": "Serene yoga and meditation corner with yoga mat, cushions, candles, incense holders, small indoor plants, water bottle, cozy living room with soft natural daylight, neutral calming colors, no logos, no people",
+    "negative_prompt": "Avoid logos, branded items, text, watermarks, faces, people, editorial or news content",
+    "technical_specs": "High resolution, natural soft lighting, warm color palette, detailed textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Yoga and meditation corner with mat, cushions, candles, plants, water bottle, soft daylight, no logos or people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_1",
+    "concept_id": "concept_004",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format perfect for healthy food recipe blogs and food brand advertising banners.",
+    "positive_prompt": "Top view of vibrant plant-based quinoa bowl with roasted vegetables, avocado slices, leafy greens, placed on rustic wooden table, bright natural light, colorful and appealing, no branded ingredients or packaging, no copyrighted dish presentations",
+    "negative_prompt": "No logos, no branded packaging, no text, no watermarks, no people, no faces, no editorial or news content, no copyrighted dish designs",
+    "technical_specs": "High resolution, vivid colors, sharp focus on food textures, natural lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Top view colorful plant-based quinoa bowl with roasted vegetables, avocado, leafy greens on rustic wooden table, no branding or copyrighted dishes"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_2",
+    "concept_id": "concept_004",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic format suitable for nutrition and lifestyle magazine features and blogs.",
+    "positive_prompt": "Overhead shot of vibrant plant-based meal bowl with quinoa, roasted vegetables, avocado slices, leafy greens on rustic wooden surface, bright natural lighting, colorful and fresh, no visible brand logos or packaging",
+    "negative_prompt": "Exclude logos, brands, text, watermarks, people, faces, editorial scenes, branded or copyrighted food presentation",
+    "technical_specs": "Natural light emphasis, sharp detail on food textures, vivid but natural color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Plant-based quinoa bowl with roasted vegetables, avocado, leafy greens on rustic wood, top view, no branding or logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_3",
+    "concept_id": "concept_004",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media posts and recipe thumbnails.",
+    "positive_prompt": "Top-down view of a colorful plant-based bowl with quinoa, roasted veggies, avocado slices, and leafy greens on rustic wooden table, natural bright light, fresh and vibrant, no branded ingredients or packaging visible",
+    "negative_prompt": "No logos, no text, no watermarks, no people, no faces, no editorial content, no branded or copyright protected dishes",
+    "technical_specs": "High resolution, balanced natural light, vibrant colors, detailed food textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Colorful plant-based quinoa bowl with roasted vegetables, avocado, leafy greens on rustic wood, no branding or copyrighted dishes"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_4",
+    "concept_id": "concept_004",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile ratio for print and online nutrition content and lifestyle magazine layouts.",
+    "positive_prompt": "Top view vibrant plant-based meal bowl featuring quinoa, roasted vegetables, avocado slices, leafy greens on rustic wooden table, natural bright lighting, colorful and appetizing, no visible branding or copyrighted presentations",
+    "negative_prompt": "Exclude logos, branded packaging, text, watermarks, people, faces, editorial or news scenes",
+    "technical_specs": "Sharp focus, vivid natural colors, soft shadows, high resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Plant-based quinoa bowl with roasted vegetables, avocado, leafy greens on rustic wood table, top view, no branding or copyrighted designs"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_1",
+    "concept_id": "concept_005",
+    "topic": "Smart home automation interface",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format suitable for smart home product websites and technology blog headers.",
+    "positive_prompt": "Close-up of hand interacting with generic smart home touchscreen panel controlling lights and temperature, modern home interior blurred in background, neutral color scheme, no real brand logos on device, UI original and free from trademarked icons, no people faces visible",
+    "negative_prompt": "No logos, no branded UI icons, no text, no watermarks, no faces, no public figures, no editorial content, no brand names",
+    "technical_specs": "High resolution, sharp focus on hand and panel, shallow depth of field on background, balanced neutral colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Hand interacting with generic smart home touchscreen panel controlling lights and temperature, modern blurred interior, no brand logos or trademarked UI"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_2",
+    "concept_id": "concept_005",
+    "topic": "Smart home automation interface",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic format ideal for technology blogs and brochures.",
+    "positive_prompt": "Close-up shot of hand using generic smart home touchscreen panel to control lighting and temperature, modern home interior softly blurred in background, neutral color tones, no visible branding or trademarked UI icons, no faces or people",
+    "negative_prompt": "Exclude logos, brand names, trademarked UI elements, text, watermarks, faces, people, editorial or news scenes",
+    "technical_specs": "Sharp focus on touchscreen and hand, soft background blur, natural color balance",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generic smart home touchscreen interface with hand interacting, blurred modern home background, no branding or logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_3",
+    "concept_id": "concept_005",
+    "topic": "Smart home automation interface",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimal for social media posts and digital ads.",
+    "positive_prompt": "Close-up of hand touching generic smart home control panel with lights and temperature settings, modern home interior softly blurred, neutral colors, no brand logos or trademarked icons, no visible faces",
+    "negative_prompt": "No logos, no branded UI, no text, no watermarks, no people, no editorial content, no public figures",
+    "technical_specs": "High resolution, focused on hand and panel, natural lighting, soft background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Hand interacting with generic smart home touchscreen panel, blurred modern interior, no branding or trademarked UI"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_4",
+    "concept_id": "concept_005",
+    "topic": "Smart home automation interface",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio for printed marketing materials and digital presentations.",
+    "positive_prompt": "Close-up of hand operating generic smart home touchscreen panel controlling lights and temperature, modern home interior blurred background, neutral color palette, no logos or branded UI icons, no people or faces",
+    "negative_prompt": "Exclude logos, brand names, trademarked icons, text, watermarks, faces, editorial content, public figures",
+    "technical_specs": "Sharp detail on hand and panel, soft natural lighting, shallow depth of field",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generic smart home touchscreen with hand interaction, blurred modern home background, no branding or trademarked UI"
+          }
+        ]
+      }
+    }
+  }
+]

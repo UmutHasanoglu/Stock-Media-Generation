@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains a real person",
+    "Person is identifiable from the back"
+  ],
+  "issues": [
+    "Presence of a person in the image",
+    "Potential privacy and model release concerns"
+  ],
+  "confidence_0_to_100": 95
+}
