@@ -1,0 +1,12 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on jars",
+    "Text on jars may be considered as branding or labeling"
+  ],
+  "issues": [
+    "Readable text: 'oats', 'brown rice', 'lentils', 'beans' visible on jars"
+  ],
+  "confidence_0_to_100": 95
+}

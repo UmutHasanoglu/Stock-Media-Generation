@@ -1,0 +1,382 @@
+[
+  {
+    "id": "concept_001_01",
+    "concept_id": "concept_001",
+    "topic": "Modern minimalist home office workspace",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suits website backgrounds and marketing materials, offering ample horizontal space for desk and window elements.",
+    "positive_prompt": "Clean bright home office setup with sleek wooden desk, laptop with blank screen, green indoor plants, sunlight streaming through window, minimalist decor items like notebook and pen, neutral tones, no logos, no people, minimalistic style",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, recognizable branded devices",
+    "technical_specs": "High detail, natural lighting, sharp focus on desk area, soft shadows, neutral color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Clean bright home office setup with sleek wooden desk, laptop with blank screen, green indoor plants, sunlight streaming through window, minimalist decor items like notebook and pen, neutral tones, no logos, no people, minimalistic style"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_001_02",
+    "concept_id": "concept_001",
+    "topic": "Modern minimalist home office workspace",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio ideal for blog or article illustrations emphasizing the workspace environment.",
+    "positive_prompt": "Bright minimalist home office with wooden desk, laptop screen blank, potted green plants, natural sunlight through window, minimal decor like notebook and pen, calm neutral colors, no logos or people, clean and airy atmosphere",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, recognizable branded devices",
+    "technical_specs": "Soft natural light, clean composition, medium depth of field, warm neutral tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Bright minimalist home office with wooden desk, laptop screen blank, potted green plants, natural sunlight through window, minimal decor like notebook and pen, calm neutral colors, no logos or people, clean and airy atmosphere"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_001_03",
+    "concept_id": "concept_001",
+    "topic": "Modern minimalist home office workspace",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format fits social media posts and product showcase imagery focusing on desk elements.",
+    "positive_prompt": "Minimalist home office desk setup with wooden surface, blank laptop screen, green potted plants, sunlight from window, minimal decor including notebook and pen, neutral color palette, no brands or people, clean and modern style",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, recognizable branded devices",
+    "technical_specs": "High resolution, balanced lighting, minimal shadows, crisp details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office desk setup with wooden surface, blank laptop screen, green potted plants, sunlight from window, minimal decor including notebook and pen, neutral color palette, no brands or people, clean and modern style"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_001_04",
+    "concept_id": "concept_001",
+    "topic": "Modern minimalist home office workspace",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format for mobile app backgrounds and social media stories focusing on workspace verticality and window light.",
+    "positive_prompt": "Sleek modern home office with wooden desk, blank laptop screen, green indoor plants, sunlight pouring through window, minimal decor with notebook and pen, neutral tones, no logos or people, bright and airy atmosphere",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, recognizable branded devices",
+    "technical_specs": "Soft natural light, vertical framing, clean and uncluttered composition, calm neutral colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Sleek modern home office with wooden desk, blank laptop screen, green indoor plants, sunlight pouring through window, minimal decor with notebook and pen, neutral tones, no logos or people, bright and airy atmosphere"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_01",
+    "concept_id": "concept_002",
+    "topic": "Zero-waste kitchen essentials set-up",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio ideal for eco-friendly blog illustrations and product packaging designs emphasizing countertop layout.",
+    "positive_prompt": "Zero-waste kitchen items on clean rustic countertop, reusable glass jars with food, bamboo utensils, beeswax wraps, cloth produce bags with vegetables, natural fiber towels, no brand labels, no people, cozy rustic backdrop",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, branded packaging",
+    "technical_specs": "Warm natural lighting, soft shadows, high detail textures on materials, rustic color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Zero-waste kitchen items on clean rustic countertop, reusable glass jars with food, bamboo utensils, beeswax wraps, cloth produce bags with vegetables, natural fiber towels, no brand labels, no people, cozy rustic backdrop"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_02",
+    "concept_id": "concept_002",
+    "topic": "Zero-waste kitchen essentials set-up",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suits website hero images and social media posts promoting zero-waste lifestyle.",
+    "positive_prompt": "Collection of zero-waste kitchen essentials on rustic countertop, glass jars with food, bamboo cutlery, beeswax wraps, cloth produce bags with vegetables, natural fiber towels, no brand labels or people, warm natural light",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, branded packaging",
+    "technical_specs": "Soft warm lighting, rustic textures, clear focus on product arrangement, cozy atmosphere",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Collection of zero-waste kitchen essentials on rustic countertop, glass jars with food, bamboo cutlery, beeswax wraps, cloth produce bags with vegetables, natural fiber towels, no brand labels or people, warm natural light"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_03",
+    "concept_id": "concept_002",
+    "topic": "Zero-waste kitchen essentials set-up",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media posts and eco-friendly product showcase.",
+    "positive_prompt": "Zero-waste kitchen setup with glass jars of food, bamboo utensils, beeswax wraps, cloth bags with vegetables, natural fiber towels on rustic countertop, no brands, no people, warm rustic lighting",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, branded packaging",
+    "technical_specs": "High detail, warm tones, soft natural shadows, rustic textures emphasized",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Zero-waste kitchen setup with glass jars of food, bamboo utensils, beeswax wraps, cloth bags with vegetables, natural fiber towels on rustic countertop, no brands, no people, warm rustic lighting"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_002_04",
+    "concept_id": "concept_002",
+    "topic": "Zero-waste kitchen essentials set-up",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical ratio for mobile and social media stories focusing on vertical stack of eco-friendly kitchen items.",
+    "positive_prompt": "Vertical arrangement of zero-waste kitchen items on rustic countertop, reusable glass jars, bamboo cutlery, beeswax wraps, cloth produce bags with vegetables, natural fiber towels, no brand labels, no people, warm natural light",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, public figures, editorial scenes, branded packaging",
+    "technical_specs": "Soft warm light, vertical framing, rustic cozy background, focus on textures and colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical arrangement of zero-waste kitchen items on rustic countertop, reusable glass jars, bamboo cutlery, beeswax wraps, cloth produce bags with vegetables, natural fiber towels, no brand labels, no people, warm natural light"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_01",
+    "concept_id": "concept_003",
+    "topic": "Futuristic smart home control interface",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio ideal for tech marketing materials and UI/UX presentation backgrounds.",
+    "positive_prompt": "Abstract digital smart home control panel on transparent touchscreen device, icons for lighting temperature security entertainment, modern living room blurred background, blue and white neon accents, no real devices or brand interfaces, futuristic digital style",
+    "negative_prompt": "logos, brands, text, watermarks, real devices, people, faces, public figures, editorial scenes, recognizable interfaces",
+    "technical_specs": "Neon lighting effects, high contrast, clean vector style UI icons, soft background blur",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Abstract digital smart home control panel on transparent touchscreen device, icons for lighting temperature security entertainment, modern living room blurred background, blue and white neon accents, no real devices or brand interfaces, futuristic digital style"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_02",
+    "concept_id": "concept_003",
+    "topic": "Futuristic smart home control interface",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Balanced ratio for educational content and UI/UX presentation slides emphasizing interface details.",
+    "positive_prompt": "Digital smart home control interface on transparent touchscreen, minimalist UI icons for lighting temperature security entertainment, blurred modern living room background, blue white neon light accents, conceptual digital art, no real brands or devices",
+    "negative_prompt": "logos, brands, text, watermarks, real devices, people, faces, public figures, editorial scenes, recognizable interfaces",
+    "technical_specs": "Sharp UI iconography, neon glow effects, soft background blur, clean futuristic style",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Digital smart home control interface on transparent touchscreen, minimalist UI icons for lighting temperature security entertainment, blurred modern living room background, blue white neon light accents, conceptual digital art, no real brands or devices"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_03",
+    "concept_id": "concept_003",
+    "topic": "Futuristic smart home control interface",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format suitable for social media posts and tech product showcases focusing on interface design.",
+    "positive_prompt": "Futuristic smart home control panel on transparent screen, minimal UI icons for lighting temperature security entertainment, blurred modern living room background, blue and white neon accents, digital abstract style, no real devices or branding",
+    "negative_prompt": "logos, brands, text, watermarks, real devices, people, faces, public figures, editorial scenes, recognizable interfaces",
+    "technical_specs": "High clarity UI icons, neon glow highlights, smooth background blur, conceptual futuristic art",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Futuristic smart home control panel on transparent screen, minimal UI icons for lighting temperature security entertainment, blurred modern living room background, blue and white neon accents, digital abstract style, no real devices or branding"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_003_04",
+    "concept_id": "concept_003",
+    "topic": "Futuristic smart home control interface",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical aspect ratio optimized for mobile tech app backgrounds and social media stories.",
+    "positive_prompt": "Vertical futuristic smart home control interface on transparent touchscreen, minimalist UI icons for lighting temperature security entertainment, blurred modern living room background, blue and white neon accents, conceptual digital art style, no brands or real devices",
+    "negative_prompt": "logos, brands, text, watermarks, real devices, people, faces, public figures, editorial scenes, recognizable interfaces",
+    "technical_specs": "Vertical framing, neon light effects, clean UI design, soft background blur",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical futuristic smart home control interface on transparent touchscreen, minimalist UI icons for lighting temperature security entertainment, blurred modern living room background, blue and white neon accents, conceptual digital art style, no brands or real devices"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_01",
+    "concept_id": "concept_004",
+    "topic": "Calm meditation and mindfulness space",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio ideal for wellness blog images and spa advertising emphasizing calm indoor corner.",
+    "positive_prompt": "Serene indoor meditation corner with yoga mat, cushions, lit candles, incense holder with smoke, green leafy plants, warm soft natural daylight, neutral colors, no people, no religious symbols, peaceful wellness setting",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, religious symbols, public figures, editorial scenes",
+    "technical_specs": "Soft warm lighting, gentle smoke effects, high detail on textures, calm and balanced composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Serene indoor meditation corner with yoga mat, cushions, lit candles, incense holder with smoke, green leafy plants, warm soft natural daylight, neutral colors, no people, no religious symbols, peaceful wellness setting"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_02",
+    "concept_id": "concept_004",
+    "topic": "Calm meditation and mindfulness space",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format suitable for meditation app backgrounds and wellness marketing materials highlighting space ambiance.",
+    "positive_prompt": "Calm meditation space indoor corner with yoga mat, cushions, candles lit, incense smoke rising, indoor green plants, soft warm daylight, neutral tones, no people, no religious icons, peaceful and inviting atmosphere",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, religious symbols, public figures, editorial scenes",
+    "technical_specs": "Warm natural light, soft shadows, detailed smoke effects, balanced composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Calm meditation space indoor corner with yoga mat, cushions, candles lit, incense smoke rising, indoor green plants, soft warm daylight, neutral tones, no people, no religious icons, peaceful and inviting atmosphere"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_03",
+    "concept_id": "concept_004",
+    "topic": "Calm meditation and mindfulness space",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square aspect ratio for social media posts and app icon backgrounds emphasizing meditation props.",
+    "positive_prompt": "Peaceful meditation corner with yoga mat, cushions, lit candles, incense holder with visible smoke, green leafy plants, warm soft daylight, neutral color scheme, no people or religious symbols, calm wellness vibe",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, religious symbols, public figures, editorial scenes",
+    "technical_specs": "Soft lighting, detailed textures, subtle smoke effect, clean and soothing composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Peaceful meditation corner with yoga mat, cushions, lit candles, incense holder with visible smoke, green leafy plants, warm soft daylight, neutral color scheme, no people or religious symbols, calm wellness vibe"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_004_04",
+    "concept_id": "concept_004",
+    "topic": "Calm meditation and mindfulness space",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical ratio optimized for meditation app backgrounds and mobile wellness content.",
+    "positive_prompt": "Vertical indoor meditation corner with yoga mat, cushions, lit candles, incense smoke rising, green indoor plants, warm soft daylight, neutral tones, no people or religious symbols, tranquil and inviting atmosphere",
+    "negative_prompt": "logos, brands, text, watermarks, people, faces, religious symbols, public figures, editorial scenes",
+    "technical_specs": "Vertical framing, warm natural light, subtle smoke effects, balanced cozy composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical indoor meditation corner with yoga mat, cushions, lit candles, incense smoke rising, green indoor plants, warm soft daylight, neutral tones, no people or religious symbols, tranquil and inviting atmosphere"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_01",
+    "concept_id": "concept_005",
+    "topic": "Colorful plant-based meal preparation scene",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio fits cooking app promotional images and recipe blog headers showing overhead counter view.",
+    "positive_prompt": "Overhead view of kitchen counter with fresh colorful vegetables bell peppers leafy greens tomatoes, herbs in small bowls, wooden cutting board, hands chopping vegetables, neutral kitchen surface, no faces, no branded tools or packaging, bright natural light",
+    "negative_prompt": "logos, brands, text, watermarks, faces, people, public figures, editorial scenes, branded kitchen tools or packaging",
+    "technical_specs": "High detail, natural bright lighting, sharp focus on food and hands, neutral kitchen background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Overhead view of kitchen counter with fresh colorful vegetables bell peppers leafy greens tomatoes, herbs in small bowls, wooden cutting board, hands chopping vegetables, neutral kitchen surface, no faces, no branded tools or packaging, bright natural light"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_02",
+    "concept_id": "concept_005",
+    "topic": "Colorful plant-based meal preparation scene",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Balanced aspect ratio for food blogs and cookbooks focusing on fresh ingredients and meal prep.",
+    "positive_prompt": "Top view of kitchen counter with fresh vegetables bell peppers leafy greens tomatoes, herbs in bowls, wooden cutting board, hands preparing plant-based meal, neutral counter surface, no faces, no branded kitchen tools or packaging, bright natural light",
+    "negative_prompt": "logos, brands, text, watermarks, faces, people, public figures, editorial scenes, branded kitchen tools or packaging",
+    "technical_specs": "Natural lighting, high detail on vegetables and hands, soft shadows, clean composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Top view of kitchen counter with fresh vegetables bell peppers leafy greens tomatoes, herbs in bowls, wooden cutting board, hands preparing plant-based meal, neutral counter surface, no faces, no branded kitchen tools or packaging, bright natural light"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_03",
+    "concept_id": "concept_005",
+    "topic": "Colorful plant-based meal preparation scene",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format for social media posts and cooking app images focusing on fresh ingredients and preparation hands.",
+    "positive_prompt": "Overhead square view of kitchen counter with fresh vegetables bell peppers leafy greens tomatoes, herbs in small bowls, wooden cutting board, hands chopping vegetables, neutral kitchen surface, no faces, no branded tools or packaging, bright natural lighting",
+    "negative_prompt": "logos, brands, text, watermarks, faces, people, public figures, editorial scenes, branded kitchen tools or packaging",
+    "technical_specs": "Bright natural light, high resolution, crisp focus on ingredients and hands, neutral background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Overhead square view of kitchen counter with fresh vegetables bell peppers leafy greens tomatoes, herbs in small bowls, wooden cutting board, hands chopping vegetables, neutral kitchen surface, no faces, no branded tools or packaging, bright natural lighting"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept_005_04",
+    "concept_id": "concept_005",
+    "topic": "Colorful plant-based meal preparation scene",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical aspect ratio for mobile cooking apps and social media stories focusing on meal preparation action.",
+    "positive_prompt": "Vertical overhead view of kitchen counter with fresh vegetables bell peppers leafy greens tomatoes, herbs in bowls, wooden cutting board, hands preparing plant-based meal, neutral kitchen surface, no faces, no branded tools or packaging, bright natural light",
+    "negative_prompt": "logos, brands, text, watermarks, faces, people, public figures, editorial scenes, branded kitchen tools or packaging",
+    "technical_specs": "Bright natural lighting, vertical framing, detailed focus on food and hands, neutral background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical overhead view of kitchen counter with fresh vegetables bell peppers leafy greens tomatoes, herbs in bowls, wooden cutting board, hands preparing plant-based meal, neutral kitchen surface, no faces, no branded tools or packaging, bright natural light"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is commercially useful for food and cooking-related content.",
+    "The composition is visually coherent with a clear overhead view of fresh vegetables and hands preparing food.",
+    "No faces, brands, logos, or watermarks are visible.",
+    "The lighting is bright and natural, enhancing the appeal of the ingredients.",
+    "The image matches the prompt description well."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 95
+}

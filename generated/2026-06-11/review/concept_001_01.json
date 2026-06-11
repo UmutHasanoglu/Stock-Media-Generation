@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image matches the prompt description of a modern minimalist home office workspace.",
+    "No logos, brands, or recognizable branded devices visible.",
+    "No people or faces present in the image.",
+    "Visually coherent and commercially useful for marketing or website backgrounds.",
+    "High detail, natural lighting, and neutral color palette as specified.",
+    "No visible text, watermarks, or editorial content."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

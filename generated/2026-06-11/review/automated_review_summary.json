@@ -1,0 +1,323 @@
+{
+  "generated_count": 20,
+  "approved_count": 14,
+  "rejected_count": 6,
+  "approved": [
+    "concept_001_01.jpg",
+    "concept_001_02.jpg",
+    "concept_001_03.jpg",
+    "concept_001_04.jpg",
+    "concept_002_01.jpg",
+    "concept_002_02.jpg",
+    "concept_004_01.jpg",
+    "concept_004_02.jpg",
+    "concept_004_03.jpg",
+    "concept_004_04.jpg",
+    "concept_005_01.jpg",
+    "concept_005_02.jpg",
+    "concept_005_03.jpg",
+    "concept_005_04.jpg"
+  ],
+  "rejected": [
+    "concept_002_03.jpg",
+    "concept_002_04.jpg",
+    "concept_003_01.jpg",
+    "concept_003_02.jpg",
+    "concept_003_03.jpg",
+    "concept_003_04.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "concept_001_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_001_01.json",
+      "reasons": [
+        "Image matches the prompt description of a modern minimalist home office workspace.",
+        "No logos, brands, or recognizable branded devices visible.",
+        "No people or faces present in the image.",
+        "Visually coherent and commercially useful for marketing or website backgrounds.",
+        "High detail, natural lighting, and neutral color palette as specified.",
+        "No visible text, watermarks, or editorial content."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_001_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_001_02.json",
+      "reasons": [
+        "The image depicts a bright minimalist home office workspace with a wooden desk and chair, matching the concept description.",
+        "The laptop screen is blank, avoiding any brand or logo visibility.",
+        "There are potted green plants and minimal decor such as a notebook and pen, consistent with the prompt.",
+        "Natural sunlight is visible through the window, contributing to a clean and airy atmosphere.",
+        "No logos, brands, watermarks, people, or editorial elements are present.",
+        "The composition is visually coherent and commercially useful for illustrating modern minimalist workspaces."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_001_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_001_03.json",
+      "reasons": [
+        "The image depicts a modern minimalist home office workspace as requested.",
+        "No visible brands, logos, or trademarks are present.",
+        "No people or faces are shown.",
+        "The laptop screen is blank, avoiding brand recognition.",
+        "The composition is visually coherent and commercially useful for social media or product showcase.",
+        "Lighting is balanced with minimal shadows and crisp details.",
+        "The image matches the prompt's neutral color palette and minimal decor."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_001_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_001_04.json",
+      "reasons": [
+        "Image depicts a modern minimalist home office workspace as described in the prompt.",
+        "No logos, brands, or recognizable branded devices are visible.",
+        "No people or faces are present in the image.",
+        "The composition is clean, uncluttered, and visually coherent.",
+        "The lighting is soft and natural, creating a bright and airy atmosphere.",
+        "The image is suitable for commercial use and matches the vertical 9:16 aspect ratio requirement."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_002_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_002_01.json",
+      "reasons": [
+        "The image visually represents a zero-waste kitchen essentials setup as requested.",
+        "No visible brands, logos, or text are present in the image.",
+        "No people or faces are visible, maintaining commercial suitability.",
+        "The rustic countertop and warm natural lighting match the technical specifications.",
+        "The image is visually coherent, with clear focus and high detail on materials.",
+        "The composition fits the 4:3 aspect ratio and is suitable for eco-friendly blog or packaging use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_002_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_002_02.json",
+      "reasons": [
+        "The image visually represents a zero-waste kitchen essentials setup as described in the prompt.",
+        "No visible logos, brands, text, watermarks, or people are present.",
+        "The composition is coherent and commercially useful for promoting zero-waste lifestyle products.",
+        "The lighting is warm and natural, enhancing the cozy atmosphere.",
+        "The image is free from AI artifacts or distortions."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_002_03.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-11/review/concept_002_03.json",
+      "reasons": [
+        "Image contains readable text on jars and bags",
+        "Text on jars and bags may be considered as branding or labeling",
+        "Presence of text violates the no text requirement in the negative prompt"
+      ],
+      "issues": [
+        "Readable text: LENTILS, OATS, RICE, VEGETABLES, WALNUTS"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept_002_04.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-11/review/concept_002_04.json",
+      "reasons": [
+        "Image contains readable text on jars",
+        "Text on jars may be considered as branding or labeling"
+      ],
+      "issues": [
+        "Readable text: 'oats', 'brown rice', 'lentils', 'beans' visible on jars"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept_003_01.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-11/review/concept_003_01.json",
+      "reasons": [
+        "Contains readable text on the interface",
+        "Contains recognizable UI elements and icons that resemble real device controls"
+      ],
+      "issues": [
+        "The interface includes text labels such as 'Lighting', 'Temperature', 'Security', and 'Entertainment'.",
+        "The temperature display shows '72°F Set To' which is readable text.",
+        "The security section includes a floor plan and camera icons that resemble real security system interfaces.",
+        "The entertainment section includes recognizable media control icons."
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept_003_02.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-11/review/concept_003_02.json",
+      "reasons": [
+        "Contains readable text on the interface",
+        "Includes recognizable UI icons with text labels",
+        "Presence of a human hand interacting with the interface"
+      ],
+      "issues": [
+        "Text labels 'Lighting', 'Temperature', 'Security', 'Entertainment' are clearly readable",
+        "Human hand visible, which may be considered a real person element",
+        "UI icons are recognizable and labeled, which may limit commercial use in some contexts"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept_003_03.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-11/review/concept_003_03.json",
+      "reasons": [
+        "Contains readable text on the interface",
+        "Contains recognizable UI elements with text labels",
+        "Text presence violates the negative prompt requirement"
+      ],
+      "issues": [
+        "Readable text: '75% | Brightness', 'Temp: 22°C | Climate', 'SECURED | Alarm Active', 'Now Playing | Media' visible on the interface"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept_003_04.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-11/review/concept_003_04.json",
+      "reasons": [
+        "Contains readable text",
+        "Contains recognizable interface elements",
+        "Not fully aligned with the negative prompt requirements"
+      ],
+      "issues": [
+        "The image shows readable text such as time, date, room names, temperature, alarm status, and music playing information.",
+        "The interface design is very specific and recognizable as a smart home control panel, which may limit commercial use as a generic conceptual image.",
+        "The presence of detailed UI elements and text conflicts with the negative prompt instruction to avoid recognizable interfaces and text."
+      ],
+      "confidence_0_to_100": 90
+    },
+    {
+      "filename": "concept_004_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_004_01.json",
+      "reasons": [
+        "The image depicts a serene indoor meditation corner with yoga mat, cushions, lit candles, incense holder with smoke, and green leafy plants as described in the prompt.",
+        "No people, faces, religious symbols, logos, brands, or watermarks are present.",
+        "The composition is calm and balanced with soft warm natural daylight and neutral colors.",
+        "High detail on textures and gentle smoke effects are visible, matching the technical specifications.",
+        "The image is commercially useful for wellness blogs, spa advertising, and mindfulness-related content."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_004_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_004_02.json",
+      "reasons": [
+        "The image depicts a calm meditation space with yoga mat, cushions, lit candles, incense smoke, and indoor plants as described in the prompt.",
+        "No people, faces, religious symbols, logos, brands, or watermarks are present.",
+        "The composition is visually coherent and suitable for commercial use in wellness marketing or meditation app backgrounds.",
+        "The lighting is warm and natural with soft shadows, and the smoke effect is detailed and realistic.",
+        "The image matches the requested wide 16:9 aspect ratio and neutral tones."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_004_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_004_03.json",
+      "reasons": [
+        "The image depicts a peaceful meditation space with cushions, a yoga mat, lit candles, incense with visible smoke, and green plants as described in the prompt.",
+        "No people, faces, religious symbols, logos, or watermarks are present.",
+        "The composition is clean, visually coherent, and suitable for commercial use in wellness or meditation contexts.",
+        "The lighting is soft and natural, enhancing the calm and warm atmosphere.",
+        "No technical or visual artifacts are detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_004_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_004_04.json",
+      "reasons": [
+        "The image depicts a calm meditation space with yoga cushions, lit candles, incense smoke, and indoor plants as described in the prompt.",
+        "No people, faces, logos, brands, watermarks, or religious symbols are present.",
+        "The composition is visually coherent, warm, and inviting, suitable for commercial use in wellness or meditation contexts.",
+        "The vertical aspect ratio fits the intended use for mobile wellness content and meditation app backgrounds.",
+        "No obvious AI artifacts or distortions are present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_005_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_005_01.json",
+      "reasons": [
+        "Image depicts a colorful plant-based meal preparation scene as requested.",
+        "No faces or identifiable persons are visible.",
+        "No logos, brands, or watermarks present.",
+        "The image is visually coherent and well-lit with natural bright lighting.",
+        "The kitchen tools and ingredients are generic and unbranded.",
+        "The composition fits the wide 16:9 aspect ratio suitable for promotional or blog use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_005_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_005_02.json",
+      "reasons": [
+        "The image is a clear, high-quality top view of a kitchen counter with fresh vegetables and herbs, matching the prompt.",
+        "No faces or identifiable people are visible; only hands are shown, which is acceptable.",
+        "No visible logos, brands, watermarks, or text in the image.",
+        "The composition is clean and visually coherent with natural lighting and soft shadows.",
+        "The image is commercially useful for food blogs, cookbooks, or plant-based meal preparation content."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept_005_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_005_03.json",
+      "reasons": [
+        "The image is commercially useful for food and cooking-related content.",
+        "The composition is visually coherent with a clear overhead view of fresh vegetables and hands preparing food.",
+        "No faces, brands, logos, or watermarks are visible.",
+        "The lighting is bright and natural, enhancing the appeal of the ingredients.",
+        "The image matches the prompt description well."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept_005_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-11/review/concept_005_04.json",
+      "reasons": [
+        "The image is commercially useful for cooking and food preparation content.",
+        "The image is visually coherent with a clear overhead view of fresh vegetables and meal preparation.",
+        "No faces, brands, logos, or watermarks are present.",
+        "The image matches the prompt description well, showing hands preparing a plant-based meal with fresh ingredients.",
+        "The lighting is bright and natural, and the background is neutral."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    }
+  ]
+}

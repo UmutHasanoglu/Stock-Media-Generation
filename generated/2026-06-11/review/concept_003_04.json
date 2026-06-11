@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains readable text",
+    "Contains recognizable interface elements",
+    "Not fully aligned with the negative prompt requirements"
+  ],
+  "issues": [
+    "The image shows readable text such as time, date, room names, temperature, alarm status, and music playing information.",
+    "The interface design is very specific and recognizable as a smart home control panel, which may limit commercial use as a generic conceptual image.",
+    "The presence of detailed UI elements and text conflicts with the negative prompt instruction to avoid recognizable interfaces and text."
+  ],
+  "confidence_0_to_100": 90
+}

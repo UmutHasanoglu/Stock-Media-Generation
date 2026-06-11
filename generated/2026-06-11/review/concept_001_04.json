@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image depicts a modern minimalist home office workspace as described in the prompt.",
+    "No logos, brands, or recognizable branded devices are visible.",
+    "No people or faces are present in the image.",
+    "The composition is clean, uncluttered, and visually coherent.",
+    "The lighting is soft and natural, creating a bright and airy atmosphere.",
+    "The image is suitable for commercial use and matches the vertical 9:16 aspect ratio requirement."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}
