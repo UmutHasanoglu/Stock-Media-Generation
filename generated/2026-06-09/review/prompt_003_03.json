@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image aspect ratio does not match the requested 1:1 square format",
+    "Image contains identifiable artwork that may be copyrighted"
+  ],
+  "issues": [
+    "Aspect ratio is approximately 4:3 or similar, not square",
+    "Abstract wall art is detailed and identifiable, potentially copyrighted"
+  ],
+  "confidence_0_to_100": 95
+}

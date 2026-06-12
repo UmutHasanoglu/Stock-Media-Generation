@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains readable text on the interface",
+    "Includes recognizable UI icons with text labels",
+    "Presence of a human hand interacting with the interface"
+  ],
+  "issues": [
+    "Text labels 'Lighting', 'Temperature', 'Security', 'Entertainment' are clearly readable",
+    "Human hand visible, which may be considered a real person element",
+    "UI icons are recognizable and labeled, which may limit commercial use in some contexts"
+  ],
+  "confidence_0_to_100": 95
+}

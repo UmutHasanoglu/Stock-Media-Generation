@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains readable text on the interface",
+    "Contains recognizable UI elements with text labels",
+    "Text presence violates the negative prompt requirement"
+  ],
+  "issues": [
+    "Readable text: '75% | Brightness', 'Temp: 22°C | Climate', 'SECURED | Alarm Active', 'Now Playing | Media' visible on the interface"
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "The tablet screen displays a user interface with readable text, which is not allowed.",
+    "The image contains branded or trademarked interface elements on the tablet screen."
+  ],
+  "issues": [
+    "Readable text on tablet screen",
+    "Potential brand or trademark on tablet interface"
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image depicts a modern living room with smart home technology as described in the prompt.",
+    "No visible brand logos, text, or watermarks present.",
+    "No real persons or public figures in the image.",
+    "Image is visually coherent, sharp, and well-lit with a clean and minimalistic design.",
+    "Aspect ratio is wide (16:9) suitable for tech blog hero images and product ads."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 95
+}

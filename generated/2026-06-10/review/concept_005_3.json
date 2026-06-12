@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Visible text on the smart home control panel",
+    "Presence of a real person's hand"
+  ],
+  "issues": [
+    "The image contains readable text on the control panel, which may include brand or UI elements.",
+    "The image shows a real person's hand, which is considered a person representation."
+  ],
+  "confidence_0_to_100": 95
+}

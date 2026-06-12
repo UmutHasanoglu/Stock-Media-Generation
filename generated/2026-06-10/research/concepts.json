@@ -1,0 +1,106 @@
+[
+  {
+    "id": "concept_001",
+    "trend_signal": "Remote work hybrid models and digital nomad lifestyle growth",
+    "topic": "Modern remote work setup",
+    "stock_safe_concept": "Minimalist home office with laptop, ergonomic chair, potted plants, and natural light",
+    "buyer_use_cases": [
+      "Website hero images for productivity tools",
+      "Blog posts about remote work tips",
+      "Corporate presentations on hybrid work"
+    ],
+    "visual_elements": [
+      "Laptop on wooden desk",
+      "Ergonomic office chair",
+      "Indoor plants",
+      "Soft natural daylight",
+      "Neutral, calming color palette"
+    ],
+    "risk_notes": "No identifiable faces, no visible brand logos on devices or furniture",
+    "score_0_to_100": 92,
+    "score_reason": "Highly relevant to ongoing remote work trends, broad appeal across multiple commercial sectors, minimal risk of copyright or editorial issues."
+  },
+  {
+    "id": "concept_002",
+    "trend_signal": "Sustainability and eco-conscious consumer behavior",
+    "topic": "Zero waste lifestyle essentials",
+    "stock_safe_concept": "Flat lay of reusable household items like bamboo toothbrush, metal straws, cloth bags, and glass jars on natural fabric background",
+    "buyer_use_cases": [
+      "Eco-brand product promotions",
+      "Educational content on reducing plastic waste",
+      "Sustainability blogs and social media posts"
+    ],
+    "visual_elements": [
+      "Bamboo toothbrush",
+      "Metal straws",
+      "Reusable cloth bags",
+      "Glass jars with food",
+      "Natural linen fabric background"
+    ],
+    "risk_notes": "No branded packaging or logos, generic product designs only",
+    "score_0_to_100": 88,
+    "score_reason": "Strong alignment with growing eco-friendly consumer movement, versatile use cases, low risk if products are generic."
+  },
+  {
+    "id": "concept_003",
+    "trend_signal": "Health and wellness focus with home fitness rise",
+    "topic": "At-home yoga and meditation corner",
+    "stock_safe_concept": "Serene yoga mat setup with cushions, candles, small indoor plants, and a water bottle in a cozy living room corner",
+    "buyer_use_cases": [
+      "Wellness app marketing",
+      "Fitness blogs and newsletters",
+      "Interior design for wellness spaces"
+    ],
+    "visual_elements": [
+      "Yoga mat",
+      "Meditation cushions",
+      "Candles and incense holders",
+      "Indoor plants",
+      "Soft natural lighting"
+    ],
+    "risk_notes": "No people or faces, no branded items on props",
+    "score_0_to_100": 90,
+    "score_reason": "Well-targeted to booming wellness industry, calming visuals with broad commercial appeal, safe from copyright or editorial complications."
+  },
+  {
+    "id": "concept_004",
+    "trend_signal": "Rise of plant-based diets and healthy eating habits",
+    "topic": "Colorful plant-based meal prep",
+    "stock_safe_concept": "Top view of a vibrant bowl with quinoa, roasted vegetables, avocado slices, and leafy greens on a rustic table",
+    "buyer_use_cases": [
+      "Healthy food recipe blogs",
+      "Plant-based food brand advertising",
+      "Nutrition and lifestyle magazines"
+    ],
+    "visual_elements": [
+      "Quinoa bowl",
+      "Roasted vegetables",
+      "Avocado slices",
+      "Leafy greens",
+      "Rustic wooden table"
+    ],
+    "risk_notes": "No visible branded ingredients or packaging, no copyrighted dish presentations",
+    "score_0_to_100": 91,
+    "score_reason": "Highly popular dietary trend, colorful and appealing imagery suitable for multiple buyers, low risk when ingredients are generic."
+  },
+  {
+    "id": "concept_005",
+    "trend_signal": "Tech-driven smart home adoption",
+    "topic": "Smart home automation interface",
+    "stock_safe_concept": "Close-up of a hand interacting with a generic smart home touchscreen panel controlling lights and temperature",
+    "buyer_use_cases": [
+      "Smart home product websites",
+      "Technology blogs and brochures",
+      "Home automation service marketing"
+    ],
+    "visual_elements": [
+      "Touchscreen panel with generic UI",
+      "Hand interacting with controls",
+      "Modern home interior background blurred",
+      "Neutral color scheme"
+    ],
+    "risk_notes": "No real brand logos on device, UI must be original and free from trademarked icons",
+    "score_0_to_100": 85,
+    "score_reason": "Growing smart home market relevance, good commercial use potential, moderate risk mitigated by generic UI design."
+  }
+]

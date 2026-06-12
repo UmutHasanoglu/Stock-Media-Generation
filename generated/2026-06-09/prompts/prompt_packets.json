@@ -1,0 +1,382 @@
+[
+  {
+    "id": "prompt_001_01",
+    "concept_id": "concept_001",
+    "topic": "Home Office Ergonomics",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Widescreen format best captures the full minimalistic home office setup including desk, chair, and window with natural light for broad commercial use.",
+    "positive_prompt": "Minimalistic home office setup with modern ergonomic chair, clean desk, laptop on desk, indoor potted plants, neutral color palette, natural sunlight streaming through large window, bright and airy atmosphere, no people, no logos, no brands, no text, no watermarks, no public figures, generic and stylized furniture",
+    "negative_prompt": "real persons, identifiable brands, logos, text, watermarks, editorial scenes, public figures, cluttered desk, poor lighting, outdated furniture",
+    "technical_specs": "4K resolution, high detail, realistic lighting, soft shadows, natural color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a widescreen image of a minimalistic home office with ergonomic furniture, featuring a clean desk, adjustable chair, laptop, potted plants, and natural sunlight through a window. Ensure no people, brands, logos, or text are visible. The style should be generic and stylized with a neutral color palette."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_001_02",
+    "concept_id": "concept_001",
+    "topic": "Home Office Ergonomics",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for blog articles and corporate presentations focusing on ergonomics and productivity.",
+    "positive_prompt": "Minimalistic home office interior featuring ergonomic chair, clean desk with laptop, indoor plants, natural sunlight through window, neutral colors, bright and inviting, no real persons, no brand logos, no text, no watermarks, generic and stylized elements",
+    "negative_prompt": "people, branded items, logos, text overlays, watermarks, editorial content, public figures, cluttered environment",
+    "technical_specs": "4K quality, crisp details, soft natural lighting, balanced composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a 4:3 image of a minimalistic home office setup with ergonomic furniture, including a laptop on a clean desk, indoor plants, and natural light. No people, logos, brands, or text are allowed. Style should be clean, generic, and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_001_03",
+    "concept_id": "concept_001",
+    "topic": "Home Office Ergonomics",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media posts about work-life balance and remote work productivity.",
+    "positive_prompt": "Minimalistic home office corner with ergonomic chair, clean desk, laptop, potted plants, natural light from window, neutral tones, bright and airy, no people, no logos or brands, no text, no watermarks, generic and stylized objects",
+    "negative_prompt": "real persons, identifiable brands, logos, text, watermarks, editorial scenes, public figures, cluttered desks",
+    "technical_specs": "4K resolution, high detail, soft natural lighting, balanced composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a square image of a minimalistic home office setup with ergonomic furniture, including a laptop on a clean desk, indoor plants, and natural sunlight. Exclude any people, logos, brands, or text. Style should be generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_001_04",
+    "concept_id": "concept_001",
+    "topic": "Home Office Ergonomics",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Traditional photographic ratio good for e-commerce and corporate wellness presentations showcasing ergonomic office furniture.",
+    "positive_prompt": "Minimalistic home office setup with ergonomic adjustable chair, clean desk with laptop, indoor plants, natural sunlight coming through window, neutral color palette, bright, no real people, no logos, no brands, no text, no watermarks, generic, stylized furniture and objects",
+    "negative_prompt": "people, logos, branded items, text overlays, watermarks, editorial imagery, public figures, cluttered spaces",
+    "technical_specs": "4K resolution, realistic lighting, soft shadows, natural color tones, high detail",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Produce a 3:2 ratio image of a minimalistic home office featuring ergonomic furniture, a laptop on a clean desk, indoor plants, and natural sunlight. No people, brands, logos, or text. The style should be generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_002_01",
+    "concept_id": "concept_002",
+    "topic": "Zero Waste Kitchen",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Widescreen composition effectively showcases a broad zero waste kitchen scene with multiple elements for sustainability blogs and ads.",
+    "positive_prompt": "Stylized zero waste kitchen scene with glass jars filled with dry goods, cloth produce bags, wooden cutting board with fresh vegetables, compost bin with food scraps, natural wood and linen textures, bright natural light, no people, no brands, no logos, no text, no watermarks, generic kitchen items",
+    "negative_prompt": "people, branded packaging, logos, text, watermarks, editorial scenes, public figures, cluttered or dirty kitchen",
+    "technical_specs": "4K resolution, high detail, soft natural lighting, warm tones, clean and bright",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a widescreen image of a stylized zero waste kitchen featuring reusable glass jars, cloth produce bags, fresh vegetables on wooden cutting board, compost bin with food scraps, and natural textures like wood and linen. Exclude people, brands, logos, and text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_002_02",
+    "concept_id": "concept_002",
+    "topic": "Zero Waste Kitchen",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio suitable for eco-friendly product packaging and educational materials focused on waste reduction.",
+    "positive_prompt": "Zero waste kitchen interior with glass jars of dry goods, cloth bags for produce, wooden cutting board with fresh vegetables, compost bin with food scraps, natural wood and linen textures, bright and clean atmosphere, no people, no brand logos, no text, no watermarks, generic and stylized kitchen items",
+    "negative_prompt": "people, branded products, logos, text, watermarks, editorial content, public figures, clutter",
+    "technical_specs": "4K quality, crisp details, natural warm lighting, balanced composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a 4:3 image of a zero waste kitchen scene with glass jars, cloth produce bags, fresh vegetables on wooden cutting board, and a compost bin. No people, logos, brands, or text allowed. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_002_03",
+    "concept_id": "concept_002",
+    "topic": "Zero Waste Kitchen",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media content promoting sustainability and eco-friendly kitchen goods.",
+    "positive_prompt": "Stylized zero waste kitchen corner with glass jars containing dry goods, cloth produce bags, fresh vegetables on wooden cutting board, compost bin with food scraps, natural textures such as wood and linen, bright natural lighting, no people, no logos, no brands, no text, no watermarks, generic kitchen items",
+    "negative_prompt": "people, branded packaging, logos, text, watermarks, editorial scenes, public figures, cluttered environment",
+    "technical_specs": "4K resolution, high detail, soft natural lighting, warm and inviting tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Produce a square image of a zero waste kitchen scene with glass jars, cloth bags, fresh vegetables on wooden cutting board, and compost bin. No people, logos, brands, or text. Style should be generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_002_04",
+    "concept_id": "concept_002",
+    "topic": "Zero Waste Kitchen",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Traditional photographic ratio ideal for sustainability blogs, websites and advertisements for eco-friendly kitchen products.",
+    "positive_prompt": "Zero waste kitchen scene featuring glass jars with dry goods, cloth produce bags, wooden cutting board with fresh vegetables, compost bin with food scraps, natural wood and linen textures, bright natural sunlight, no people, no brands, no logos, no text, no watermarks, generic and stylized elements",
+    "negative_prompt": "people, branded items, logos, text, watermarks, editorial imagery, public figures, clutter",
+    "technical_specs": "4K resolution, realistic lighting, soft shadows, warm natural color palette, high detail",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a 3:2 image of a zero waste kitchen with reusable containers like glass jars and cloth bags, fresh vegetables on wooden cutting board, and a compost bin. Exclude people, logos, brands, and text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_003_01",
+    "concept_id": "concept_003",
+    "topic": "Meditation and Mindfulness Space",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Widescreen format effectively conveys a cozy indoor meditation corner for wellness app backgrounds and spa marketing.",
+    "positive_prompt": "Cozy indoor meditation corner with soft cushions, lit candles and incense, abstract wall art, indoor plants, soft warm natural lighting, calm and inviting atmosphere, no people, no logos, no brands, no text, no watermarks, abstract and stylized decor",
+    "negative_prompt": "real persons, identifiable art, logos, text, watermarks, editorial scenes, public figures, cluttered space",
+    "technical_specs": "4K resolution, warm soft lighting, high detail, realistic shadows, natural color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a widescreen image of a cozy indoor meditation space with cushions, lit candles and incense, abstract wall art, indoor plants, and soft warm natural light. No people, logos, brands, or text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_003_02",
+    "concept_id": "concept_003",
+    "topic": "Meditation and Mindfulness Space",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio suitable for mindfulness blog headers and wellness marketing materials.",
+    "positive_prompt": "Indoor meditation corner featuring cushions, lit candles and incense sticks, abstract wall art, indoor plants, soft warm lighting, calm and inviting mood, no real people, no logos, no brands, no text, no watermarks, generic and stylized elements",
+    "negative_prompt": "people, branded art, logos, text, watermarks, editorial content, public figures, clutter",
+    "technical_specs": "4K quality, gentle natural lighting, high detail, balanced composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Produce a 4:3 image of a cozy meditation space with cushions, candles, incense, abstract art, and plants under soft warm light. Exclude people, logos, brands, and text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_003_03",
+    "concept_id": "concept_003",
+    "topic": "Meditation and Mindfulness Space",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media content promoting mental health and mindfulness.",
+    "positive_prompt": "Cozy meditation corner with soft cushions, lit candles and incense, abstract wall art, indoor plants, soft warm natural light, peaceful and serene atmosphere, no people, no logos, no brands, no text, no watermarks, abstract and stylized decor",
+    "negative_prompt": "real persons, identifiable artwork, logos, text, watermarks, editorial scenes, public figures, clutter",
+    "technical_specs": "4K resolution, warm soft lighting, high detail, natural color palette",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a square image of a meditation space with cushions, candles, incense, abstract wall art, and plants under soft warm light. No people, logos, brands, or text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_003_04",
+    "concept_id": "concept_003",
+    "topic": "Meditation and Mindfulness Space",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Traditional photographic ratio ideal for spa and wellness center marketing and app backgrounds.",
+    "positive_prompt": "Meditation corner with soft cushions, lit candles and incense, abstract art on walls, indoor plants, soft warm natural lighting, serene atmosphere, no people, no brands, no logos, no text, no watermarks, generic and stylized elements",
+    "negative_prompt": "people, branded artwork, logos, text, watermarks, editorial imagery, public figures, clutter",
+    "technical_specs": "4K resolution, realistic lighting, soft shadows, warm colors, high detail",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a 3:2 image of a cozy meditation corner with cushions, candles, incense, abstract art, and indoor plants illuminated by warm natural light. Exclude people, logos, brands, and text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_004_01",
+    "concept_id": "concept_004",
+    "topic": "Smart Home Automation Interface",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Widescreen aspect ratio suits tech blogs and product advertising showcasing modern digital interfaces.",
+    "positive_prompt": "Abstract digital smart home control dashboard displayed on tablet screen, featuring generic icons for lights, thermostat, security lock, and music note, clean modern UI style, blue and white color scheme, no real UI elements, no brands, no logos, no text, no watermarks, futuristic and stylized design",
+    "negative_prompt": "real UI screenshots, branded icons, logos, text, watermarks, real people, editorial scenes, public figures",
+    "technical_specs": "4K resolution, high detail, crisp lines, modern digital aesthetic, soft glow effects",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a widescreen image of an abstract smart home automation dashboard on a tablet, with generic icons for lights, thermostat, security, and music. Use a clean blue and white UI style without any real UI or brand elements. No logos, text, or watermarks."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_004_02",
+    "concept_id": "concept_004",
+    "topic": "Smart Home Automation Interface",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio appropriate for corporate presentations and IoT articles requiring clear interface visuals.",
+    "positive_prompt": "Digital tablet showing abstract smart home control interface with generic icons for lighting, thermostat, lock, and music, clean and modern UI design, blue and white color palette, no real UI screenshots, no brands, no logos, no text, no watermarks, stylized and futuristic look",
+    "negative_prompt": "real UI screens, branded icons, logos, text, watermarks, real people, editorial content, public figures",
+    "technical_specs": "4K quality, sharp details, crisp lines, modern digital style, soft lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a 4:3 image of an abstract smart home automation interface on a tablet with generic icons for lights, thermostat, security, and music. Use a clean blue and white color scheme with no real UI or brand elements. Exclude logos, text, and watermarks."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_004_03",
+    "concept_id": "concept_004",
+    "topic": "Smart Home Automation Interface",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media posts and app UI design showcases in the smart home tech niche.",
+    "positive_prompt": "Abstract smart home digital control dashboard on tablet screen with generic icons for lighting, thermostat, lock, and music note, clean and modern UI style, blue and white colors, no real UI elements, no brands, no logos, no text, no watermarks, futuristic and stylized design",
+    "negative_prompt": "real UI screenshots, branded icons, logos, text, watermarks, real people, editorial imagery, public figures",
+    "technical_specs": "4K resolution, sharp and clean lines, modern digital aesthetic, soft glow lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Produce a square image showing an abstract smart home automation interface on a tablet with generic icons for lights, thermostat, security, and music. Use a clean blue and white UI style without real UI or brand elements. No logos, text, or watermarks."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_004_04",
+    "concept_id": "concept_004",
+    "topic": "Smart Home Automation Interface",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Traditional photographic ratio ideal for tech advertising and corporate IoT presentations requiring clear interface displays.",
+    "positive_prompt": "Tablet displaying abstract smart home automation dashboard with generic icons for lights, thermostat, lock, and music note, clean modern UI design, blue and white color scheme, no real UI or brand elements, no logos, no text, no watermarks, futuristic stylized interface",
+    "negative_prompt": "real UI screenshots, branded icons, logos, text, watermarks, real persons, editorial scenes, public figures",
+    "technical_specs": "4K resolution, crisp details, clean lines, modern digital style, soft lighting effects",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a 3:2 image of an abstract smart home dashboard on a tablet featuring generic icons for lighting, thermostat, security, and music. Use a clean blue and white UI style without real UI or brand elements. No logos, text, or watermarks."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_005_01",
+    "concept_id": "concept_005",
+    "topic": "Vibrant Plant-Based Meal Preparation",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Widescreen format best showcases an abundant top-down view of colorful plant-based ingredients and dishes for food blogs and marketing.",
+    "positive_prompt": "Top-down view of vibrant plant-based meal preparation on rustic wooden table, assorted fresh vegetables including tomatoes, leafy greens, bell peppers, grains in bowls, fresh herbs scattered, bright natural lighting, no people, no branded packaging, no logos, no text, no watermarks, generic and stylized food ingredients and dishes",
+    "negative_prompt": "people, branded food packaging, logos, text, watermarks, editorial scenes, public figures, cluttered or dirty table",
+    "technical_specs": "4K resolution, vivid colors, sharp details, natural lighting, warm rustic tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Create a widescreen image showing a top-down view of colorful plant-based meal preparation on a rustic wooden table with fresh vegetables, grains in bowls, and fresh herbs. Exclude people, logos, brands, and text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_005_02",
+    "concept_id": "concept_005",
+    "topic": "Vibrant Plant-Based Meal Preparation",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio ideal for food blogs, recipe books, and healthy lifestyle marketing materials.",
+    "positive_prompt": "Top-down view of colorful plant-based ingredients and dishes on rustic wooden table, fresh vegetables such as tomatoes, leafy greens, bell peppers, grains in bowls, fresh herbs, bright natural light, no people, no brands, no logos, no text, no watermarks, generic and stylized food items",
+    "negative_prompt": "people, branded food packaging, logos, text, watermarks, editorial content, public figures, clutter",
+    "technical_specs": "4K quality, sharp details, vivid natural colors, warm lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a 4:3 image showing a top-down view of colorful plant-based meal ingredients and dishes on a rustic wooden table, including fresh vegetables, grains, and herbs. No people, logos, brands, or text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_005_03",
+    "concept_id": "concept_005",
+    "topic": "Vibrant Plant-Based Meal Preparation",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media food content and meal kit service promotions.",
+    "positive_prompt": "Top-down view of vibrant plant-based ingredients and dishes on rustic wooden table, assorted fresh vegetables like tomatoes, leafy greens, bell peppers, grains in bowls, fresh herbs, bright natural lighting, no people, no brands, no logos, no text, no watermarks, generic and stylized food presentation",
+    "negative_prompt": "people, branded food packaging, logos, text, watermarks, editorial scenes, public figures, cluttered table",
+    "technical_specs": "4K resolution, vivid colors, sharp detail, natural warm lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Produce a square image showing a top-down view of colorful plant-based meal preparation on a rustic wooden table with fresh vegetables, grains, and herbs. Exclude people, logos, brands, and text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prompt_005_04",
+    "concept_id": "concept_005",
+    "topic": "Vibrant Plant-Based Meal Preparation",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Traditional photographic ratio suitable for healthy lifestyle marketing and food service promotions.",
+    "positive_prompt": "Top-down view of colorful plant-based meal preparation on rustic wooden table, fresh vegetables including tomatoes, leafy greens, bell peppers, bowls of grains, fresh herbs, bright natural sunlight, no people, no brands, no logos, no text, no watermarks, generic and stylized food items",
+    "negative_prompt": "people, branded food packaging, logos, text, watermarks, editorial imagery, public figures, cluttered environment",
+    "technical_specs": "4K resolution, sharp realistic details, vivid natural colors, warm and inviting lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Generate a 3:2 image showing top-down vibrant plant-based meal preparation on a rustic wooden table with fresh vegetables, grains, and herbs. No people, logos, brands, or text. Style generic and stylized."
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains readable text on the interface",
+    "Contains recognizable UI elements and icons that resemble real device controls"
+  ],
+  "issues": [
+    "The interface includes text labels such as 'Lighting', 'Temperature', 'Security', and 'Entertainment'.",
+    "The temperature display shows '72°F Set To' which is readable text.",
+    "The security section includes a floor plan and camera icons that resemble real security system interfaces.",
+    "The entertainment section includes recognizable media control icons."
+  ],
+  "confidence_0_to_100": 95
+}

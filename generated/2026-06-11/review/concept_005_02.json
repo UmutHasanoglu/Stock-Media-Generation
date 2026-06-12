@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is a clear, high-quality top view of a kitchen counter with fresh vegetables and herbs, matching the prompt.",
+    "No faces or identifiable people are visible; only hands are shown, which is acceptable.",
+    "No visible logos, brands, watermarks, or text in the image.",
+    "The composition is clean and visually coherent with natural lighting and soft shadows.",
+    "The image is commercially useful for food blogs, cookbooks, or plant-based meal preparation content."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

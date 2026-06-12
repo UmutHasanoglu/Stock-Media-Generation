@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on the tablet screen",
+    "Image contains a visible brand-like interface on the tablet screen"
+  ],
+  "issues": [
+    "Readable text on device screen",
+    "Potential brand/interface visible on device screen"
+  ],
+  "confidence_0_to_100": 95
+}

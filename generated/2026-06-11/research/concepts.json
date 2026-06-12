@@ -1,0 +1,106 @@
+[
+  {
+    "id": "concept_001",
+    "trend_signal": "Rise in remote work and home office setups",
+    "topic": "Modern minimalist home office workspace",
+    "stock_safe_concept": "A clean, bright home office setup featuring a sleek desk, laptop, potted plants, and natural light from a window, styled with neutral tones and minimal decor.",
+    "buyer_use_cases": [
+      "Blog or article illustrations about remote work",
+      "Website backgrounds for productivity apps",
+      "Marketing materials for office furniture brands"
+    ],
+    "visual_elements": [
+      "Wooden desk",
+      "Laptop with blank screen",
+      "Green indoor plants",
+      "Sunlight through window",
+      "Minimalist decor items like notebook and pen"
+    ],
+    "risk_notes": "No identifiable logos or branded devices visible; no people included to avoid likeness issues.",
+    "score_0_to_100": 92,
+    "score_reason": "Highly relevant to current remote work trends, versatile use cases, visually appealing and safe for commercial use."
+  },
+  {
+    "id": "concept_002",
+    "trend_signal": "Growing interest in sustainable living and eco-conscious lifestyle",
+    "topic": "Zero-waste kitchen essentials set-up",
+    "stock_safe_concept": "A collection of zero-waste kitchen items arranged on a clean countertop: reusable glass jars, bamboo utensils, beeswax wraps, and cloth produce bags, with a rustic backdrop.",
+    "buyer_use_cases": [
+      "Sustainability-focused blogs and websites",
+      "Eco-friendly product packaging design",
+      "Social media posts promoting zero-waste lifestyle"
+    ],
+    "visual_elements": [
+      "Glass jars with food items",
+      "Bamboo cutlery",
+      "Cloth bags with vegetables",
+      "Beeswax wraps",
+      "Natural fiber towels"
+    ],
+    "risk_notes": "No brand labels on any products; no people or copyrighted packaging designs.",
+    "score_0_to_100": 88,
+    "score_reason": "Strong alignment with sustainability trend, niche but growing buyer interest, low risk of copyright infringement."
+  },
+  {
+    "id": "concept_003",
+    "trend_signal": "Tech innovation and AI integration in daily life",
+    "topic": "Futuristic smart home control interface",
+    "stock_safe_concept": "Abstract digital visualization of a smart home control panel with icons for lighting, temperature, security, and entertainment, displayed on a transparent touchscreen device in a modern living room environment.",
+    "buyer_use_cases": [
+      "Tech company marketing materials",
+      "UI/UX design presentations",
+      "Educational content on smart homes and IoT"
+    ],
+    "visual_elements": [
+      "Transparent touchscreen device",
+      "Minimalistic UI icons",
+      "Blurred modern living room background",
+      "Blue and white neon light accents"
+    ],
+    "risk_notes": "No real devices or brand interfaces shown; fully digital and conceptual art style to avoid copyright issues.",
+    "score_0_to_100": 90,
+    "score_reason": "Meets tech trends with futuristic appeal, broad commercial use potential, and no identifiable branding."
+  },
+  {
+    "id": "concept_004",
+    "trend_signal": "Health and wellness focus post-pandemic",
+    "topic": "Calm meditation and mindfulness space",
+    "stock_safe_concept": "A serene indoor corner designed for meditation featuring a yoga mat, cushions, candles, incense holder, and indoor plants with soft natural lighting and neutral colors.",
+    "buyer_use_cases": [
+      "Wellness and mindfulness blogs",
+      "Spa and health center advertising",
+      "Mobile app backgrounds for meditation apps"
+    ],
+    "visual_elements": [
+      "Yoga mat and meditation cushions",
+      "Lit candles",
+      "Incense holder with smoke",
+      "Green leafy plants",
+      "Warm soft daylight"
+    ],
+    "risk_notes": "No people or religious symbols; generic wellness props only.",
+    "score_0_to_100": 85,
+    "score_reason": "Strong relevance to wellness and mental health trends, safe and peaceful imagery with wide commercial appeal."
+  },
+  {
+    "id": "concept_005",
+    "trend_signal": "Increased interest in plant-based cooking and healthy eating",
+    "topic": "Colorful plant-based meal preparation scene",
+    "stock_safe_concept": "Overhead view of a kitchen counter with fresh vegetables, grains, and herbs arranged around a cutting board with hands preparing a plant-based meal, no visible faces or identifying features.",
+    "buyer_use_cases": [
+      "Recipe books and food blogs",
+      "Healthy lifestyle marketing campaigns",
+      "Cooking app promotional images"
+    ],
+    "visual_elements": [
+      "Fresh vegetables (bell peppers, leafy greens, tomatoes)",
+      "Herbs in small bowls",
+      "Wooden cutting board",
+      "Hands chopping vegetables",
+      "Neutral kitchen counter surface"
+    ],
+    "risk_notes": "No faces or identifiable people; no branded kitchen tools or product packaging.",
+    "score_0_to_100": 89,
+    "score_reason": "Aligns with health food and plant-based diet trends, very versatile for food-related commercial projects, and low risk of editorial or copyright constraints."
+  }
+]

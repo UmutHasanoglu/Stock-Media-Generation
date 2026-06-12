@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image depicts a clean, minimalist home office setup with a laptop on a wooden desk and an ergonomic chair, matching the prompt.",
+    "There are several indoor potted plants and soft natural daylight coming through the window, consistent with the positive prompt.",
+    "No identifiable faces, people, logos, text, or watermarks are present.",
+    "The image is visually coherent, commercially useful, and suitable for corporate presentations or website hero images.",
+    "The aspect ratio is 16:9 as requested, providing a wide, cinematic framing.",
+    "The lighting is natural and soft, with balanced color tones and sharp focus on key elements."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

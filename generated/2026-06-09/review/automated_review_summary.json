@@ -1,0 +1,321 @@
+{
+  "generated_count": 20,
+  "approved_count": 17,
+  "rejected_count": 3,
+  "approved": [
+    "prompt_001_01.jpg",
+    "prompt_001_02.jpg",
+    "prompt_001_03.jpg",
+    "prompt_001_04.jpg",
+    "prompt_002_01.jpg",
+    "prompt_002_03.jpg",
+    "prompt_002_04.jpg",
+    "prompt_003_01.jpg",
+    "prompt_003_02.jpg",
+    "prompt_003_04.jpg",
+    "prompt_004_01.jpg",
+    "prompt_004_03.jpg",
+    "prompt_004_04.jpg",
+    "prompt_005_01.jpg",
+    "prompt_005_02.jpg",
+    "prompt_005_03.jpg",
+    "prompt_005_04.jpg"
+  ],
+  "rejected": [
+    "prompt_002_02.jpg",
+    "prompt_003_03.jpg",
+    "prompt_004_02.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "prompt_001_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_001_01.json",
+      "reasons": [
+        "The image depicts a minimalistic home office setup with ergonomic furniture as requested.",
+        "No people, brands, logos, or text are visible in the image.",
+        "The lighting is natural and bright, with sunlight streaming through the window.",
+        "The furniture and decor are generic and stylized with a neutral color palette.",
+        "The image is visually coherent, commercially useful, and suitable for Adobe Stock."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_001_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_001_02.json",
+      "reasons": [
+        "The image depicts a minimalistic home office setup with ergonomic furniture, including an office chair and a clean desk with a laptop.",
+        "There are indoor plants and natural sunlight coming through the window, matching the positive prompt.",
+        "No people, logos, brands, or text are present in the image.",
+        "The composition is balanced and visually coherent with neutral colors and a bright, inviting atmosphere.",
+        "The image is suitable for commercial use and aligns well with the concept of home office ergonomics."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_001_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_001_03.json",
+      "reasons": [
+        "Image depicts a minimalistic home office setup with ergonomic furniture as requested.",
+        "No real persons, logos, brands, or text are present in the image.",
+        "The composition is visually coherent, bright, and airy with natural light.",
+        "The image is suitable for commercial use and aligns well with the prompt and concept.",
+        "No visible AI artifacts or distortions detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_001_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_001_04.json",
+      "reasons": [
+        "The image depicts a minimalistic home office setup with ergonomic furniture including an adjustable chair.",
+        "The desk is clean with a laptop, keyboard, mouse, and a coffee mug, fitting the prompt requirements.",
+        "Indoor plants and natural sunlight through the window are present, enhancing the aesthetic and matching the concept.",
+        "No real people, logos, brands, text, or watermarks are visible.",
+        "The image is visually coherent, commercially useful, and suitable for Adobe Stock.",
+        "The aspect ratio is close to the requested 3:2 ratio.",
+        "Lighting and color tones appear natural and realistic."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_002_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_002_01.json",
+      "reasons": [
+        "The image visually represents a zero waste kitchen with reusable glass jars, cloth produce bags, fresh vegetables, and a compost bin as requested.",
+        "No people, brands, logos, or text are present in the image.",
+        "The composition is clean, bright, and stylistically consistent with the prompt.",
+        "The image is commercially useful for sustainability blogs and advertisements.",
+        "No visible AI artifacts or distortions are present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_002_02.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-09/review/prompt_002_02.json",
+      "reasons": [
+        "Image contains readable text on labels of jars",
+        "Image includes branded or labeled products which are not generic"
+      ],
+      "issues": [
+        "Readable text: 'LENTILS', 'OATS', 'RICE', 'PASTA', 'COFFEE', 'CHICKPEAS' on jars",
+        "Labels on jars are considered branded or identifiable product design"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_002_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_002_03.json",
+      "reasons": [
+        "Image depicts a zero waste kitchen scene with glass jars containing dry goods, cloth produce bags, fresh vegetables on a wooden cutting board, and a compost bin with food scraps, matching the prompt.",
+        "No people, logos, brands, or text are present in the image.",
+        "The image is visually coherent, well-lit with natural lighting, and has warm, inviting tones.",
+        "The composition is suitable for commercial use and social media content promoting sustainability.",
+        "No obvious AI artifacts or distortions are present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_002_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_002_04.json",
+      "reasons": [
+        "Image depicts a zero waste kitchen scene with reusable containers such as glass jars and cloth bags.",
+        "Fresh vegetables on a wooden cutting board are clearly visible, matching the prompt.",
+        "Compost bin with food scraps is present, supporting the zero waste theme.",
+        "No people, brands, logos, or text are visible in the image.",
+        "The image is visually coherent, well-lit with natural sunlight, and uses a warm natural color palette.",
+        "The aspect ratio is approximately 3:2, suitable for sustainability blogs and eco-friendly product advertisements.",
+        "No obvious AI artifacts or distortions are present.",
+        "The image is commercially useful and non-editorial."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_003_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_003_01.json",
+      "reasons": [
+        "The image depicts a cozy indoor meditation space with cushions, lit candles, incense, abstract wall art, and indoor plants as requested.",
+        "No people, logos, brands, or text are present in the image.",
+        "The image is visually coherent, well-lit with soft warm natural lighting, and suitable for commercial use such as wellness app backgrounds or spa marketing.",
+        "The image is free of editorial framing, watermarks, or any obvious AI artifacts."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_003_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_003_02.json",
+      "reasons": [
+        "Image depicts a cozy meditation space with cushions, candles, incense sticks, abstract wall art, and indoor plants as requested.",
+        "No real people, logos, brands, text, or watermarks present.",
+        "The composition is balanced and visually coherent with soft warm lighting.",
+        "Image quality appears high with good detail and natural lighting.",
+        "Aspect ratio is close to 4:3 and suitable for the intended use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_003_03.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-09/review/prompt_003_03.json",
+      "reasons": [
+        "Image aspect ratio does not match the requested 1:1 square format",
+        "Image contains identifiable artwork that may be copyrighted"
+      ],
+      "issues": [
+        "Aspect ratio is approximately 4:3 or similar, not square",
+        "Abstract wall art is detailed and identifiable, potentially copyrighted"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_003_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_003_04.json",
+      "reasons": [
+        "Image depicts a cozy meditation corner with cushions, candles, incense, abstract art, and indoor plants as requested.",
+        "No people, brands, logos, or text are present in the image.",
+        "The image is visually coherent, well-lit with warm natural lighting, and suitable for commercial use.",
+        "No visible AI artifacts or distortions are present.",
+        "The aspect ratio is close to the requested 3:2 and the image quality appears high resolution."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_004_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_004_01.json",
+      "reasons": [
+        "The image visually represents a smart home automation interface on a tablet as requested.",
+        "The icons for lights, thermostat, security lock, and music note are generic and non-branded.",
+        "The UI style is clean, modern, and uses a blue and white color scheme consistent with the prompt.",
+        "No real UI elements, logos, text, watermarks, or brand identifiers are present.",
+        "The image is visually coherent, high quality, and suitable for commercial use in tech blogs or product advertising."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_004_02.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-09/review/prompt_004_02.json",
+      "reasons": [
+        "Contains readable text on the interface",
+        "Contains UI elements that resemble real UI screenshots",
+        "Includes brand-like interface design elements"
+      ],
+      "issues": [
+        "The interface has visible text labels such as 'Lighting', 'Thermostat', 'Lock', and 'Music'.",
+        "The thermostat display shows a numeric temperature reading '72°', which resembles a real UI element.",
+        "The lock section has toggle buttons labeled 'Secure' and 'Unlock', which are text-based UI controls.",
+        "The music section includes playback controls with recognizable icons and a slider, resembling real UI."
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_004_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_004_03.json",
+      "reasons": [
+        "Image depicts an abstract smart home automation interface on a tablet as requested.",
+        "Icons for lighting, thermostat, security (lock), and music are generic and non-branded.",
+        "No real UI elements, logos, text, or watermarks are present.",
+        "The color scheme is clean blue and white, matching the prompt.",
+        "Image is visually coherent, modern, and suitable for commercial use.",
+        "No real people, editorial content, or trademarked elements detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_004_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_004_04.json",
+      "reasons": [
+        "The image visually represents an abstract smart home automation interface on a tablet as requested.",
+        "The UI design is clean, modern, and uses a blue and white color scheme without any real brand elements or logos.",
+        "No text, watermarks, or real UI screenshots are present.",
+        "The image is commercially useful for tech advertising and corporate IoT presentations.",
+        "The image is visually coherent and free of AI artifacts or distortions."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "prompt_005_01.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_005_01.json",
+      "reasons": [
+        "The image shows a top-down view of vibrant plant-based meal preparation on a rustic wooden table.",
+        "Contains assorted fresh vegetables, grains in bowls, and fresh herbs as requested.",
+        "No people, branded packaging, logos, text, or watermarks are present.",
+        "The image is visually coherent, colorful, and suitable for commercial use in food blogs and marketing.",
+        "The aspect ratio is widescreen (16:9) as specified.",
+        "The image quality is high with sharp details and natural lighting."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_005_02.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_005_02.json",
+      "reasons": [
+        "The image is a top-down view of colorful plant-based ingredients and dishes on a rustic wooden table, matching the prompt.",
+        "No people, brands, logos, or text are present in the image.",
+        "The image is visually coherent and commercially useful for food blogs, recipe books, and healthy lifestyle marketing.",
+        "The image quality is high with sharp details, vivid natural colors, and warm lighting.",
+        "No AI artifacts or distortions are visible."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_005_03.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_005_03.json",
+      "reasons": [
+        "Image is commercially useful for food and meal kit promotions.",
+        "No people, brands, logos, or text present.",
+        "Visually coherent and vibrant with natural warm lighting.",
+        "Square format suitable for social media use.",
+        "No AI artifacts or distortions detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "prompt_005_04.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-09/review/prompt_005_04.json",
+      "reasons": [
+        "The image is commercially useful for healthy lifestyle and food service promotions.",
+        "The image is visually coherent with a rustic wooden table and fresh plant-based ingredients.",
+        "No people, brands, logos, text, or watermarks are present.",
+        "The image matches the requested 3:2 aspect ratio and top-down composition.",
+        "The colors are vivid and natural with warm, inviting lighting.",
+        "No obvious AI artifacts or distortions are present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    }
+  ]
+}

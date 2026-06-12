@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on jars and bags",
+    "Text on jars and bags may be considered as branding or labeling",
+    "Presence of text violates the no text requirement in the negative prompt"
+  ],
+  "issues": [
+    "Readable text: LENTILS, OATS, RICE, VEGETABLES, WALNUTS"
+  ],
+  "confidence_0_to_100": 95
+}

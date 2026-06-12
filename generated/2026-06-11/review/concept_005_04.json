@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is commercially useful for cooking and food preparation content.",
+    "The image is visually coherent with a clear overhead view of fresh vegetables and meal preparation.",
+    "No faces, brands, logos, or watermarks are present.",
+    "The image matches the prompt description well, showing hands preparing a plant-based meal with fresh ingredients.",
+    "The lighting is bright and natural, and the background is neutral."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

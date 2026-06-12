@@ -1,0 +1,382 @@
+[
+  {
+    "id": "001-1",
+    "concept_id": "001",
+    "topic": "Modern home office workspace",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Ideal for website hero images and blog headers requiring wide composition.",
+    "positive_prompt": "A clean, minimalist home office setup on a wooden desk featuring a laptop, notebook, coffee cup, and a green potted plant, bathed in soft natural light from a nearby window, neutral tones, no logos, no brands, no text, no people, bright and airy atmosphere",
+    "negative_prompt": "No identifiable persons, no brand logos, no watermarks, no text overlay, no clutter, no editorial or news elements, no public figures",
+    "technical_specs": "High resolution, sharp focus, natural lighting, neutral color palette, minimal shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "A clean, minimalist home office setup on a wooden desk featuring a laptop, notebook, coffee cup, and a green potted plant, bathed in soft natural light from a nearby window, neutral tones, no logos, no brands, no text, no people, bright and airy atmosphere"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "001-2",
+    "concept_id": "001",
+    "topic": "Modern home office workspace",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Suitable for blog post images and online articles focusing on productivity and remote work.",
+    "positive_prompt": "Minimalist home office workspace with wooden desk, laptop, open notebook, ceramic coffee cup, green potted plant, soft natural daylight illuminating the scene, neutral and warm tones, no identifiable brands or logos, no text, no people",
+    "negative_prompt": "Exclude logos, brand names, watermarks, text, real persons, editorial content, or identifiable public figures",
+    "technical_specs": "Crisp details, balanced exposure, natural shadows, clean composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist home office workspace with wooden desk, laptop, open notebook, ceramic coffee cup, green potted plant, soft natural daylight illuminating the scene, neutral and warm tones, no identifiable brands or logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "001-3",
+    "concept_id": "001",
+    "topic": "Modern home office workspace",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Perfect for social media posts and square format ads related to remote work and productivity.",
+    "positive_prompt": "Square frame of a tidy home office desk featuring a laptop, notebook, coffee cup, and green potted plant, natural light streaming through a window, neutral color palette, clean and minimalist, no logos, no brands, no text, no people present",
+    "negative_prompt": "No watermarks, no brand logos, no text, no real people, no editorial or news scenes, no public figures",
+    "technical_specs": "Sharp image, natural lighting, subtle shadows, warm neutral tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square frame of a tidy home office desk featuring a laptop, notebook, coffee cup, and green potted plant, natural light streaming through a window, neutral color palette, clean and minimalist, no logos, no brands, no text, no people present"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "001-4",
+    "concept_id": "001",
+    "topic": "Modern home office workspace",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Optimized for vertical smartphone screens and stories highlighting remote work setups.",
+    "positive_prompt": "Vertical view of a minimalist home workspace with wooden desk, laptop, notebook, coffee cup and green potted plant near a window with natural light, neutral colors, bright and clean, no brand logos, no text, no people",
+    "negative_prompt": "Exclude logos, brands, watermarks, text, identifiable persons, editorial or news content, public figures",
+    "technical_specs": "High resolution, well-lit, natural shadows, clean background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical view of a minimalist home workspace with wooden desk, laptop, notebook, coffee cup and green potted plant near a window with natural light, neutral colors, bright and clean, no brand logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "002-1",
+    "concept_id": "002",
+    "topic": "Eco-friendly lifestyle products",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format ideal for blog banners and packaging design presentations.",
+    "positive_prompt": "Flat lay of eco-friendly reusable items including stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags arranged on a natural fiber textured background, soft natural light, no branding or logos, no text, no people",
+    "negative_prompt": "No brand logos, no text, no watermarks, no identifiable persons, no editorial or news scenes, no public figures",
+    "technical_specs": "High detail, natural lighting, organic textures emphasized, neutral color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Flat lay of eco-friendly reusable items including stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags arranged on a natural fiber textured background, soft natural light, no branding or logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "002-2",
+    "concept_id": "002",
+    "topic": "Eco-friendly lifestyle products",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Well suited for social media posts and educational content images.",
+    "positive_prompt": "Overhead view of reusable eco-friendly items like bamboo toothbrush, stainless steel water bottle, cloth shopping bag, organic cotton produce bags on a natural fiber surface, soft diffuse natural light, no branding, no logos, no text, no people",
+    "negative_prompt": "Exclude logos, brand names, watermarks, real persons, editorial content, text overlays, public figures",
+    "technical_specs": "Clear focus, natural textures, warm neutral colors, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Overhead view of reusable eco-friendly items like bamboo toothbrush, stainless steel water bottle, cloth shopping bag, organic cotton produce bags on a natural fiber surface, soft diffuse natural light, no branding, no logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "002-3",
+    "concept_id": "002",
+    "topic": "Eco-friendly lifestyle products",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media marketing and product detail posts.",
+    "positive_prompt": "Square flat lay of sustainable lifestyle items including bamboo toothbrush, stainless steel water bottle, cloth shopping bag and organic cotton produce bags on a natural fiber backdrop, soft natural light, no logos, no brands, no text, no people",
+    "negative_prompt": "No watermarks, no brand logos, no text, no real persons, no editorial or news scenes, no public figures",
+    "technical_specs": "Sharp focus, natural materials textures, warm lighting, neutral colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square flat lay of sustainable lifestyle items including bamboo toothbrush, stainless steel water bottle, cloth shopping bag and organic cotton produce bags on a natural fiber backdrop, soft natural light, no logos, no brands, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "002-4",
+    "concept_id": "002",
+    "topic": "Eco-friendly lifestyle products",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format for stories and mobile-focused eco-conscious lifestyle content.",
+    "positive_prompt": "Vertical flat lay of eco-friendly reusable products featuring stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags on natural fiber background with soft natural lighting, no brand marks, no logos, no text, no people",
+    "negative_prompt": "Exclude logos, brands, watermarks, text overlays, real persons, editorial or news content, public figures",
+    "technical_specs": "High resolution, natural materials emphasized, warm and soft lighting, clean composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical flat lay of eco-friendly reusable products featuring stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags on natural fiber background with soft natural lighting, no brand marks, no logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "003-1",
+    "concept_id": "003",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format perfect for recipe website hero images and food blog banners.",
+    "positive_prompt": "Overhead shot of vibrant plant-based meal prep with glass containers filled with fresh vegetables, grains, legumes and herbs arranged neatly on a kitchen counter, bright natural lighting, colorful and fresh, no brands or packaging, no text, no people",
+    "negative_prompt": "No brand packaging, no logos, no watermarks, no text overlays, no people, no editorial or news scenes, no public figures",
+    "technical_specs": "Bright exposure, sharp details, natural colors, clean kitchen background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Overhead shot of vibrant plant-based meal prep with glass containers filled with fresh vegetables, grains, legumes and herbs arranged neatly on a kitchen counter, bright natural lighting, colorful and fresh, no brands or packaging, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "003-2",
+    "concept_id": "003",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Good for blog content and social media posts focused on healthy eating.",
+    "positive_prompt": "Top view of colorful plant-based meal prep setup with glass containers holding fresh vegetables, grains, legumes, and fresh herbs on a clean kitchen counter, bright natural light, no visible packaging or branding, no text, no people",
+    "negative_prompt": "Exclude brand logos, packaging, watermarks, text overlays, real persons, editorial or news content, public figures",
+    "technical_specs": "High clarity, vibrant colors, natural lighting, minimal shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Top view of colorful plant-based meal prep setup with glass containers holding fresh vegetables, grains, legumes, and fresh herbs on a clean kitchen counter, bright natural light, no visible packaging or branding, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "003-3",
+    "concept_id": "003",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for Instagram and health-focused social media posts.",
+    "positive_prompt": "Square overhead shot of vibrant plant-based meal prep with glass containers filled with fresh veggies, grains, legumes and herbs on a kitchen counter, bright daylight, no branded packaging, no logos, no text, no people",
+    "negative_prompt": "No watermarks, logos, brand packaging, text overlays, real persons, editorial or news scenes, public figures",
+    "technical_specs": "Sharp focus, bright and natural colors, clean composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square overhead shot of vibrant plant-based meal prep with glass containers filled with fresh veggies, grains, legumes and herbs on a kitchen counter, bright daylight, no branded packaging, no logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "003-4",
+    "concept_id": "003",
+    "topic": "Colorful plant-based meal prep",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format tailored for mobile food blogs and stories about healthy eating.",
+    "positive_prompt": "Vertical overhead view of colorful plant-based meal prep with glass containers containing fresh vegetables, grains, legumes and herbs on kitchen counter, bright natural light, no branding, no text, no people",
+    "negative_prompt": "Exclude logos, brand names, watermarks, text, real persons, editorial content, public figures",
+    "technical_specs": "High resolution, natural lighting, vivid colors, clean background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical overhead view of colorful plant-based meal prep with glass containers containing fresh vegetables, grains, legumes and herbs on kitchen counter, bright natural light, no branding, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "004-1",
+    "concept_id": "004",
+    "topic": "Calm meditation space at home",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide layout suitable for wellness blog headers and meditation app landing pages.",
+    "positive_prompt": "Minimalist meditation corner with a soft meditation cushion, small indoor green plant, lit candles, and soft natural window light creating a peaceful and calming atmosphere, neutral and soothing color palette, no people, no personal items, no branding",
+    "negative_prompt": "No real people, no logos, no text, no watermarks, no editorial or news content, no public figures",
+    "technical_specs": "Soft lighting, warm neutral tones, sharp details, tranquil mood",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Minimalist meditation corner with a soft meditation cushion, small indoor green plant, lit candles, and soft natural window light creating a peaceful and calming atmosphere, neutral and soothing color palette, no people, no personal items, no branding"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "004-2",
+    "concept_id": "004",
+    "topic": "Calm meditation space at home",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Good for blog posts and wellness social media content focusing on mindfulness.",
+    "positive_prompt": "Serene home meditation corner featuring a meditation cushion, small indoor plant, candles softly glowing, illuminated by gentle natural light from a nearby window, neutral calming colors, no people, no text, no brands",
+    "negative_prompt": "Exclude logos, trademarks, text, watermarks, real persons, editorial or news scenes, public figures",
+    "technical_specs": "Soft focus, warm natural lighting, minimalistic composition, peaceful ambiance",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Serene home meditation corner featuring a meditation cushion, small indoor plant, candles softly glowing, illuminated by gentle natural light from a nearby window, neutral calming colors, no people, no text, no brands"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "004-3",
+    "concept_id": "004",
+    "topic": "Calm meditation space at home",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media posts and mindfulness app imagery.",
+    "positive_prompt": "Square view of a minimalist meditation nook with a comfortable meditation cushion, small indoor plant, lit candles, and soft natural window light, calming neutral tones, no logos, no text, no people present",
+    "negative_prompt": "No watermarks, no brands, no text overlays, no identifiable persons, no editorial or news content, no public figures",
+    "technical_specs": "Even lighting, warm colors, soft shadows, clean and simple composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square view of a minimalist meditation nook with a comfortable meditation cushion, small indoor plant, lit candles, and soft natural window light, calming neutral tones, no logos, no text, no people present"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "004-4",
+    "concept_id": "004",
+    "topic": "Calm meditation space at home",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format optimized for mobile wellness content and stories.",
+    "positive_prompt": "Vertical composition of a peaceful meditation corner with a meditation cushion, small indoor green plant, candles softly lit, and gentle natural light from a window, neutral calming colors, no branding, no text, no people",
+    "negative_prompt": "No logos, brands, watermarks, text, real persons, editorial or news scenes, public figures",
+    "technical_specs": "High resolution, soft natural lighting, warm neutral palette, minimalistic style",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical composition of a peaceful meditation corner with a meditation cushion, small indoor green plant, candles softly lit, and gentle natural light from a window, neutral calming colors, no branding, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "005-1",
+    "concept_id": "005",
+    "topic": "Smart home technology in living room",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio perfect for tech blog hero images and smart home product ads.",
+    "positive_prompt": "Modern living room showcasing smart home technology including a generic smart speaker, tablet control panel on a coffee table, ambient smart lighting, contemporary furniture, clean design, no brand logos, no visible text, no people",
+    "negative_prompt": "No branded devices, no logos, no text, no watermarks, no real persons, no editorial or news content, no public figures",
+    "technical_specs": "Sharp focus, balanced lighting, clean minimalistic look, neutral color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern living room showcasing smart home technology including a generic smart speaker, tablet control panel on a coffee table, ambient smart lighting, contemporary furniture, clean design, no brand logos, no visible text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "005-2",
+    "concept_id": "005",
+    "topic": "Smart home technology in living room",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Good for in-article images and social media posts about home automation.",
+    "positive_prompt": "Contemporary living room with smart home devices such as a generic smart speaker, tablet on coffee table, ambient smart lighting highlighting modern furniture, clean and uncluttered, no branding or logos, no text, no people",
+    "negative_prompt": "Exclude brand logos, text overlays, watermarks, real persons, editorial or news scenes, public figures",
+    "technical_specs": "High resolution, soft ambient lighting, neutral color palette, clear details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Contemporary living room with smart home devices such as a generic smart speaker, tablet on coffee table, ambient smart lighting highlighting modern furniture, clean and uncluttered, no branding or logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "005-3",
+    "concept_id": "005",
+    "topic": "Smart home technology in living room",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format useful for social media posts and tech product ads.",
+    "positive_prompt": "Square image of modern living room featuring smart home technology including a generic smart speaker, tablet control panel, ambient smart lighting, contemporary furniture, clean design, no brand names, no logos, no text, no people",
+    "negative_prompt": "No watermarks, no text, no brand logos, no real persons, no editorial or news content, no public figures",
+    "technical_specs": "Sharp details, neutral tones, balanced lighting, minimalistic composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square image of modern living room featuring smart home technology including a generic smart speaker, tablet control panel, ambient smart lighting, contemporary furniture, clean design, no brand names, no logos, no text, no people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "005-4",
+    "concept_id": "005",
+    "topic": "Smart home technology in living room",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format optimized for mobile tech content and stories.",
+    "positive_prompt": "Vertical view of modern living room with smart home technology including a generic smart speaker, tablet on coffee table, ambient smart lighting, contemporary furniture, clean and minimalistic, no branding, no text, no people",
+    "negative_prompt": "Exclude logos, brands, watermarks, text overlays, real persons, editorial or news scenes, public figures",
+    "technical_specs": "High resolution, natural and ambient lighting, neutral colors, clean background",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical view of modern living room with smart home technology including a generic smart speaker, tablet on coffee table, ambient smart lighting, contemporary furniture, clean and minimalistic, no branding, no text, no people"
+          }
+        ]
+      }
+    }
+  }
+]
