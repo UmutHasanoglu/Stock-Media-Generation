@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains readable text on the interface ('AI-Generated Suggestions')",
+    "Includes recognizable product-like icons that may imply branding",
+    "The image is not strictly square format as requested"
+  ],
+  "issues": [
+    "Readable text present",
+    "Potential branding/product recognition",
+    "Aspect ratio mismatch"
+  ],
+  "confidence_0_to_100": 85
+}

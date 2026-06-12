@@ -1,379 +1,379 @@
 [
   {
-    "id": "001-1",
-    "concept_id": "001",
-    "topic": "Modern home office workspace",
+    "id": "packet-2026-06-12-001-1",
+    "concept_id": "concept-2026-06-12-001",
+    "topic": "AI-Enhanced Shopping Experience",
     "aspect_ratio": "16:9",
-    "aspect_ratio_reason": "Ideal for website hero images and blog headers requiring wide composition.",
-    "positive_prompt": "A clean, minimalist home office setup on a wooden desk featuring a laptop, notebook, coffee cup, and a green potted plant, bathed in soft natural light from a nearby window, neutral tones, no logos, no brands, no text, no people, bright and airy atmosphere",
-    "negative_prompt": "No identifiable persons, no brand logos, no watermarks, no text overlay, no clutter, no editorial or news elements, no public figures",
-    "technical_specs": "High resolution, sharp focus, natural lighting, neutral color palette, minimal shadows",
+    "aspect_ratio_reason": "Wide aspect ratio suits modern digital interfaces and retail environments, allowing clear display of multiple product options and AI recommendations.",
+    "positive_prompt": "A futuristic digital shopping interface with multiple product images and AI-generated recommendation panels, set in a sleek modern retail environment with clean lines and subtle lighting, abstract human interaction implied but no visible people, no logos, no text, high-tech ambiance, vibrant but balanced colors",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes, no public figures",
+    "technical_specs": "high resolution, sharp focus, balanced lighting, modern UI elements, no visible faces or identifiable human features",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "A clean, minimalist home office setup on a wooden desk featuring a laptop, notebook, coffee cup, and a green potted plant, bathed in soft natural light from a nearby window, neutral tones, no logos, no brands, no text, no people, bright and airy atmosphere"
+            "text": "A high-tech digital retail interface displaying product options and AI recommendations in a modern store setting without visible real people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "001-2",
-    "concept_id": "001",
-    "topic": "Modern home office workspace",
+    "id": "packet-2026-06-12-001-2",
+    "concept_id": "concept-2026-06-12-001",
+    "topic": "AI-Enhanced Shopping Experience",
     "aspect_ratio": "4:3",
-    "aspect_ratio_reason": "Suitable for blog post images and online articles focusing on productivity and remote work.",
-    "positive_prompt": "Minimalist home office workspace with wooden desk, laptop, open notebook, ceramic coffee cup, green potted plant, soft natural daylight illuminating the scene, neutral and warm tones, no identifiable brands or logos, no text, no people",
-    "negative_prompt": "Exclude logos, brand names, watermarks, text, real persons, editorial content, or identifiable public figures",
-    "technical_specs": "Crisp details, balanced exposure, natural shadows, clean composition",
+    "aspect_ratio_reason": "Classic aspect ratio emphasizes product details and interface elements, suitable for e-commerce and retail platform visuals.",
+    "positive_prompt": "Close-up of a sleek digital touchscreen displaying multiple product images and AI-generated recommendations, set against a modern retail background, no people visible, no branding, clean minimalist design, soft ambient lighting",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes, no public figures",
+    "technical_specs": "detailed UI elements, soft shadows, no reflections of faces or human shapes, clear product visuals without brand identifiers",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Minimalist home office workspace with wooden desk, laptop, open notebook, ceramic coffee cup, green potted plant, soft natural daylight illuminating the scene, neutral and warm tones, no identifiable brands or logos, no text, no people"
+            "text": "A close-up digital shopping interface showing AI recommendations and product images in a modern retail environment without people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "001-3",
-    "concept_id": "001",
-    "topic": "Modern home office workspace",
+    "id": "packet-2026-06-12-001-3",
+    "concept_id": "concept-2026-06-12-001",
+    "topic": "AI-Enhanced Shopping Experience",
     "aspect_ratio": "1:1",
-    "aspect_ratio_reason": "Perfect for social media posts and square format ads related to remote work and productivity.",
-    "positive_prompt": "Square frame of a tidy home office desk featuring a laptop, notebook, coffee cup, and green potted plant, natural light streaming through a window, neutral color palette, clean and minimalist, no logos, no brands, no text, no people present",
-    "negative_prompt": "No watermarks, no brand logos, no text, no real people, no editorial or news scenes, no public figures",
-    "technical_specs": "Sharp image, natural lighting, subtle shadows, warm neutral tones",
+    "aspect_ratio_reason": "Square format ideal for e-commerce platform thumbnails or social media posts highlighting AI shopping tools.",
+    "positive_prompt": "Square image of a futuristic digital product selection interface featuring AI-generated suggestions and product thumbnails, modern retail backdrop, abstract user interaction implied, no real people, no logos, no text",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes",
+    "technical_specs": "high clarity, UI focus, no human faces, balanced color palette, minimalistic modern design",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Square frame of a tidy home office desk featuring a laptop, notebook, coffee cup, and green potted plant, natural light streaming through a window, neutral color palette, clean and minimalist, no logos, no brands, no text, no people present"
+            "text": "Square format image of a modern digital shopping interface with AI recommendations in a retail setting without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "001-4",
-    "concept_id": "001",
-    "topic": "Modern home office workspace",
-    "aspect_ratio": "9:16",
-    "aspect_ratio_reason": "Optimized for vertical smartphone screens and stories highlighting remote work setups.",
-    "positive_prompt": "Vertical view of a minimalist home workspace with wooden desk, laptop, notebook, coffee cup and green potted plant near a window with natural light, neutral colors, bright and clean, no brand logos, no text, no people",
-    "negative_prompt": "Exclude logos, brands, watermarks, text, identifiable persons, editorial or news content, public figures",
-    "technical_specs": "High resolution, well-lit, natural shadows, clean background",
+    "id": "packet-2026-06-12-001-4",
+    "concept_id": "concept-2026-06-12-001",
+    "topic": "AI-Enhanced Shopping Experience",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Standard photographic ratio suitable for product catalogs and marketing materials showcasing AI shopping interfaces.",
+    "positive_prompt": "Modern retail environment with a digital interface showing product options and AI-generated recommendations, abstract human presence implied but no visible people, no logos or brand names, clean and bright atmosphere, contemporary design elements",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no identifiable products, no editorial or news imagery",
+    "technical_specs": "well-lit scene, sharp UI details, no reflections or shadows of faces, neutral color scheme",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Vertical view of a minimalist home workspace with wooden desk, laptop, notebook, coffee cup and green potted plant near a window with natural light, neutral colors, bright and clean, no brand logos, no text, no people"
+            "text": "A modern retail scene featuring a digital shopping interface with AI recommendations and product options without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "002-1",
-    "concept_id": "002",
-    "topic": "Eco-friendly lifestyle products",
+    "id": "packet-2026-06-12-002-1",
+    "concept_id": "concept-2026-06-12-002",
+    "topic": "Flexible Hybrid Meeting Space",
     "aspect_ratio": "16:9",
-    "aspect_ratio_reason": "Wide format ideal for blog banners and packaging design presentations.",
-    "positive_prompt": "Flat lay of eco-friendly reusable items including stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags arranged on a natural fiber textured background, soft natural light, no branding or logos, no text, no people",
-    "negative_prompt": "No brand logos, no text, no watermarks, no identifiable persons, no editorial or news scenes, no public figures",
-    "technical_specs": "High detail, natural lighting, organic textures emphasized, neutral color tones",
+    "aspect_ratio_reason": "Wide ratio effectively captures the spaciousness and multiple devices in a flexible hybrid meeting room setup.",
+    "positive_prompt": "A versatile modern meeting room with various electronic devices such as laptops, tablets, and large screens, AI-powered collaboration tools visible as abstract UI elements, flexible seating arrangements, no people, no logos, minimalist and professional design, neutral color palette",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no identifiable products, no editorial content",
+    "technical_specs": "high resolution, clear device details, soft ambient lighting, no reflections of human faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Flat lay of eco-friendly reusable items including stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags arranged on a natural fiber textured background, soft natural light, no branding or logos, no text, no people"
+            "text": "A modern hybrid meeting room equipped with multiple devices and AI collaboration tools, featuring flexible seating and no visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "002-2",
-    "concept_id": "002",
-    "topic": "Eco-friendly lifestyle products",
+    "id": "packet-2026-06-12-002-2",
+    "concept_id": "concept-2026-06-12-002",
+    "topic": "Flexible Hybrid Meeting Space",
     "aspect_ratio": "4:3",
-    "aspect_ratio_reason": "Well suited for social media posts and educational content images.",
-    "positive_prompt": "Overhead view of reusable eco-friendly items like bamboo toothbrush, stainless steel water bottle, cloth shopping bag, organic cotton produce bags on a natural fiber surface, soft diffuse natural light, no branding, no logos, no text, no people",
-    "negative_prompt": "Exclude logos, brand names, watermarks, real persons, editorial content, text overlays, public figures",
-    "technical_specs": "Clear focus, natural textures, warm neutral colors, soft shadows",
+    "aspect_ratio_reason": "Classic aspect ratio highlights meeting room details and device arrangement for corporate and marketing visuals.",
+    "positive_prompt": "Close-up of a meeting table featuring diverse devices including laptops, tablets, and interactive AI tools displayed on screens, flexible seating visible, modern and clean office setting, no people, no logos, no text",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no identifiable product logos, no editorial scenes",
+    "technical_specs": "sharp focus on devices and interfaces, balanced natural lighting, no reflections or shadows of faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Overhead view of reusable eco-friendly items like bamboo toothbrush, stainless steel water bottle, cloth shopping bag, organic cotton produce bags on a natural fiber surface, soft diffuse natural light, no branding, no logos, no text, no people"
+            "text": "Close-up image of a flexible hybrid meeting room table with various devices and AI tools, no visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "002-3",
-    "concept_id": "002",
-    "topic": "Eco-friendly lifestyle products",
+    "id": "packet-2026-06-12-002-3",
+    "concept_id": "concept-2026-06-12-002",
+    "topic": "Flexible Hybrid Meeting Space",
     "aspect_ratio": "1:1",
-    "aspect_ratio_reason": "Square format ideal for social media marketing and product detail posts.",
-    "positive_prompt": "Square flat lay of sustainable lifestyle items including bamboo toothbrush, stainless steel water bottle, cloth shopping bag and organic cotton produce bags on a natural fiber backdrop, soft natural light, no logos, no brands, no text, no people",
-    "negative_prompt": "No watermarks, no brand logos, no text, no real persons, no editorial or news scenes, no public figures",
-    "technical_specs": "Sharp focus, natural materials textures, warm lighting, neutral colors",
+    "aspect_ratio_reason": "Square format suitable for digital platforms and presentations focusing on meeting room technology and flexibility.",
+    "positive_prompt": "Square image of a modern meeting space with flexible seating, multiple devices like tablets and laptops displaying AI-powered collaboration interfaces, no visible people, no logos or branding, clean and bright interior",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no identifiable products, no editorial or news imagery",
+    "technical_specs": "high clarity, sharp UI details, neutral color tones, no reflections of human presence",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Square flat lay of sustainable lifestyle items including bamboo toothbrush, stainless steel water bottle, cloth shopping bag and organic cotton produce bags on a natural fiber backdrop, soft natural light, no logos, no brands, no text, no people"
+            "text": "Square image of a flexible hybrid meeting room featuring various devices and AI tools with no visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "002-4",
-    "concept_id": "002",
-    "topic": "Eco-friendly lifestyle products",
-    "aspect_ratio": "9:16",
-    "aspect_ratio_reason": "Vertical format for stories and mobile-focused eco-conscious lifestyle content.",
-    "positive_prompt": "Vertical flat lay of eco-friendly reusable products featuring stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags on natural fiber background with soft natural lighting, no brand marks, no logos, no text, no people",
-    "negative_prompt": "Exclude logos, brands, watermarks, text overlays, real persons, editorial or news content, public figures",
-    "technical_specs": "High resolution, natural materials emphasized, warm and soft lighting, clean composition",
+    "id": "packet-2026-06-12-002-4",
+    "concept_id": "concept-2026-06-12-002",
+    "topic": "Flexible Hybrid Meeting Space",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Standard photographic ratio ideal for brochures and promotional materials showcasing hybrid meeting environments.",
+    "positive_prompt": "Modern meeting room with flexible seating and a variety of devices showing AI-powered collaboration software, bright and professional environment, no people, no logos or brand names, minimalist design",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial content",
+    "technical_specs": "well-lit with soft shadows, detailed device interfaces, no reflections of faces or human features",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Vertical flat lay of eco-friendly reusable products featuring stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags on natural fiber background with soft natural lighting, no brand marks, no logos, no text, no people"
+            "text": "A modern hybrid meeting room with flexible seating and multiple devices featuring AI collaboration tools, without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "003-1",
-    "concept_id": "003",
-    "topic": "Colorful plant-based meal prep",
+    "id": "packet-2026-06-12-003-1",
+    "concept_id": "concept-2026-06-12-003",
+    "topic": "Personalized Product Selection",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio focuses on product details, ideal for showcasing customizable items and artisan craftsmanship.",
+    "positive_prompt": "A curated display of customizable products including monogrammed items and bespoke designs, showcasing unique color schemes and artisan craftsmanship, no people, no logos, no brand names, warm and inviting lighting",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable branded products, no editorial scenes",
+    "technical_specs": "high detail on product textures, soft warm lighting, no reflections of human presence",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "A curated display of customizable and monogrammed products highlighting individuality and craftsmanship without visible people or branding."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-12-003-2",
+    "concept_id": "concept-2026-06-12-003",
+    "topic": "Personalized Product Selection",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format perfect for e-commerce thumbnails or social media posts emphasizing personalized and bespoke products.",
+    "positive_prompt": "Square image of bespoke and customizable products with unique designs and color schemes arranged neatly, no people, no logos, no brand names, soft natural lighting emphasizing textures",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial content",
+    "technical_specs": "sharp focus on product details, balanced lighting, no reflections or shadows of human features",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square image showing customizable artisan products with unique designs, without visible people or branding."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-12-003-3",
+    "concept_id": "concept-2026-06-12-003",
+    "topic": "Personalized Product Selection",
     "aspect_ratio": "16:9",
-    "aspect_ratio_reason": "Wide format perfect for recipe website hero images and food blog banners.",
-    "positive_prompt": "Overhead shot of vibrant plant-based meal prep with glass containers filled with fresh vegetables, grains, legumes and herbs arranged neatly on a kitchen counter, bright natural lighting, colorful and fresh, no brands or packaging, no text, no people",
-    "negative_prompt": "No brand packaging, no logos, no watermarks, no text overlays, no people, no editorial or news scenes, no public figures",
-    "technical_specs": "Bright exposure, sharp details, natural colors, clean kitchen background",
+    "aspect_ratio_reason": "Wide format ideal for banner images and website headers showcasing personalized product collections.",
+    "positive_prompt": "Wide image of a modern display featuring customizable products with monograms and bespoke designs, highlighting individuality and artisan quality, no people, no logos, no brand names, bright and elegant retail setting",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable product branding, no editorial scenes",
+    "technical_specs": "high resolution, detailed textures, balanced bright lighting, no human faces or reflections",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Overhead shot of vibrant plant-based meal prep with glass containers filled with fresh vegetables, grains, legumes and herbs arranged neatly on a kitchen counter, bright natural lighting, colorful and fresh, no brands or packaging, no text, no people"
+            "text": "Wide format image of a display of personalized customizable products emphasizing artisan craftsmanship without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "003-2",
-    "concept_id": "003",
-    "topic": "Colorful plant-based meal prep",
-    "aspect_ratio": "4:3",
-    "aspect_ratio_reason": "Good for blog content and social media posts focused on healthy eating.",
-    "positive_prompt": "Top view of colorful plant-based meal prep setup with glass containers holding fresh vegetables, grains, legumes, and fresh herbs on a clean kitchen counter, bright natural light, no visible packaging or branding, no text, no people",
-    "negative_prompt": "Exclude brand logos, packaging, watermarks, text overlays, real persons, editorial or news content, public figures",
-    "technical_specs": "High clarity, vibrant colors, natural lighting, minimal shadows",
+    "id": "packet-2026-06-12-003-4",
+    "concept_id": "concept-2026-06-12-003",
+    "topic": "Personalized Product Selection",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Standard photographic ratio suitable for print catalogs and marketing materials focused on bespoke products.",
+    "positive_prompt": "Modern retail display of customizable products with unique designs and artisan details, warm inviting lighting, no visible people, no logos, no brand names, clean and elegant presentation",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no identifiable branded products, no editorial or news imagery",
+    "technical_specs": "soft shadows, high detail on product textures, no reflections of faces or human shapes",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Top view of colorful plant-based meal prep setup with glass containers holding fresh vegetables, grains, legumes, and fresh herbs on a clean kitchen counter, bright natural light, no visible packaging or branding, no text, no people"
+            "text": "Retail display of personalized and bespoke products highlighting craftsmanship without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "003-3",
-    "concept_id": "003",
-    "topic": "Colorful plant-based meal prep",
-    "aspect_ratio": "1:1",
-    "aspect_ratio_reason": "Square format ideal for Instagram and health-focused social media posts.",
-    "positive_prompt": "Square overhead shot of vibrant plant-based meal prep with glass containers filled with fresh veggies, grains, legumes and herbs on a kitchen counter, bright daylight, no branded packaging, no logos, no text, no people",
-    "negative_prompt": "No watermarks, logos, brand packaging, text overlays, real persons, editorial or news scenes, public figures",
-    "technical_specs": "Sharp focus, bright and natural colors, clean composition",
-    "nano_banana_payload": {
-      "contents": {
-        "parts": [
-          {
-            "text": "Square overhead shot of vibrant plant-based meal prep with glass containers filled with fresh veggies, grains, legumes and herbs on a kitchen counter, bright daylight, no branded packaging, no logos, no text, no people"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "003-4",
-    "concept_id": "003",
-    "topic": "Colorful plant-based meal prep",
-    "aspect_ratio": "9:16",
-    "aspect_ratio_reason": "Vertical format tailored for mobile food blogs and stories about healthy eating.",
-    "positive_prompt": "Vertical overhead view of colorful plant-based meal prep with glass containers containing fresh vegetables, grains, legumes and herbs on kitchen counter, bright natural light, no branding, no text, no people",
-    "negative_prompt": "Exclude logos, brand names, watermarks, text, real persons, editorial content, public figures",
-    "technical_specs": "High resolution, natural lighting, vivid colors, clean background",
-    "nano_banana_payload": {
-      "contents": {
-        "parts": [
-          {
-            "text": "Vertical overhead view of colorful plant-based meal prep with glass containers containing fresh vegetables, grains, legumes and herbs on kitchen counter, bright natural light, no branding, no text, no people"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "004-1",
-    "concept_id": "004",
-    "topic": "Calm meditation space at home",
+    "id": "packet-2026-06-12-004-1",
+    "concept_id": "concept-2026-06-12-004",
+    "topic": "Loyalty-Focused Retail Environment",
     "aspect_ratio": "16:9",
-    "aspect_ratio_reason": "Wide layout suitable for wellness blog headers and meditation app landing pages.",
-    "positive_prompt": "Minimalist meditation corner with a soft meditation cushion, small indoor green plant, lit candles, and soft natural window light creating a peaceful and calming atmosphere, neutral and soothing color palette, no people, no personal items, no branding",
-    "negative_prompt": "No real people, no logos, no text, no watermarks, no editorial or news content, no public figures",
-    "technical_specs": "Soft lighting, warm neutral tones, sharp details, tranquil mood",
+    "aspect_ratio_reason": "Wide format effectively captures the welcoming retail interior with organized displays and ambient lighting.",
+    "positive_prompt": "A warm and inviting retail store interior with neatly organized product displays, familiar yet generic branding elements, comfortable shopping environment with soft lighting, no real people, no logos or brand names, clean and spacious layout",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes",
+    "technical_specs": "high resolution, ambient warm lighting, sharp details on displays, no reflections or shadows of human faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Minimalist meditation corner with a soft meditation cushion, small indoor green plant, lit candles, and soft natural window light creating a peaceful and calming atmosphere, neutral and soothing color palette, no people, no personal items, no branding"
+            "text": "A welcoming retail store interior featuring organized displays and generic branding designed to enhance customer comfort without visible people or specific brands."
           }
         ]
       }
     }
   },
   {
-    "id": "004-2",
-    "concept_id": "004",
-    "topic": "Calm meditation space at home",
+    "id": "packet-2026-06-12-004-2",
+    "concept_id": "concept-2026-06-12-004",
+    "topic": "Loyalty-Focused Retail Environment",
     "aspect_ratio": "4:3",
-    "aspect_ratio_reason": "Good for blog posts and wellness social media content focusing on mindfulness.",
-    "positive_prompt": "Serene home meditation corner featuring a meditation cushion, small indoor plant, candles softly glowing, illuminated by gentle natural light from a nearby window, neutral calming colors, no people, no text, no brands",
-    "negative_prompt": "Exclude logos, trademarks, text, watermarks, real persons, editorial or news scenes, public figures",
-    "technical_specs": "Soft focus, warm natural lighting, minimalistic composition, peaceful ambiance",
+    "aspect_ratio_reason": "Classic ratio highlights product organization and store layout for marketing and retail design use.",
+    "positive_prompt": "Retail store interior with organized shelves and product displays, subtle generic branding elements, cozy and inviting atmosphere, no people visible, no logos or brand names, warm lighting",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable product branding, no editorial or news content",
+    "technical_specs": "detailed textures on shelving and products, soft shadows, no reflections of human faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Serene home meditation corner featuring a meditation cushion, small indoor plant, candles softly glowing, illuminated by gentle natural light from a nearby window, neutral calming colors, no people, no text, no brands"
+            "text": "Interior of a retail store focusing on organized product displays and generic branding without visible people or specific brands."
           }
         ]
       }
     }
   },
   {
-    "id": "004-3",
-    "concept_id": "004",
-    "topic": "Calm meditation space at home",
+    "id": "packet-2026-06-12-004-3",
+    "concept_id": "concept-2026-06-12-004",
+    "topic": "Loyalty-Focused Retail Environment",
     "aspect_ratio": "1:1",
-    "aspect_ratio_reason": "Square format ideal for social media posts and mindfulness app imagery.",
-    "positive_prompt": "Square view of a minimalist meditation nook with a comfortable meditation cushion, small indoor plant, lit candles, and soft natural window light, calming neutral tones, no logos, no text, no people present",
-    "negative_prompt": "No watermarks, no brands, no text overlays, no identifiable persons, no editorial or news content, no public figures",
-    "technical_specs": "Even lighting, warm colors, soft shadows, clean and simple composition",
+    "aspect_ratio_reason": "Square format suitable for social media posts and online marketing emphasizing customer comfort and loyalty.",
+    "positive_prompt": "Square image of a comfortable retail store interior with neatly arranged product displays and generic branding, warm and inviting lighting, no people, no logos, no brand names",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes",
+    "technical_specs": "sharp focus on displays, balanced warm lighting, no reflections or human shadows",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Square view of a minimalist meditation nook with a comfortable meditation cushion, small indoor plant, lit candles, and soft natural window light, calming neutral tones, no logos, no text, no people present"
+            "text": "A comfortable retail interior with organized displays and generic branding emphasizing customer loyalty without visible people or brands."
           }
         ]
       }
     }
   },
   {
-    "id": "004-4",
-    "concept_id": "004",
-    "topic": "Calm meditation space at home",
-    "aspect_ratio": "9:16",
-    "aspect_ratio_reason": "Vertical format optimized for mobile wellness content and stories.",
-    "positive_prompt": "Vertical composition of a peaceful meditation corner with a meditation cushion, small indoor green plant, candles softly lit, and gentle natural light from a window, neutral calming colors, no branding, no text, no people",
-    "negative_prompt": "No logos, brands, watermarks, text, real persons, editorial or news scenes, public figures",
-    "technical_specs": "High resolution, soft natural lighting, warm neutral palette, minimalistic style",
+    "id": "packet-2026-06-12-004-4",
+    "concept_id": "concept-2026-06-12-004",
+    "topic": "Loyalty-Focused Retail Environment",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Standard photographic ratio ideal for catalogs and promotional materials focused on retail loyalty environments.",
+    "positive_prompt": "Bright and inviting retail store interior with organized product displays and subtle generic branding elements, no real people, no logos or brand names, warm and welcoming atmosphere",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no identifiable branded products, no editorial or news imagery",
+    "technical_specs": "well-lit scene with soft shadows, clear details on displays, no human reflections or faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Vertical composition of a peaceful meditation corner with a meditation cushion, small indoor green plant, candles softly lit, and gentle natural light from a window, neutral calming colors, no branding, no text, no people"
+            "text": "A retail store interior showcasing organized product displays and generic branding designed to encourage customer loyalty without visible people or brands."
           }
         ]
       }
     }
   },
   {
-    "id": "005-1",
-    "concept_id": "005",
-    "topic": "Smart home technology in living room",
+    "id": "packet-2026-06-12-005-1",
+    "concept_id": "concept-2026-06-12-005",
+    "topic": "Optimistic Summer Shopping",
     "aspect_ratio": "16:9",
-    "aspect_ratio_reason": "Wide aspect ratio perfect for tech blog hero images and smart home product ads.",
-    "positive_prompt": "Modern living room showcasing smart home technology including a generic smart speaker, tablet control panel on a coffee table, ambient smart lighting, contemporary furniture, clean design, no brand logos, no visible text, no people",
-    "negative_prompt": "No branded devices, no logos, no text, no watermarks, no real persons, no editorial or news content, no public figures",
-    "technical_specs": "Sharp focus, balanced lighting, clean minimalistic look, neutral color tones",
+    "aspect_ratio_reason": "Wide format captures vibrant summer shopping scenes with diverse products and decorations, ideal for seasonal marketing.",
+    "positive_prompt": "A vibrant summer shopping scene with colorful seasonal decorations, diverse range of generic products displayed, abstract enthusiastic shoppers implied but no visible people, bright and sunny atmosphere, no logos or brand names, festive and optimistic mood",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes",
+    "technical_specs": "high saturation colors, bright natural lighting, no human faces or reflections",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Modern living room showcasing smart home technology including a generic smart speaker, tablet control panel on a coffee table, ambient smart lighting, contemporary furniture, clean design, no brand logos, no visible text, no people"
+            "text": "A lively summer shopping scene featuring diverse products and festive decorations without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "005-2",
-    "concept_id": "005",
-    "topic": "Smart home technology in living room",
+    "id": "packet-2026-06-12-005-2",
+    "concept_id": "concept-2026-06-12-005",
+    "topic": "Optimistic Summer Shopping",
     "aspect_ratio": "4:3",
-    "aspect_ratio_reason": "Good for in-article images and social media posts about home automation.",
-    "positive_prompt": "Contemporary living room with smart home devices such as a generic smart speaker, tablet on coffee table, ambient smart lighting highlighting modern furniture, clean and uncluttered, no branding or logos, no text, no people",
-    "negative_prompt": "Exclude brand logos, text overlays, watermarks, real persons, editorial or news scenes, public figures",
-    "technical_specs": "High resolution, soft ambient lighting, neutral color palette, clear details",
+    "aspect_ratio_reason": "Classic aspect ratio highlights product variety and seasonal decorations for use in summer sales campaigns.",
+    "positive_prompt": "Summer retail display with bright colors, seasonal decorations, and a variety of generic products, no visible people, no logos or brand names, cheerful and optimistic ambiance",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable product branding, no editorial content",
+    "technical_specs": "balanced bright lighting, clear product details, no human reflections or faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Contemporary living room with smart home devices such as a generic smart speaker, tablet on coffee table, ambient smart lighting highlighting modern furniture, clean and uncluttered, no branding or logos, no text, no people"
+            "text": "Summer retail display featuring colorful products and decorations with no visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "005-3",
-    "concept_id": "005",
-    "topic": "Smart home technology in living room",
+    "id": "packet-2026-06-12-005-3",
+    "concept_id": "concept-2026-06-12-005",
+    "topic": "Optimistic Summer Shopping",
     "aspect_ratio": "1:1",
-    "aspect_ratio_reason": "Square format useful for social media posts and tech product ads.",
-    "positive_prompt": "Square image of modern living room featuring smart home technology including a generic smart speaker, tablet control panel, ambient smart lighting, contemporary furniture, clean design, no brand names, no logos, no text, no people",
-    "negative_prompt": "No watermarks, no text, no brand logos, no real persons, no editorial or news content, no public figures",
-    "technical_specs": "Sharp details, neutral tones, balanced lighting, minimalistic composition",
+    "aspect_ratio_reason": "Square format ideal for social media and e-commerce thumbnails capturing summer shopping enthusiasm.",
+    "positive_prompt": "Square image of a colorful summer-themed shopping environment with diverse generic products and festive decorations, no real people, no logos, no brand names, bright and inviting lighting",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable products, no editorial scenes",
+    "technical_specs": "high clarity, vibrant colors, no human faces or shadows",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Square image of modern living room featuring smart home technology including a generic smart speaker, tablet control panel, ambient smart lighting, contemporary furniture, clean design, no brand names, no logos, no text, no people"
+            "text": "Square image capturing a vibrant summer shopping scene with diverse products and decorations, without visible people or branding."
           }
         ]
       }
     }
   },
   {
-    "id": "005-4",
-    "concept_id": "005",
-    "topic": "Smart home technology in living room",
-    "aspect_ratio": "9:16",
-    "aspect_ratio_reason": "Vertical format optimized for mobile tech content and stories.",
-    "positive_prompt": "Vertical view of modern living room with smart home technology including a generic smart speaker, tablet on coffee table, ambient smart lighting, contemporary furniture, clean and minimalistic, no branding, no text, no people",
-    "negative_prompt": "Exclude logos, brands, watermarks, text overlays, real persons, editorial or news scenes, public figures",
-    "technical_specs": "High resolution, natural and ambient lighting, neutral colors, clean background",
+    "id": "packet-2026-06-12-005-4",
+    "concept_id": "concept-2026-06-12-005",
+    "topic": "Optimistic Summer Shopping",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Standard ratio suitable for print and digital campaigns highlighting seasonal shopping optimism.",
+    "positive_prompt": "Bright and cheerful summer shopping scene with a variety of generic products, seasonal decorations, no visible people, no logos or brand names, warm sunlight and festive atmosphere",
+    "negative_prompt": "no real people, no logos, no brand names, no text, no watermarks, no recognizable branded products, no editorial or news imagery",
+    "technical_specs": "soft natural lighting, detailed product textures, no human reflections or faces",
     "nano_banana_payload": {
       "contents": {
         "parts": [
           {
-            "text": "Vertical view of modern living room with smart home technology including a generic smart speaker, tablet on coffee table, ambient smart lighting, contemporary furniture, clean and minimalistic, no branding, no text, no people"
+            "text": "A bright summer shopping environment with diverse generic products and festive decorations, no visible people or branding."
           }
         ]
       }

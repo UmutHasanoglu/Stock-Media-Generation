@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains visible text on products and signage",
+    "Presence of readable monograms and product labels",
+    "Text on signage at the top of the display is visible"
+  ],
+  "issues": [
+    "Visible text 'ARTISAN GOODS | BESPOKE MONOGRAMMING' on the sign",
+    "Readable monograms such as 'A&S', 'C.L.M.', 'SARAH', 'MHB', 'L&R', 'AEM', 'G.K.' on products",
+    "Price tags and product labels with text visible"
+  ],
+  "confidence_0_to_100": 95
+}

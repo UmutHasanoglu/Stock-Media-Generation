@@ -1,57 +1,147 @@
 [
   {
-    "id": "001",
-    "trend_signal": "Remote work and hybrid office setups continue to dominate workplace trends in 2024.",
-    "topic": "Modern home office workspace",
-    "stock_safe_concept": "A clean, minimalist home office setup featuring a laptop, notebook, coffee cup, and potted plant on a wooden desk with natural light streaming through a window.",
-    "buyer_use_cases": "Website hero images, blog posts about productivity, remote work guides, office furniture ads.",
-    "visual_elements": "Laptop, notebook, coffee cup, green plant, wooden desk, natural lighting, neutral tones.",
-    "risk_notes": "No identifiable persons or brands; generic objects only.",
-    "score_0_to_100": 92,
-    "score_reason": "Highly relevant to ongoing remote work trend; visually appealing and broadly applicable for commercial use."
-  },
-  {
-    "id": "002",
-    "trend_signal": "Sustainability and eco-friendliness remain key consumer priorities.",
-    "topic": "Eco-friendly lifestyle products",
-    "stock_safe_concept": "Flat lay of reusable items such as stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags on a natural fiber background.",
-    "buyer_use_cases": "Sustainability blogs, eco-product packaging, social media marketing for green brands, educational materials.",
-    "visual_elements": "Reusable water bottle, bamboo toothbrush, cloth bags, organic textures, natural fibers, soft natural light.",
-    "risk_notes": "No branding on products; generic eco-friendly items only.",
-    "score_0_to_100": 88,
-    "score_reason": "Strong alignment with sustainability trend; versatile for various green lifestyle content."
-  },
-  {
-    "id": "003",
-    "trend_signal": "Rise in interest in healthy eating and plant-based diets.",
-    "topic": "Colorful plant-based meal prep",
-    "stock_safe_concept": "Overhead shot of a vibrant plant-based meal prep setup with glass containers filled with fresh vegetables, grains, legumes, and herbs on a kitchen counter.",
-    "buyer_use_cases": "Recipe websites, nutritional blogs, meal delivery service marketing, health magazines.",
-    "visual_elements": "Glass containers, assorted vegetables, grains, legumes, fresh herbs, kitchen counter, bright lighting.",
-    "risk_notes": "No brand packaging visible; generic food items only.",
-    "score_0_to_100": 90,
-    "score_reason": "Meets growing demand for healthy eating visuals; colorful and appealing for commercial food content."
-  },
-  {
-    "id": "004",
-    "trend_signal": "Wellness and mindfulness practices gaining mainstream attention.",
-    "topic": "Calm meditation space at home",
-    "stock_safe_concept": "Minimalist corner with a meditation cushion, small indoor plant, candles, and soft natural light creating a peaceful atmosphere.",
-    "buyer_use_cases": "Wellness blogs, apps for meditation, mental health campaigns, lifestyle magazine spreads.",
-    "visual_elements": "Meditation cushion, indoor plant, candles, soft natural window light, neutral calming colors.",
-    "risk_notes": "No people or identifiable personal items; generic props only.",
+    "id": "concept-2026-06-12-001",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers are increasingly using AI tools to assist in shopping decisions, with 42% adopting AI for product discovery and comparison.",
+    "topic": "AI-Enhanced Shopping Experience",
+    "stock_safe_concept": "A person interacting with a digital interface displaying product options and AI-generated recommendations, set in a modern retail environment.",
+    "buyer_use_cases": [
+      "E-commerce platforms",
+      "Retailers offering AI-driven shopping tools",
+      "Technology companies developing AI applications for retail"
+    ],
+    "visual_elements": [
+      "Digital interface",
+      "Product images",
+      "AI-generated recommendations",
+      "Modern retail setting"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Specific product names"
+    ],
+    "risk_notes": [
+      "Ensure AI tools depicted are generic and not associated with specific brands",
+      "Avoid any implication of endorsing a particular AI technology"
+    ],
     "score_0_to_100": 85,
-    "score_reason": "Fits wellness trend well; visually soothing and broadly usable for mental health and lifestyle content."
+    "score_reason": "The concept effectively captures the growing trend of AI integration in shopping, appealing to a broad audience seeking modern retail visuals."
   },
   {
-    "id": "005",
-    "trend_signal": "Tech innovation in smart home devices is trending upward.",
-    "topic": "Smart home technology in living room",
-    "stock_safe_concept": "A modern living room showcasing smart speaker, smart lighting, and tablet control panel on a coffee table, emphasizing connected home environment.",
-    "buyer_use_cases": "Tech blogs, smart home product ads, IoT industry marketing, home automation tutorials.",
-    "visual_elements": "Smart speaker, tablet, ambient smart lighting, contemporary furniture, clean design.",
-    "risk_notes": "Avoid branded devices; ensure all gadgets are generic and non-identifiable.",
-    "score_0_to_100": 87,
-    "score_reason": "Captures growing smart home trend; clean and modern setup appealing to tech-related buyers."
+    "id": "concept-2026-06-12-002",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Employers are adopting flexible, platform-agnostic meeting spaces with AI-powered features to enhance collaboration in hybrid work environments.",
+    "topic": "Flexible Hybrid Meeting Space",
+    "stock_safe_concept": "A versatile meeting room equipped with various devices and AI-powered tools, accommodating different platforms and user preferences.",
+    "buyer_use_cases": [
+      "Office furniture manufacturers",
+      "Technology companies providing meeting solutions",
+      "Corporate offices designing hybrid workspaces"
+    ],
+    "visual_elements": [
+      "Meeting room",
+      "Various devices",
+      "AI-powered tools",
+      "Flexible seating arrangements"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Specific product names"
+    ],
+    "risk_notes": [
+      "Ensure the meeting space design is generic and not associated with specific brands",
+      "Avoid any implication of endorsing a particular technology provider"
+    ],
+    "score_0_to_100": 80,
+    "score_reason": "The concept aligns with the trend towards flexible, technology-enhanced meeting environments, appealing to businesses adapting to hybrid work models."
+  },
+  {
+    "id": "concept-2026-06-12-003",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers are seeking products and services that are uniquely tailored to them, emphasizing authenticity and self-expression.",
+    "topic": "Personalized Product Selection",
+    "stock_safe_concept": "A curated display of customizable products, such as monogrammed items and bespoke designs, highlighting individuality and personal style.",
+    "buyer_use_cases": [
+      "E-commerce platforms offering customization",
+      "Retailers providing personalized products",
+      "Artisans and crafters selling bespoke items"
+    ],
+    "visual_elements": [
+      "Customizable products",
+      "Personalized designs",
+      "Unique color schemes",
+      "Artisan craftsmanship"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Specific product names"
+    ],
+    "risk_notes": [
+      "Ensure the products depicted are generic and not associated with specific brands",
+      "Avoid any implication of endorsing a particular customization service"
+    ],
+    "score_0_to_100": 75,
+    "score_reason": "The concept taps into the desire for personalized, authentic products, appealing to consumers valuing individuality in their purchases."
+  },
+  {
+    "id": "concept-2026-06-12-004",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Shoppers are consolidating loyalty to primary retailers, indicating a preference for familiar shopping environments over exploring new stores.",
+    "topic": "Loyalty-Focused Retail Environment",
+    "stock_safe_concept": "A welcoming retail store interior with organized displays and familiar branding, designed to enhance customer loyalty and comfort.",
+    "buyer_use_cases": [
+      "Retailers aiming to strengthen customer loyalty",
+      "Store designers creating inviting shopping spaces",
+      "Marketing agencies developing loyalty programs"
+    ],
+    "visual_elements": [
+      "Retail store interior",
+      "Organized product displays",
+      "Familiar branding elements",
+      "Comfortable shopping environment"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Specific product names"
+    ],
+    "risk_notes": [
+      "Ensure the store design is generic and not associated with specific brands",
+      "Avoid any implication of endorsing a particular retailer"
+    ],
+    "score_0_to_100": 70,
+    "score_reason": "The concept reflects the trend towards customer loyalty in familiar shopping environments, appealing to retailers and marketers."
+  },
+  {
+    "id": "concept-2026-06-12-005",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Summer shoppers are entering the season with strong optimism and clear purchase intent, with 52% planning to spend more than last year.",
+    "topic": "Optimistic Summer Shopping",
+    "stock_safe_concept": "A vibrant summer shopping scene featuring diverse products and enthusiastic shoppers, capturing the season's optimism and spending intent.",
+    "buyer_use_cases": [
+      "Retailers preparing for summer sales",
+      "E-commerce platforms targeting summer shoppers",
+      "Marketing agencies planning seasonal campaigns"
+    ],
+    "visual_elements": [
+      "Summer products",
+      "Diverse shoppers",
+      "Bright colors",
+      "Seasonal decorations"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Specific product names"
+    ],
+    "risk_notes": [
+      "Ensure the scene is generic and not associated with specific brands",
+      "Avoid any implication of endorsing a particular retailer"
+    ],
+    "score_0_to_100": 65,
+    "score_reason": "The concept captures the optimistic shopping mood of the season, appealing to retailers and marketers targeting summer consumers."
   }
 ]

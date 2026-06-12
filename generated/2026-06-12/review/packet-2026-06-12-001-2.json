@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on the screen interface",
+    "Image contains product names and descriptions which may be considered branding or identifiable text"
+  ],
+  "issues": [
+    "Readable text: 'TOP PICKS & RECOMMENDED FOR YOU', product names like 'CERAMIC VASE', 'PORTABLE SPEAKER', and descriptions",
+    "Presence of UI text elements that violate the no text requirement"
+  ],
+  "confidence_0_to_100": 95
+}

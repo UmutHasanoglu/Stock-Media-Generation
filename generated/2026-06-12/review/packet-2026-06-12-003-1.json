@@ -1,0 +1,17 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains visible monogrammed initials which are considered readable text",
+    "Presence of monogrammed letters on multiple products may be interpreted as identifiable text",
+    "Potential branding or trademark-like elements on the bag's leather patch"
+  ],
+  "issues": [
+    "Readable text on leather notebook (A.M.)",
+    "Readable text on ceramic mug (K)",
+    "Readable text on wooden box (L)",
+    "Readable text on blanket (S)",
+    "Leather patch on bag with possible branding"
+  ],
+  "confidence_0_to_100": 95
+}

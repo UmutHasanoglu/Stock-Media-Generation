@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "No real people present in the image",
+    "No visible logos, brand names, or trademarks on devices or in the environment",
+    "No text or watermarks present in the image",
+    "Visually coherent and commercially useful depiction of a modern flexible hybrid meeting space",
+    "Sharp focus on devices and interfaces with balanced natural lighting",
+    "No editorial or news framing detected"
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image depicts a clean, elegant retail display of personalized and bespoke products.",
+    "No visible people, logos, brand names, or text present in the image.",
+    "Products are visually coherent and well-lit with warm inviting lighting.",
+    "No editorial or news framing; image is commercially useful for marketing bespoke products.",
+    "No visible AI artifacts or distorted objects detected."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

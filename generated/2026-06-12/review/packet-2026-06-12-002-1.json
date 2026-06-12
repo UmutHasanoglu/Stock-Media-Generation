@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Visible text on the large screen and whiteboard",
+    "Presence of identifiable UI elements on devices",
+    "Potential brand or product design on electronic devices"
+  ],
+  "issues": [
+    "Text on the large screen showing project overview and analytics",
+    "Text and diagrams on the whiteboard",
+    "User interface elements visible on laptops and tablets that may be identifiable"
+  ],
+  "confidence_0_to_100": 90
+}

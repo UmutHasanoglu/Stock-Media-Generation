@@ -1,0 +1,14 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Visible real people present",
+    "Potential editorial scene due to presence of identifiable people",
+    "Does not meet negative prompt requirement of no real people"
+  ],
+  "issues": [
+    "There are multiple real people visible in the background, walking through the market.",
+    "The scene appears to be a real photo of a public event, which may be considered editorial."
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Visible readable text on product labels",
+    "Presence of people in the background",
+    "Potential brand-like product packaging"
+  ],
+  "issues": [
+    "The jars and soaps have readable text labels such as 'Summer Honey', 'Organic Soap', etc.",
+    "There are multiple people visible in the background, which is against the prompt requirement of no visible people.",
+    "Some products have packaging that might be considered branded or specific, which is not allowed."
+  ],
+  "confidence_0_to_100": 95
+}

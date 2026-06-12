@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Visible text on the digital interface including product names, descriptions, and UI elements",
+    "Presence of recognizable product designs (e.g., earbuds, smartwatch) which may be trademarked or branded",
+    "Visible human hand interacting with the screen, showing identifiable human features"
+  ],
+  "issues": [
+    "Text on screen",
+    "Recognizable products",
+    "Visible human features"
+  ],
+  "confidence_0_to_100": 95
+}

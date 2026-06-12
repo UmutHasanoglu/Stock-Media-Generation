@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image depicts a comfortable retail store interior with neatly arranged product displays.",
+    "There are no visible people, logos, brand names, or text in the image.",
+    "The lighting is warm and inviting, consistent with the prompt.",
+    "The image is visually coherent, sharp, and suitable for commercial use.",
+    "No editorial or unsafe content is present."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

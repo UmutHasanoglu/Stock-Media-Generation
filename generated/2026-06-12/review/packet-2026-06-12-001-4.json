@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on the digital interface screen",
+    "Text on screen may be considered editorial or branded content"
+  ],
+  "issues": [
+    "Readable text on screen: 'PRODUCT EXPLORATION', 'SELECT CATEGORY', 'AI RECOMMENDS FOR YOU', 'RECOMMENDED: Based on Selection', 'Option 1: Performance Pack', 'Option 2: Tech Gadget', 'Option 2: Comfort Fit', and category labels",
+    "Presence of UI elements with star ratings and product names which may imply branding or editorial content"
+  ],
+  "confidence_0_to_100": 95
+}

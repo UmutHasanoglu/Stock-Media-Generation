@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on signs",
+    "Presence of branded or styled signage that may imply branding",
+    "Potential editorial or staged scene due to signage and product arrangement"
+  ],
+  "issues": [
+    "Visible text on signs: 'SUMMER ESSENTIALS', 'LOCAL CRAFTS', 'HANDMADE GOODS', 'BEACHWEAR'",
+    "Signage style may be considered branding or promotional",
+    "Scene appears staged with specific product categories labeled"
+  ],
+  "confidence_0_to_100": 95
+}
