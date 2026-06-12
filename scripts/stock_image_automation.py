@@ -17,6 +17,7 @@ import base64
 import csv
 import datetime as dt
 import json
+import hashlib
 import mimetypes
 import os
 import re
@@ -228,13 +229,22 @@ def extract_json_object(text: str) -> Any:
         return json.loads(text[start : end + 1])
 
 
-def openai_text(model: str, instructions: str, user_content: str, api_key: str) -> str:
+def openai_text(
+    model: str,
+    instructions: str,
+    user_content: str,
+    api_key: str,
+    tools: list[dict[str, Any]] | None = None,
+) -> str:
     payload = {
         "model": model,
         "instructions": instructions,
         "input": user_content,
         "temperature": 0.7,
     }
+    if tools:
+        payload["tools"] = tools
+        payload["tool_choice"] = "auto"
     response = post_json(
         OPENAI_RESPONSES_URL,
         payload,
@@ -329,28 +339,120 @@ def openai_image_metadata(model: str, image_path: Path, prompt_context: dict[str
     return extract_json_object(text)
 
 
+def batch_variation_seed(batch_date: str) -> str:
+    return hashlib.sha256(batch_date.encode("utf-8")).hexdigest()[:12]
+
+
+def previous_concept_summaries(config: dict[str, Any], current_batch_date: str, limit: int = 30) -> list[dict[str, Any]]:
+    output_root = Path(config["batch"]["output_root"])
+    if not output_root.exists():
+        return []
+    summaries: list[dict[str, Any]] = []
+    for concept_path in sorted(output_root.glob("*/research/concepts.json"), reverse=True):
+        batch_date = concept_path.parts[-3]
+        if batch_date == current_batch_date:
+            continue
+        try:
+            concepts = load_json(concept_path)
+        except (OSError, json.JSONDecodeError):
+            continue
+        for concept in concepts if isinstance(concepts, list) else []:
+            summaries.append(
+                {
+                    "batch_date": batch_date,
+                    "topic": concept.get("topic"),
+                    "stock_safe_concept": concept.get("stock_safe_concept"),
+                    "trend_signal": concept.get("trend_signal"),
+                }
+            )
+            if len(summaries) >= limit:
+                return summaries
+    return summaries
+
+
+def web_search_tools(config: dict[str, Any]) -> list[dict[str, Any]]:
+    trend_config = config.get("trend_research", {})
+    if not trend_config.get("use_web_search", True):
+        return []
+    return [
+        {
+            "type": trend_config.get("web_search_tool", "web_search_preview"),
+            "search_context_size": trend_config.get("search_context_size", "medium"),
+        }
+    ]
+
+
 def research_concepts(config: dict[str, Any], paths: BatchPaths, api_key: str) -> list[dict[str, Any]]:
     output = paths.research / "concepts.json"
     if output.exists():
-        return load_json(output)
+        cached = load_json(output)
+        if isinstance(cached, list) and all("anonymized_trend_signal" in concept and "recency_window" in concept for concept in cached):
+            return cached
+
     count = config["batch"]["concepts_per_day"]
-    instructions = "You are a commercial stock image research strategist for Adobe Stock-safe AI image batches."
+    batch_date = paths.root.name
+    trend_config = config.get("trend_research", {})
+    recency_days = int(trend_config.get("recency_days", 10))
+    previous_topics = previous_concept_summaries(config, batch_date, int(trend_config.get("history_limit", 30)))
+    variation_seed = batch_variation_seed(batch_date)
+    focus_areas = trend_config.get(
+        "focus_areas",
+        [
+            "consumer behavior",
+            "workplace and business",
+            "technology adoption",
+            "health and wellness",
+            "climate and seasonal life",
+            "finance and shopping behavior",
+            "home and lifestyle",
+        ],
+    )
+
+    instructions = (
+        "You are a commercial stock image trend strategist. Use recent public web signals to identify current themes, "
+        "then transform them into non-editorial, evergreen, stock-safe concepts. Never output names of real people, "
+        "public figures, brands, companies, copyrighted works, specific disasters, wars, elections, court cases, or news events. "
+        "Do not create editorial/news concepts. Abstract each recent signal into a generic commercial visual metaphor."
+    )
     request = f"""
-Create {count} commercially useful, non-editorial stock image concepts for today's batch.
-For each concept, perform trend-informed ideation, convert it into a stock-safe concept, and score it.
-Hard exclusions: real persons, brands, logos, trademarks, copyrighted characters, public figures, news/editorial framing.
-Return strict JSON array. Each item must include id, trend_signal, topic, stock_safe_concept, buyer_use_cases,
-visual_elements, risk_notes, score_0_to_100, and score_reason.
+Batch date: {batch_date}
+Variation seed for this batch: {variation_seed}
+Recency window: prioritize signals from the last {recency_days} days.
+Focus areas to rotate through: {json.dumps(focus_areas, ensure_ascii=False)}
+Previously used concepts/topics to avoid repeating: {json.dumps(previous_topics, ensure_ascii=False)}
+
+Create {count} commercially useful Adobe Stock-safe image concepts for today's batch.
+Base each concept on a different recent trend signal or current public conversation, but sanitize it into a generic, non-editorial stock concept.
+Do not explicitly mention or depict real people, named organizations, brands, logos, trademarks, public figures, named events, elections, conflicts, disasters, or location-specific news.
+Avoid generic evergreen topic ideas unless they are clearly tied to a recent anonymized trend signal.
+Make the topics materially different from the previously used concepts and from each other.
+
+Return strict JSON array only. Each item must include:
+id, recency_window, anonymized_trend_signal, topic, stock_safe_concept, buyer_use_cases,
+visual_elements, negative_constraints, risk_notes, score_0_to_100, and score_reason.
+Use ids that include the batch date and item number, for example concept-{batch_date}-001.
 """.strip()
-    concepts = extract_json_object(openai_text(config["models"]["research_model"], instructions, request, api_key))
+    concepts = extract_json_object(
+        openai_text(
+            config["models"]["research_model"],
+            instructions,
+            request,
+            api_key,
+            tools=web_search_tools(config),
+        )
+    )
     write_json(output, concepts)
     return concepts
 
 
 def prompt_packets(config: dict[str, Any], paths: BatchPaths, concepts: list[dict[str, Any]], api_key: str) -> list[dict[str, Any]]:
     output = paths.prompts / "prompt_packets.json"
+    concept_ids = {concept.get("id") for concept in concepts}
     if output.exists():
-        return load_json(output)
+        cached = load_json(output)
+        cached_concept_ids = {packet.get("concept_id") for packet in cached} if isinstance(cached, list) else set()
+        if cached_concept_ids == concept_ids:
+            return cached
     image_model = config["models"]["image_model"]
     per_concept = config["batch"]["images_per_concept"]
     instructions = "You create production-ready AI image prompt packets for Adobe Stock-safe generated assets."
@@ -364,6 +466,7 @@ nano_banana_payload.
 The nano_banana_payload should be a minimal Gemini generateContent REST object with only contents.parts.text.
 Do not include model_hint, tools, or other unsupported API options.
 The automation will rebuild the final request for {image_model} with generationConfig.imageConfig.aspectRatio and imageSize=4K.
+Use the anonymized trend signal only as creative context; do not mention or depict named real-world events, people, organizations, brands, locations, or current-news specifics.
 Ensure prompts ban logos, brands, text, watermarks, real people, public figures,
 editorial/news scenes, and recognizable protected designs.
 Return strict JSON array only.

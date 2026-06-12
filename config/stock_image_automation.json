@@ -48,5 +48,23 @@
     "mode": "openai_auto_review",
     "human_in_the_loop": false,
     "approved_folder_name": "approved"
+  },
+  "trend_research": {
+    "use_web_search": true,
+    "web_search_tool": "web_search_preview",
+    "search_context_size": "medium",
+    "recency_days": 10,
+    "history_limit": 30,
+    "focus_areas": [
+      "consumer behavior",
+      "workplace and business",
+      "technology adoption",
+      "health and wellness",
+      "climate and seasonal life",
+      "finance and shopping behavior",
+      "home and lifestyle"
+    ],
+    "sanitize_current_events": true,
+    "avoid_previous_topics": true
   }
 }

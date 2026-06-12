@@ -10,7 +10,7 @@ It is configured for **5 concepts**, **4 images per concept**, and a target of *
 Pipeline stages:
 
 1. **Scheduler service** starts the workflow from GitHub Actions.
-2. **Research service** performs trend-informed ideation, converts trends into stock-safe concepts, and scores each concept.
+2. **Research service** uses OpenAI web search for recent trend signals, converts them into anonymized stock-safe concepts, avoids repeating prior batches, and scores each concept.
 3. **Prompt service** creates prompt packets, technical specs, aspect-ratio decisions, and Gemini/Nano Banana 2 payloads.
 4. **Generation service** calls Gemini/Nano Banana 2 and stores generated outputs.
 5. **Review service** uses OpenAI to automatically approve or reject generated images against stock-safety and quality criteria.
@@ -28,6 +28,10 @@ Every stage is instructed to avoid:
 - misleading metadata that describes the prompt instead of the actual generated image.
 
 The automated review step approves only commercially useful, non-editorial, stock-safe images. The metadata step uses prompt data as hints only and must describe the approved image itself.
+
+## Trend research behavior
+
+The research step prioritizes recent public trend signals from the configured recency window, then sanitizes them into non-editorial stock concepts. It should not name or depict real people, public figures, brands, companies, specific news events, conflicts, disasters, elections, or location-specific incidents. Previous batch topics are passed back into research so each daily batch is pushed toward different concepts instead of repeating the same generic ideas.
 
 ## Troubleshooting GitHub Actions
 
