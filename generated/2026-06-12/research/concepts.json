@@ -1,0 +1,57 @@
+[
+  {
+    "id": "001",
+    "trend_signal": "Remote work and hybrid office setups continue to dominate workplace trends in 2024.",
+    "topic": "Modern home office workspace",
+    "stock_safe_concept": "A clean, minimalist home office setup featuring a laptop, notebook, coffee cup, and potted plant on a wooden desk with natural light streaming through a window.",
+    "buyer_use_cases": "Website hero images, blog posts about productivity, remote work guides, office furniture ads.",
+    "visual_elements": "Laptop, notebook, coffee cup, green plant, wooden desk, natural lighting, neutral tones.",
+    "risk_notes": "No identifiable persons or brands; generic objects only.",
+    "score_0_to_100": 92,
+    "score_reason": "Highly relevant to ongoing remote work trend; visually appealing and broadly applicable for commercial use."
+  },
+  {
+    "id": "002",
+    "trend_signal": "Sustainability and eco-friendliness remain key consumer priorities.",
+    "topic": "Eco-friendly lifestyle products",
+    "stock_safe_concept": "Flat lay of reusable items such as stainless steel water bottle, bamboo toothbrush, cloth shopping bag, and organic cotton produce bags on a natural fiber background.",
+    "buyer_use_cases": "Sustainability blogs, eco-product packaging, social media marketing for green brands, educational materials.",
+    "visual_elements": "Reusable water bottle, bamboo toothbrush, cloth bags, organic textures, natural fibers, soft natural light.",
+    "risk_notes": "No branding on products; generic eco-friendly items only.",
+    "score_0_to_100": 88,
+    "score_reason": "Strong alignment with sustainability trend; versatile for various green lifestyle content."
+  },
+  {
+    "id": "003",
+    "trend_signal": "Rise in interest in healthy eating and plant-based diets.",
+    "topic": "Colorful plant-based meal prep",
+    "stock_safe_concept": "Overhead shot of a vibrant plant-based meal prep setup with glass containers filled with fresh vegetables, grains, legumes, and herbs on a kitchen counter.",
+    "buyer_use_cases": "Recipe websites, nutritional blogs, meal delivery service marketing, health magazines.",
+    "visual_elements": "Glass containers, assorted vegetables, grains, legumes, fresh herbs, kitchen counter, bright lighting.",
+    "risk_notes": "No brand packaging visible; generic food items only.",
+    "score_0_to_100": 90,
+    "score_reason": "Meets growing demand for healthy eating visuals; colorful and appealing for commercial food content."
+  },
+  {
+    "id": "004",
+    "trend_signal": "Wellness and mindfulness practices gaining mainstream attention.",
+    "topic": "Calm meditation space at home",
+    "stock_safe_concept": "Minimalist corner with a meditation cushion, small indoor plant, candles, and soft natural light creating a peaceful atmosphere.",
+    "buyer_use_cases": "Wellness blogs, apps for meditation, mental health campaigns, lifestyle magazine spreads.",
+    "visual_elements": "Meditation cushion, indoor plant, candles, soft natural window light, neutral calming colors.",
+    "risk_notes": "No people or identifiable personal items; generic props only.",
+    "score_0_to_100": 85,
+    "score_reason": "Fits wellness trend well; visually soothing and broadly usable for mental health and lifestyle content."
+  },
+  {
+    "id": "005",
+    "trend_signal": "Tech innovation in smart home devices is trending upward.",
+    "topic": "Smart home technology in living room",
+    "stock_safe_concept": "A modern living room showcasing smart speaker, smart lighting, and tablet control panel on a coffee table, emphasizing connected home environment.",
+    "buyer_use_cases": "Tech blogs, smart home product ads, IoT industry marketing, home automation tutorials.",
+    "visual_elements": "Smart speaker, tablet, ambient smart lighting, contemporary furniture, clean design.",
+    "risk_notes": "Avoid branded devices; ensure all gadgets are generic and non-identifiable.",
+    "score_0_to_100": 87,
+    "score_reason": "Captures growing smart home trend; clean and modern setup appealing to tech-related buyers."
+  }
+]

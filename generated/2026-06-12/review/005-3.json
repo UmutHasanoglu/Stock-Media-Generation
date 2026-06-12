@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on the smart home control panel, which is not allowed.",
+    "The smart home control panel interface with icons and text is considered a branded or designed UI element, which may be protected or restricted."
+  ],
+  "issues": [
+    "Readable text on smart home control panel",
+    "Potential branded UI element on control panel"
+  ],
+  "confidence_0_to_100": 95
+}

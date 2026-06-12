@@ -1,0 +1,320 @@
+{
+  "generated_count": 20,
+  "approved_count": 17,
+  "rejected_count": 3,
+  "approved": [
+    "001-1.jpg",
+    "001-2.jpg",
+    "001-3.jpg",
+    "001-4.jpg",
+    "002-1.jpg",
+    "002-2.jpg",
+    "002-3.jpg",
+    "002-4.jpg",
+    "003-1.jpg",
+    "003-2.jpg",
+    "003-3.jpg",
+    "003-4.jpg",
+    "004-1.jpg",
+    "004-2.jpg",
+    "004-3.jpg",
+    "004-4.jpg",
+    "005-1.jpg"
+  ],
+  "rejected": [
+    "005-2.jpg",
+    "005-3.jpg",
+    "005-4.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "001-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/001-1.json",
+      "reasons": [
+        "The image is commercially useful as a modern home office workspace concept.",
+        "The composition is visually coherent and matches the 16:9 aspect ratio requirement.",
+        "The scene is clean and minimalist with no visible logos, brands, text, or people.",
+        "The lighting is natural and soft, creating a bright and airy atmosphere.",
+        "The image is free from editorial or news elements and has no watermarks or artifacts."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "001-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/001-2.json",
+      "reasons": [
+        "Image depicts a minimalist home office workspace as described in the prompt.",
+        "No identifiable brands, logos, or text are visible on the laptop or other objects.",
+        "No people or editorial content present.",
+        "The composition is clean and visually coherent with balanced exposure and natural lighting.",
+        "The image is commercially useful for blog posts and online articles about productivity and remote work."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "001-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/001-3.json",
+      "reasons": [
+        "The image is commercially useful for the concept of a modern home office workspace.",
+        "The image is visually coherent and well-composed with natural lighting and a neutral color palette.",
+        "No logos, brands, text, or people are present in the image.",
+        "The image matches the positive prompt and technical specifications provided.",
+        "No AI artifacts or distortions are visible.",
+        "The image is suitable for Adobe Stock and non-editorial use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "001-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/001-4.json",
+      "reasons": [
+        "Image matches the concept of a modern home office workspace.",
+        "No visible brand logos, text, or watermarks.",
+        "No people or identifiable persons present.",
+        "Image is visually coherent, well-lit with natural light.",
+        "Composition is clean and minimalistic, suitable for commercial use.",
+        "No editorial or news content elements.",
+        "High resolution and natural shadows present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "002-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/002-1.json",
+      "reasons": [
+        "The image visually matches the concept of eco-friendly lifestyle products.",
+        "No visible branding, logos, or text present in the image.",
+        "No people or editorial content included.",
+        "The image is high quality with natural lighting and organic textures emphasized.",
+        "The composition is clean and suitable for commercial use such as blog banners or packaging design presentations."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "002-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/002-2.json",
+      "reasons": [
+        "Image depicts reusable eco-friendly items as described in the prompt.",
+        "No branding, logos, text, or watermarks present.",
+        "No people or editorial content visible.",
+        "Image is visually coherent and well composed with clear focus and natural textures.",
+        "Aspect ratio and lighting are suitable for commercial use and social media posts."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "002-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/002-3.json",
+      "reasons": [
+        "Image matches the concept of eco-friendly lifestyle products.",
+        "Square format suitable for social media marketing and product detail posts.",
+        "No visible logos, brands, or text present in the image.",
+        "No people or editorial/news elements included.",
+        "Image is visually coherent with sharp focus and natural material textures.",
+        "Lighting is soft and warm, enhancing the natural colors and materials."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "002-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/002-4.json",
+      "reasons": [
+        "Image matches the concept of eco-friendly reusable products.",
+        "No visible logos, brands, or text present.",
+        "No people or editorial content in the image.",
+        "High-quality, clean composition with natural lighting.",
+        "Vertical format suitable for mobile and story use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "003-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/003-1.json",
+      "reasons": [
+        "The image is a clear overhead shot of colorful plant-based meal prep in glass containers.",
+        "No brands, logos, or packaging are visible.",
+        "No text overlays or watermarks are present.",
+        "No people or editorial/news elements are included.",
+        "The image is visually coherent, bright, and sharp with natural colors.",
+        "The composition fits the requested wide 16:9 aspect ratio suitable for recipe websites or food blogs."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "003-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/003-2.json",
+      "reasons": [
+        "The image is a clear, top-down view of a colorful plant-based meal prep setup.",
+        "It features glass containers with fresh vegetables, grains, legumes, and herbs as requested.",
+        "There are no visible brand logos, packaging, watermarks, or text overlays.",
+        "No people or editorial content are present.",
+        "The lighting is natural and bright, with vibrant colors and minimal shadows.",
+        "The composition is visually coherent and suitable for commercial use in blog content and social media posts."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "003-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/003-3.json",
+      "reasons": [
+        "Image matches the concept of colorful plant-based meal prep.",
+        "Square format suitable for Instagram and social media use.",
+        "No visible branding, logos, or text in the image.",
+        "No people or editorial content present.",
+        "Bright natural lighting with sharp focus and clean composition.",
+        "Visually coherent and commercially useful for health and food-related content."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "003-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/003-4.json",
+      "reasons": [
+        "The image visually matches the concept of colorful plant-based meal prep.",
+        "The image is a vertical overhead view suitable for mobile food blogs and stories.",
+        "There are no visible logos, brand names, watermarks, or text.",
+        "No real persons or public figures are present in the image.",
+        "The image is high resolution with natural lighting and vivid colors.",
+        "The background is clean and uncluttered, enhancing commercial usability.",
+        "The image is visually coherent and commercially useful for Adobe Stock."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "004-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/004-1.json",
+      "reasons": [
+        "Image depicts a minimalist meditation corner with a soft cushion, indoor plant, lit candles, and natural window light as requested.",
+        "No people, branding, logos, or text present in the image.",
+        "The composition is visually coherent and suitable for commercial use such as wellness blog headers or meditation app landing pages.",
+        "The lighting is soft and warm, with a neutral and soothing color palette matching the prompt.",
+        "No visible AI artifacts or distortions detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "004-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/004-2.json",
+      "reasons": [
+        "The image visually represents a calm meditation space at home as described in the prompt.",
+        "No people, text, logos, or brands are present in the image.",
+        "The composition is minimalistic and peaceful with warm natural lighting.",
+        "The image is commercially useful for wellness, mindfulness, and home decor content.",
+        "No visible AI artifacts or distortions are present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "004-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/004-3.json",
+      "reasons": [
+        "The image depicts a calm meditation space with a cushion, plant, and lit candles as described in the prompt.",
+        "No logos, text, or identifiable persons are present.",
+        "The composition is clean and visually coherent with warm, natural lighting.",
+        "The image is suitable for commercial use and aligns well with the concept of a meditation nook."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "004-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/004-4.json",
+      "reasons": [
+        "The image visually matches the concept of a calm meditation space at home.",
+        "The vertical composition is suitable for mobile wellness content as requested.",
+        "No visible branding, logos, watermarks, or text present.",
+        "No people or editorial content in the image.",
+        "The image is visually coherent with soft natural lighting and a warm neutral palette.",
+        "The objects in the image (meditation cushion, plant, candles, blanket, singing bowl) are clear and well arranged."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "005-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-12/review/005-1.json",
+      "reasons": [
+        "Image depicts a modern living room with smart home technology as described in the prompt.",
+        "No visible brand logos, text, or watermarks present.",
+        "No real persons or public figures in the image.",
+        "Image is visually coherent, sharp, and well-lit with a clean and minimalistic design.",
+        "Aspect ratio is wide (16:9) suitable for tech blog hero images and product ads."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "005-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-12/review/005-2.json",
+      "reasons": [
+        "The tablet screen displays a user interface with readable text, which is not allowed.",
+        "The image contains branded or trademarked interface elements on the tablet screen."
+      ],
+      "issues": [
+        "Readable text on tablet screen",
+        "Potential brand or trademark on tablet interface"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "005-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-12/review/005-3.json",
+      "reasons": [
+        "Image contains readable text on the smart home control panel, which is not allowed.",
+        "The smart home control panel interface with icons and text is considered a branded or designed UI element, which may be protected or restricted."
+      ],
+      "issues": [
+        "Readable text on smart home control panel",
+        "Potential branded UI element on control panel"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "005-4.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-12/review/005-4.json",
+      "reasons": [
+        "Image contains readable text on the tablet screen",
+        "Image contains a visible brand-like interface on the tablet screen"
+      ],
+      "issues": [
+        "Readable text on device screen",
+        "Potential brand/interface visible on device screen"
+      ],
+      "confidence_0_to_100": 95
+    }
+  ]
+}

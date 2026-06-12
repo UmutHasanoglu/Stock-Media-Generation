@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is commercially useful for the concept of a modern home office workspace.",
+    "The image is visually coherent and well-composed with natural lighting and a neutral color palette.",
+    "No logos, brands, text, or people are present in the image.",
+    "The image matches the positive prompt and technical specifications provided.",
+    "No AI artifacts or distortions are visible.",
+    "The image is suitable for Adobe Stock and non-editorial use."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}
