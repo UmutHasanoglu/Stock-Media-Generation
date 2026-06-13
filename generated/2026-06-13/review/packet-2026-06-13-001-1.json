@@ -1,0 +1,14 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains real people with visible faces",
+    "Faces are not blurred or obscured sufficiently to prevent identification",
+    "Does not meet the requirement of no real people or identifiable individuals"
+  ],
+  "issues": [
+    "Visible real human faces",
+    "Potential privacy and model release issues"
+  ],
+  "confidence_0_to_100": 95
+}

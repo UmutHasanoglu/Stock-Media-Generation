@@ -1,0 +1,157 @@
+[
+  {
+    "id": "concept-2026-06-13-001",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Employers are scaling back workplace perks due to rising costs and AI integration, leading to cuts in benefits like paid parental leave and bonuses.",
+    "topic": "Evolving Workplace Benefits",
+    "stock_safe_concept": "A modern office environment with employees collaborating around a conference table, featuring digital devices and a relaxed atmosphere, symbolizing the shift in workplace dynamics and benefits.",
+    "buyer_use_cases": [
+      "corporate culture",
+      "employee engagement",
+      "workplace design",
+      "business operations"
+    ],
+    "visual_elements": [
+      "conference table",
+      "digital devices",
+      "diverse employees",
+      "modern office setting",
+      "casual attire"
+    ],
+    "negative_constraints": [
+      "no real people",
+      "no brand logos",
+      "no specific company names",
+      "no identifiable individuals"
+    ],
+    "risk_notes": [
+      "Ensure the image does not depict specific company logos or identifiable individuals to maintain stock image safety."
+    ],
+    "score_0_to_100": 85,
+    "score_reason": "The concept effectively captures the evolving nature of workplace benefits and dynamics, aligning with current trends in corporate environments."
+  },
+  {
+    "id": "concept-2026-06-13-002",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers are embracing bold self-expression and authenticity, seeking products and services that reflect their unique identity.",
+    "topic": "Authentic Self-Expression in Consumer Products",
+    "stock_safe_concept": "A collection of customizable products, such as monogrammed items and bespoke designs, highlighting individuality and personal style in a retail setting.",
+    "buyer_use_cases": [
+      "personalized gifts",
+      "custom merchandise",
+      "unique fashion items",
+      "bespoke home decor"
+    ],
+    "visual_elements": [
+      "customizable products",
+      "monogrammed items",
+      "bespoke designs",
+      "retail display",
+      "diverse consumers"
+    ],
+    "negative_constraints": [
+      "no real people",
+      "no brand logos",
+      "no specific company names",
+      "no identifiable individuals"
+    ],
+    "risk_notes": [
+      "Avoid depicting specific brand logos or identifiable individuals to maintain stock image safety."
+    ],
+    "score_0_to_100": 90,
+    "score_reason": "The concept effectively captures the trend of consumers seeking authenticity and self-expression through personalized products."
+  },
+  {
+    "id": "concept-2026-06-13-003",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers are increasingly using AI tools for shopping, with 42% having used at least one AI tool to shop within the past month.",
+    "topic": "AI-Enhanced Shopping Experience",
+    "stock_safe_concept": "A person interacting with a digital interface displaying product options and AI-generated recommendations, set in a modern retail environment.",
+    "buyer_use_cases": [
+      "e-commerce platforms",
+      "retail technology",
+      "consumer electronics",
+      "digital marketing"
+    ],
+    "visual_elements": [
+      "digital interface",
+      "product options",
+      "AI recommendations",
+      "modern retail setting",
+      "diverse consumers"
+    ],
+    "negative_constraints": [
+      "no real people",
+      "no brand logos",
+      "no specific company names",
+      "no identifiable individuals"
+    ],
+    "risk_notes": [
+      "Ensure the image does not depict specific brand logos or identifiable individuals to maintain stock image safety."
+    ],
+    "score_0_to_100": 88,
+    "score_reason": "The concept effectively illustrates the integration of AI in the shopping experience, aligning with current consumer behavior trends."
+  },
+  {
+    "id": "concept-2026-06-13-004",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers are seeking comfort and simplicity amid global volatility, with 58% experiencing moderate to extreme stress daily.",
+    "topic": "Comfort and Simplicity in Consumer Products",
+    "stock_safe_concept": "A cozy living room setting with comfortable furniture, soft lighting, and simple decor, providing a sense of calm and relaxation.",
+    "buyer_use_cases": [
+      "home furnishings",
+      "interior design",
+      "wellness products",
+      "stress relief items"
+    ],
+    "visual_elements": [
+      "cozy living room",
+      "comfortable furniture",
+      "soft lighting",
+      "simple decor",
+      "relaxed atmosphere"
+    ],
+    "negative_constraints": [
+      "no real people",
+      "no brand logos",
+      "no specific company names",
+      "no identifiable individuals"
+    ],
+    "risk_notes": [
+      "Ensure the image does not depict specific brand logos or identifiable individuals to maintain stock image safety."
+    ],
+    "score_0_to_100": 87,
+    "score_reason": "The concept effectively captures the consumer desire for comfort and simplicity in products, aligning with current trends in consumer behavior."
+  },
+  {
+    "id": "concept-2026-06-13-005",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers are embracing bold self-expression and authenticity, seeking products and services that reflect their unique identity.",
+    "topic": "Authentic Self-Expression in Consumer Products",
+    "stock_safe_concept": "A collection of customizable products, such as monogrammed items and bespoke designs, highlighting individuality and personal style in a retail setting.",
+    "buyer_use_cases": [
+      "personalized gifts",
+      "custom merchandise",
+      "unique fashion items",
+      "bespoke home decor"
+    ],
+    "visual_elements": [
+      "customizable products",
+      "monogrammed items",
+      "bespoke designs",
+      "retail display",
+      "diverse consumers"
+    ],
+    "negative_constraints": [
+      "no real people",
+      "no brand logos",
+      "no specific company names",
+      "no identifiable individuals"
+    ],
+    "risk_notes": [
+      "Avoid depicting specific brand logos or identifiable individuals to maintain stock image safety."
+    ],
+    "score_0_to_100": 90,
+    "score_reason": "The concept effectively captures the trend of consumers seeking authenticity and self-expression through personalized products."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains a real person with a recognizable face",
+    "Image contains readable text on the digital interface",
+    "Image contains identifiable individuals"
+  ],
+  "issues": [
+    "Real person with visible face",
+    "Readable text on screen",
+    "Identifiable individuals in the background"
+  ],
+  "confidence_0_to_100": 95
+}

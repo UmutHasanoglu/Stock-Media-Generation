@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Presence of monogrammed products with visible initials",
+    "Readable text on products",
+    "Potentially identifiable individuals despite no facial detail"
+  ],
+  "issues": [
+    "Monogrammed initials (EJM, STR) on bags and other products are visible and readable",
+    "Text on mugs and other items is readable",
+    "People are visible and identifiable by body and posture, which may not comply with no identifiable individuals requirement"
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains real people with visible faces",
+    "Faces and identifiable individuals are present, violating the no real people and no identifiable individuals requirement"
+  ],
+  "issues": [
+    "Visible faces of real people",
+    "Identifiable individuals"
+  ],
+  "confidence_0_to_100": 95
+}

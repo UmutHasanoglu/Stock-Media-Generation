@@ -1,0 +1,267 @@
+{
+  "generated_count": 16,
+  "approved_count": 4,
+  "rejected_count": 12,
+  "approved": [
+    "packet-2026-06-13-004-1.jpg",
+    "packet-2026-06-13-004-2.jpg",
+    "packet-2026-06-13-004-3.jpg",
+    "packet-2026-06-13-004-4.jpg"
+  ],
+  "rejected": [
+    "packet-2026-06-13-001-1.jpg",
+    "packet-2026-06-13-001-2.jpg",
+    "packet-2026-06-13-001-3.jpg",
+    "packet-2026-06-13-001-4.jpg",
+    "packet-2026-06-13-002-1.jpg",
+    "packet-2026-06-13-002-2.jpg",
+    "packet-2026-06-13-002-3.jpg",
+    "packet-2026-06-13-002-4.jpg",
+    "packet-2026-06-13-003-1.jpg",
+    "packet-2026-06-13-003-2.jpg",
+    "packet-2026-06-13-003-3.jpg",
+    "packet-2026-06-13-003-4.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "packet-2026-06-13-001-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-001-1.json",
+      "reasons": [
+        "Image contains real people with visible faces",
+        "Faces are not blurred or obscured sufficiently to prevent identification",
+        "Does not meet the requirement of no real people or identifiable individuals"
+      ],
+      "issues": [
+        "Visible real human faces",
+        "Potential privacy and model release issues"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-001-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-001-2.json",
+      "reasons": [
+        "Image contains real people with visible faces",
+        "Faces are identifiable, violating the 'no real people' requirement"
+      ],
+      "issues": [
+        "Visible faces of real people",
+        "Identifiable individuals present"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-001-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-001-3.json",
+      "reasons": [
+        "Image contains real people with visible faces",
+        "Faces and identifiable individuals are present, violating the no real people and no identifiable individuals requirement"
+      ],
+      "issues": [
+        "Real people visible",
+        "Faces clearly shown"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-001-4.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-001-4.json",
+      "reasons": [
+        "Image contains real people with visible faces",
+        "Faces and identifiable individuals are present, violating the no real people and no identifiable individuals requirement"
+      ],
+      "issues": [
+        "Visible faces of real people",
+        "Identifiable individuals"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-002-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-002-1.json",
+      "reasons": [
+        "Presence of readable text and monograms on products",
+        "Faces of people are visible and identifiable",
+        "Potentially identifiable individuals",
+        "Text on products violates no text requirement"
+      ],
+      "issues": [
+        "Readable monogram text on pillows, mugs, bags, and notebooks",
+        "Visible faces of multiple people in the image"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-002-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-002-2.json",
+      "reasons": [
+        "Presence of monogrammed products with visible initials",
+        "Readable text on products",
+        "Potentially identifiable individuals despite no facial detail"
+      ],
+      "issues": [
+        "Monogrammed initials (EJM, STR) on bags and other products are visible and readable",
+        "Text on mugs and other items is readable",
+        "People are visible and identifiable by body and posture, which may not comply with no identifiable individuals requirement"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-002-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-002-3.json",
+      "reasons": [
+        "Presence of visible monogrammed text on products",
+        "Visible readable text on coasters and notebooks",
+        "Potential brand or designer initials on some products",
+        "Presence of identifiable individuals in the background"
+      ],
+      "issues": [
+        "Text on products is readable and includes initials and words",
+        "People in the background are identifiable and not blurred enough",
+        "Possible brand or designer marks visible on some items"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-002-4.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-002-4.json",
+      "reasons": [
+        "Image contains visible faces of real people",
+        "Image contains visible text and monograms on products",
+        "Presence of identifiable individuals"
+      ],
+      "issues": [
+        "Faces of two women are clearly visible",
+        "Monogrammed letters on bags, notebooks, mugs, and keychains are readable",
+        "People in background are identifiable despite some motion blur"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-003-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-003-1.json",
+      "reasons": [
+        "Image contains real people with visible faces",
+        "Faces of individuals are identifiable",
+        "Does not meet the requirement of no real people faces or identifiable individuals"
+      ],
+      "issues": [
+        "Visible faces of people interacting with the digital interface",
+        "Other people in the background also have visible faces"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-003-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-003-2.json",
+      "reasons": [
+        "Real people with identifiable facial features present",
+        "Faces are visible and identifiable",
+        "Does not comply with prompt requirement of no real people faces or identifiable individuals"
+      ],
+      "issues": [
+        "Visible faces of multiple people",
+        "Identifiable individuals in retail environment"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-003-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-003-3.json",
+      "reasons": [
+        "Image contains a real person with a recognizable face",
+        "Image contains readable text on the digital interface",
+        "Image contains identifiable individuals"
+      ],
+      "issues": [
+        "Real person with visible face",
+        "Readable text on screen",
+        "Identifiable individuals in the background"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-003-4.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-003-4.json",
+      "reasons": [
+        "Image contains real people with visible faces",
+        "Image contains readable text on the digital interface",
+        "Image does not match the negative prompt requirements"
+      ],
+      "issues": [
+        "Visible faces of real people",
+        "Readable product names and ratings on the screen"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-13-004-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-004-1.json",
+      "reasons": [
+        "The image depicts a cozy living room with comfortable furniture and soft warm lighting.",
+        "No real people, faces, logos, brand names, or text are present in the image.",
+        "The composition is visually coherent and suitable for commercial use in marketing or editorial contexts.",
+        "The image meets the technical specifications of high resolution, warm tones, and natural lighting.",
+        "No obvious AI artifacts or distortions are visible."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-13-004-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-004-2.json",
+      "reasons": [
+        "Image is commercially useful for illustrating comfort and simplicity in consumer products.",
+        "No real people, faces, or identifiable individuals present.",
+        "No logos, brand names, or text visible in the image.",
+        "Visually coherent with a modern cozy living room setting.",
+        "Photo-realistic quality with warm natural lighting and soft shadows.",
+        "No editorial content or watermarks detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-13-004-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-004-3.json",
+      "reasons": [
+        "The image depicts a cozy living room with comfortable furniture and simple decor, matching the concept and positive prompt.",
+        "No real people, logos, text, or identifiable individuals are present.",
+        "The image is visually coherent, commercially useful, and suitable for Adobe Stock.",
+        "Lighting and color tones are warm and natural, enhancing the comfort and simplicity theme.",
+        "No AI artifacts or distortions detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-13-004-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-13/review/packet-2026-06-13-004-4.json",
+      "reasons": [
+        "The image is commercially useful for marketing and social media purposes.",
+        "The image is visually coherent with a cozy living room setup.",
+        "No real people, logos, text, or identifiable individuals are present.",
+        "The lighting and decor match the positive prompt and technical specifications.",
+        "No visible AI artifacts or distortions."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    }
+  ]
+}

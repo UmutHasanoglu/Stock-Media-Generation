@@ -1,0 +1,306 @@
+[
+  {
+    "id": "packet-2026-06-13-001-1",
+    "concept_id": "concept-2026-06-13-001",
+    "topic": "Evolving Workplace Benefits",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio suits modern office environments and group collaboration scenes with multiple employees and a conference table.",
+    "positive_prompt": "modern office environment with diverse employees collaborating around a large conference table, digital devices such as laptops and tablets in use, casual office attire, bright and relaxed atmosphere, clean and contemporary design, no real people, no logos, no text, no identifiable individuals, no brand names",
+    "negative_prompt": "real people, faces, logos, brand names, text, watermarks, editorial scenes, public figures, recognizable company interiors or designs",
+    "technical_specs": "high resolution, realistic lighting, natural colors, no facial detail, no brand markings",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern office environment with employees collaborating around a conference table, digital devices, diverse employees, casual attire, relaxed atmosphere, no logos or identifiable features"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-001-2",
+    "concept_id": "concept-2026-06-13-001",
+    "topic": "Evolving Workplace Benefits",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic office photo framing highlighting group interaction around a table while balancing detail and composition.",
+    "positive_prompt": "diverse group of employees in a modern office collaborating around a conference table with laptops and tablets, casual business attire, bright and airy workspace, no real people, no brand logos, no text, no identifiable individuals",
+    "negative_prompt": "real people faces, logos, brand names, text, watermarks, editorial content, recognizable companies",
+    "technical_specs": "photo-realistic style, balanced lighting, clear view of digital devices, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern office setting with diverse employees collaborating around a conference table, digital devices, casual attire, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-001-3",
+    "concept_id": "concept-2026-06-13-001",
+    "topic": "Evolving Workplace Benefits",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio for editorial and web use to show a modern office scene with clear depiction of workplace dynamics.",
+    "positive_prompt": "modern office interior with diverse employees casually dressed collaborating around a conference table, digital devices such as laptops and smartphones visible, bright natural lighting, clean design, no real people, no brand logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high clarity, natural colors, no facial recognition details, no branding elements",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern office with diverse employees collaborating at a conference table, digital devices, casual attire, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-001-4",
+    "concept_id": "concept-2026-06-13-001",
+    "topic": "Evolving Workplace Benefits",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media and versatile use, focusing on collaborative workspace elements and digital devices.",
+    "positive_prompt": "modern office space with diverse employees collaborating around a conference table, digital devices like laptops and tablets, casual attire, bright and welcoming atmosphere, no real people, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand marks, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, balanced lighting, natural colors, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern office with diverse employees collaborating around a conference table using digital devices, casual attire, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-002-1",
+    "concept_id": "concept-2026-06-13-002",
+    "topic": "Authentic Self-Expression in Consumer Products",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic retail display framing to emphasize customizable products and monogrammed items clearly.",
+    "positive_prompt": "retail display featuring customizable products including monogrammed items and bespoke designs, diverse consumers browsing, bright and inviting store interior, no real people faces, no brand logos, no text, no identifiable individuals",
+    "negative_prompt": "real people faces, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high resolution, clean lighting, detailed product textures, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "collection of customizable monogrammed products and bespoke designs on retail display, diverse consumers browsing, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-002-2",
+    "concept_id": "concept-2026-06-13-002",
+    "topic": "Authentic Self-Expression in Consumer Products",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio to capture a broad retail environment highlighting individuality and product variety.",
+    "positive_prompt": "retail setting with a variety of bespoke and customizable products like monogrammed items, diverse consumers exploring the display, modern clean design, no real people faces, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, bright lighting, natural colors, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "retail environment showing customizable and monogrammed products, diverse consumers browsing, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-002-3",
+    "concept_id": "concept-2026-06-13-002",
+    "topic": "Authentic Self-Expression in Consumer Products",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio to show detailed close-ups of bespoke products alongside retail display context.",
+    "positive_prompt": "close-up retail display with customizable monogrammed products and bespoke designs, vibrant colors, diverse consumers in background, modern store interior, no real people faces, no brand logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high detail, natural lighting, vivid colors, no facial features, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "close-up of customizable monogrammed and bespoke products in retail display, diverse consumers visible but not identifiable, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-002-4",
+    "concept_id": "concept-2026-06-13-002",
+    "topic": "Authentic Self-Expression in Consumer Products",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format suitable for social media and ecommerce platforms focusing on product individuality.",
+    "positive_prompt": "square retail display with customizable products including monogrammed and bespoke items, vibrant colors, diverse consumers browsing, no real people faces, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, bright even lighting, detailed textures, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "square image of customizable monogrammed and bespoke products in retail setting, diverse consumers present but not identifiable, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-003-1",
+    "concept_id": "concept-2026-06-13-003",
+    "topic": "AI-Enhanced Shopping Experience",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format ideal for showing modern retail environments with digital interfaces and AI recommendations prominently.",
+    "positive_prompt": "modern retail environment with a digital interface displaying product options and AI-generated recommendations, diverse consumers interacting, sleek technology design, bright and futuristic atmosphere, no real people faces, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high resolution, clear digital display, natural lighting, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern retail setting showing digital interface with product options and AI recommendations, diverse consumers present but not identifiable, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-003-2",
+    "concept_id": "concept-2026-06-13-003",
+    "topic": "AI-Enhanced Shopping Experience",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced aspect ratio to capture detailed interface elements and consumer interaction in retail context.",
+    "positive_prompt": "digital shopping interface showing AI-generated product recommendations on screen, modern retail environment, diverse consumers browsing, sleek devices, no real people faces, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, sharp interface details, natural colors, no facial features, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "digital shopping interface with AI product recommendations in modern retail setting, diverse consumers present but not identifiable, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-003-3",
+    "concept_id": "concept-2026-06-13-003",
+    "topic": "AI-Enhanced Shopping Experience",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic ratio suitable for editorial and marketing imagery focusing on consumer tech interaction.",
+    "positive_prompt": "person using a digital interface displaying AI product recommendations in a modern retail environment, diverse consumers around, sleek technology, bright lighting, no real people faces, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high clarity, vibrant colors, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern retail environment with digital interface showing AI product recommendations, diverse consumers present but not identifiable, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-003-4",
+    "concept_id": "concept-2026-06-13-003",
+    "topic": "AI-Enhanced Shopping Experience",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media and ecommerce platforms focusing on AI technology and product displays.",
+    "positive_prompt": "square image of digital shopping interface with AI-generated product recommendations, modern retail setting, diverse consumers interacting, clean design, no real people faces, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, bright and clear interface, natural colors, no facial detail, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "square digital interface showing AI product recommendations in modern retail setting, diverse consumers present but not identifiable, no logos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-004-1",
+    "concept_id": "concept-2026-06-13-004",
+    "topic": "Comfort and Simplicity in Consumer Products",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic living room framing that emphasizes cozy furniture, soft lighting, and simple decor for editorial and marketing use.",
+    "positive_prompt": "cozy living room with comfortable furniture, soft warm lighting, simple elegant decor, relaxed atmosphere, no real people, no logos, no text, no identifiable individuals",
+    "negative_prompt": "real people, faces, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high resolution, warm tones, natural lighting, no branding elements",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "cozy living room with comfortable furniture, soft lighting, simple decor, relaxed atmosphere, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-004-2",
+    "concept_id": "concept-2026-06-13-004",
+    "topic": "Comfort and Simplicity in Consumer Products",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio ideal for showing a spacious living room environment emphasizing comfort and simplicity.",
+    "positive_prompt": "modern cozy living room setting with comfortable furniture, soft warm lighting, minimalistic simple decor, calm and relaxing atmosphere, no real people, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, warm natural lighting, no branding, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "modern cozy living room with comfortable furniture, soft lighting, simple decor, relaxed atmosphere, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-004-3",
+    "concept_id": "concept-2026-06-13-004",
+    "topic": "Comfort and Simplicity in Consumer Products",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio to highlight elements of comfort furniture and simple decor with intimate framing.",
+    "positive_prompt": "cozy living room with plush comfortable furniture, warm and soft lighting, minimalistic simple decor, peaceful and relaxed atmosphere, no real people, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial scenes, public figures",
+    "technical_specs": "high clarity, warm tones, natural lighting, no branding",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "cozy living room with comfortable furniture, soft lighting, simple decor, calm atmosphere, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-13-004-4",
+    "concept_id": "concept-2026-06-13-004",
+    "topic": "Comfort and Simplicity in Consumer Products",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media and marketing uses focusing on simplicity and calm in home furnishings.",
+    "positive_prompt": "square image of cozy living room with soft lighting, comfortable furniture, simple minimal decor, peaceful relaxed atmosphere, no real people, no logos, no text, no identifiable individuals",
+    "negative_prompt": "faces, real people, logos, brand names, text, watermarks, editorial content, public figures",
+    "technical_specs": "photo-realistic, warm natural light, no branding, soft shadows",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "square cozy living room with comfortable furniture, soft lighting, simple decor, relaxed mood, no logos or identifiable individuals"
+          }
+        ]
+      }
+    }
+  }
+]

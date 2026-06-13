@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Presence of readable text and monograms on products",
+    "Faces of people are visible and identifiable",
+    "Potentially identifiable individuals",
+    "Text on products violates no text requirement"
+  ],
+  "issues": [
+    "Readable monogram text on pillows, mugs, bags, and notebooks",
+    "Visible faces of multiple people in the image"
+  ],
+  "confidence_0_to_100": 95
+}

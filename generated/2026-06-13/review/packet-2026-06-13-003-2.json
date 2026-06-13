@@ -1,0 +1,14 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Real people with identifiable facial features present",
+    "Faces are visible and identifiable",
+    "Does not comply with prompt requirement of no real people faces or identifiable individuals"
+  ],
+  "issues": [
+    "Visible faces of multiple people",
+    "Identifiable individuals in retail environment"
+  ],
+  "confidence_0_to_100": 95
+}

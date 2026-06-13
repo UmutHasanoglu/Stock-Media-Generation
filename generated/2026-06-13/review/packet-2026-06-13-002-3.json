@@ -1,0 +1,16 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Presence of visible monogrammed text on products",
+    "Visible readable text on coasters and notebooks",
+    "Potential brand or designer initials on some products",
+    "Presence of identifiable individuals in the background"
+  ],
+  "issues": [
+    "Text on products is readable and includes initials and words",
+    "People in the background are identifiable and not blurred enough",
+    "Possible brand or designer marks visible on some items"
+  ],
+  "confidence_0_to_100": 95
+}

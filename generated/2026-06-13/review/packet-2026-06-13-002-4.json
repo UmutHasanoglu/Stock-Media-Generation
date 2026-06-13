@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains visible faces of real people",
+    "Image contains visible text and monograms on products",
+    "Presence of identifiable individuals"
+  ],
+  "issues": [
+    "Faces of two women are clearly visible",
+    "Monogrammed letters on bags, notebooks, mugs, and keychains are readable",
+    "People in background are identifiable despite some motion blur"
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is commercially useful for marketing and social media purposes.",
+    "The image is visually coherent with a cozy living room setup.",
+    "No real people, logos, text, or identifiable individuals are present.",
+    "The lighting and decor match the positive prompt and technical specifications.",
+    "No visible AI artifacts or distortions."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

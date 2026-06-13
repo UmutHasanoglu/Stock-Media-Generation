@@ -1,0 +1,14 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains real people with visible faces",
+    "Image contains readable text on the digital interface",
+    "Image does not match the negative prompt requirements"
+  ],
+  "issues": [
+    "Visible faces of real people",
+    "Readable product names and ratings on the screen"
+  ],
+  "confidence_0_to_100": 95
+}
