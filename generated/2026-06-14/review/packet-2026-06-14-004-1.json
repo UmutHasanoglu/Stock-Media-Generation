@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image depicts a mannequin wearing a stylish asymmetric skirt with an uneven hemline, matching the concept and positive prompt.",
+    "No real or public persons are visible; the mannequin is faceless and neutral.",
+    "No brand logos, trademarks, or copyrighted characters are present.",
+    "The background is plain and minimal, without clutter or text.",
+    "The lighting is soft and studio-like, emphasizing fabric texture and skirt shape.",
+    "The image is visually coherent, high resolution, and suitable for commercial fashion use."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

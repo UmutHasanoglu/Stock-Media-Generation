@@ -1,0 +1,14 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Visible user interface text on the computer screen",
+    "Potentially identifiable software interface elements",
+    "Presence of text on the screen violates no text requirement"
+  ],
+  "issues": [
+    "Screen content shows readable text and UI elements",
+    "Software interface includes text labels and buttons"
+  ],
+  "confidence_0_to_100": 95
+}

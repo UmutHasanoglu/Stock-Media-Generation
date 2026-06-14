@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is commercially useful for interior design and home decor themes.",
+    "The vertical format suits mobile ads and social media stories as intended.",
+    "The image is visually coherent with warm lighting and a cozy atmosphere.",
+    "No people, brand logos, watermarks, or text overlays are present.",
+    "The decor and textures are clear and well-focused, matching the prompt.",
+    "No editorial or unsafe content detected."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

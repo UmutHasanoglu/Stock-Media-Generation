@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image is commercially useful as a clean, modern digital workspace setup.",
+    "No visible people, brands, logos, or text overlays.",
+    "Visually coherent and matches the vertical aspect ratio requirement.",
+    "No obvious AI artifacts or distortions.",
+    "Neutral colors and soft lighting enhance the professional look."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

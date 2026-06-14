@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image is commercially useful as a stock photo depicting a digital workspace with AI photo editing software.",
+    "The composition is visually coherent and matches the square aspect ratio requirement.",
+    "No people, brand logos, or trademarks are visible in the image.",
+    "The image is free of watermarks, text, or editorial framing.",
+    "The lighting and detail quality are high, with no visible AI artifacts or distortions."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 95
+}

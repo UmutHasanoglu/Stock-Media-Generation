@@ -1,0 +1,382 @@
+[
+  {
+    "id": "packet-2026-06-14-001-1",
+    "concept_id": "concept-2026-06-14-001",
+    "topic": "Futuristic Nail Color Trends",
+    "aspect_ratio": "4:5",
+    "aspect_ratio_reason": "Optimal for close-up beauty shots highlighting hand and nail details in portrait orientation.",
+    "positive_prompt": "Close-up of hands with nails painted in various shades of futuristic blues and vibrant fruit-inspired colors, smooth neutral background, even lighting, sharp focus on nail polish texture, no logos, no product names, no identifiable people",
+    "negative_prompt": "no brand logos, no text, no watermarks, no identifiable individuals, no cluttered background, no specific product names, no cultural symbols",
+    "technical_specs": "High-resolution macro photography style, soft lighting to emphasize nail color accuracy, minimal shadows, natural skin tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Close-up of hands with nails painted in futuristic blues and fruit-inspired colors against a neutral background, emphasizing nail polish texture and color accuracy, no logos, no identifiable people."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-001-2",
+    "concept_id": "concept-2026-06-14-001",
+    "topic": "Futuristic Nail Color Trends",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format suitable for social media posts and beauty marketing visuals focusing on nail color details.",
+    "positive_prompt": "Hands with nails painted in a mix of futuristic blue and fruit-inspired hues, arranged elegantly on a neutral background, crisp focus, vibrant and accurate colors, no logos, no brands, no people",
+    "negative_prompt": "no brand logos, no watermarks, no text, no identifiable individuals, no clutter, no product names",
+    "technical_specs": "Studio lighting to enhance color vibrancy, shallow depth of field to isolate nails, high resolution for texture details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Hands with nails painted in futuristic blue and fruit-inspired colors on a neutral background, vibrant and clear, no logos or identifiable people."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-001-3",
+    "concept_id": "concept-2026-06-14-001",
+    "topic": "Futuristic Nail Color Trends",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio for banner or header images in beauty product marketing and fashion magazines.",
+    "positive_prompt": "Panoramic close-up of multiple hands showcasing nails painted in futuristic blues and bright fruit-inspired colors, neutral smooth background, balanced lighting, no brands, no text, no identifiable people",
+    "negative_prompt": "no logos, no visible product names, no watermarks, no identifiable individuals, no clutter, no cultural symbols",
+    "technical_specs": "Wide-angle macro style with even lighting to maintain color accuracy and focus across the frame, high resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Wide close-up of hands with nails painted in futuristic blue and fruit-inspired shades on a neutral background, vibrant colors, no logos or identifiable people."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-001-4",
+    "concept_id": "concept-2026-06-14-001",
+    "topic": "Futuristic Nail Color Trends",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format ideal for mobile-first beauty marketing and social media stories focusing on nail trends.",
+    "positive_prompt": "Vertical close-up of hands with nails painted in futuristic blue and fruit-inspired colors, smooth neutral background, soft diffused lighting, no logos, no text, no identifiable people",
+    "negative_prompt": "no brand logos, no watermarks, no text overlays, no identifiable individuals, no product names, no clutter",
+    "technical_specs": "Portrait orientation with soft lighting to highlight nail polish colors and textures, high detail and color fidelity",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical close-up of hands with nails painted in futuristic blue and fruit-inspired colors on a neutral background, no logos or identifiable people."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-002-1",
+    "concept_id": "concept-2026-06-14-002",
+    "topic": "Personalized Interior Design Aesthetics",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio perfect for showcasing cozy living rooms in interior design magazines and catalogs.",
+    "positive_prompt": "Cozy living room with textured fabrics, rich warm color schemes, personalized decor items on tables and shelves, inviting ambiance, no visible people, no brand logos, no clutter, clean composition",
+    "negative_prompt": "no identifiable brands, no people, no cluttered spaces, no text, no watermarks, no cultural insensitivity",
+    "technical_specs": "Warm ambient lighting to enhance textures, high resolution, balanced composition emphasizing cozy atmosphere, natural colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy living room featuring textured fabrics and rich color schemes with personalized decor, no visible people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-002-2",
+    "concept_id": "concept-2026-06-14-002",
+    "topic": "Personalized Interior Design Aesthetics",
+    "aspect_ratio": "4:5",
+    "aspect_ratio_reason": "Portrait orientation suitable for furniture catalogs and home decor advertisements focusing on room details.",
+    "positive_prompt": "Inviting living room corner with textured fabrics and rich color palette, personalized decor items like vases and books, soft natural lighting, no people, no brand logos, no clutter",
+    "negative_prompt": "no identifiable brands, no people, no cluttered backgrounds, no text, no watermarks, no cultural insensitivity",
+    "technical_specs": "Soft natural window light emphasizing textures and colors, high resolution with sharp focus on decor items, warm color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy living room corner with textured fabrics and rich colors, personalized decor, no visible people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-002-3",
+    "concept_id": "concept-2026-06-14-002",
+    "topic": "Personalized Interior Design Aesthetics",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square crop good for social media posts and online home decor promotions emphasizing design details.",
+    "positive_prompt": "Close-up of cozy living room elements with textured fabrics, rich warm colors, personalized decorative items on shelves, neutral tidy background, no people, no logos",
+    "negative_prompt": "no brands, no text, no watermarks, no people, no clutter, no cultural insensitivity",
+    "technical_specs": "Balanced artificial and natural lighting to highlight textures and colors, sharp focus on decor items, high detail",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Close-up of cozy living room details with textured fabrics and personalized decor, no people or brand logos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-002-4",
+    "concept_id": "concept-2026-06-14-002",
+    "topic": "Personalized Interior Design Aesthetics",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format ideal for mobile ads and interior design social media stories focusing on inviting room atmosphere.",
+    "positive_prompt": "Vertical view of cozy living room with rich textured fabrics, warm color palette, personalized decor on tables and shelves, soft lighting, no people, no logos, clean background",
+    "negative_prompt": "no brand logos, no people, no clutter, no text overlays, no watermarks, no cultural insensitivity",
+    "technical_specs": "Portrait orientation with soft ambient lighting, high resolution, clear focus on textures and decor, natural warm colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical view of cozy living room with textured fabrics and personalized decor, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-003-1",
+    "concept_id": "concept-2026-06-14-003",
+    "topic": "Playful Hair Accessory Designs",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for fashion blogs and online boutiques to highlight accessory details.",
+    "positive_prompt": "Collection of hair accessories featuring polka dot patterns and crochet textures with vintage-inspired designs, arranged on a smooth neutral background, no visible people, no brand logos, clean composition",
+    "negative_prompt": "no brand logos, no text, no watermarks, no people, no clutter, no cultural appropriation",
+    "technical_specs": "Soft diffused lighting to reveal texture details, high resolution macro style, sharp focus on patterns and materials",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Collection of hair accessories with polka dots and crochet textures on neutral background, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-003-2",
+    "concept_id": "concept-2026-06-14-003",
+    "topic": "Playful Hair Accessory Designs",
+    "aspect_ratio": "4:5",
+    "aspect_ratio_reason": "Portrait orientation suitable for product catalogues and detailed promotional images.",
+    "positive_prompt": "Vertical arrangement of hair accessories with vintage-inspired designs, polka dots, and crochet textures on a clean neutral background, no visible people, no brand logos, no clutter",
+    "negative_prompt": "no brands, no watermarks, no text, no people, no cultural insensitivity, no clutter",
+    "technical_specs": "Portrait lighting to emphasize textures and colors, high resolution, sharp detail on fabrics and patterns",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical display of hair accessories with polka dots and crochet textures on neutral background, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-003-3",
+    "concept_id": "concept-2026-06-14-003",
+    "topic": "Playful Hair Accessory Designs",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format for banner images on fashion blogs and online boutique websites.",
+    "positive_prompt": "Wide shot of hair accessory collection featuring polka dots, crochet textures, and vintage styles displayed neatly on a neutral background, no logos, no text, no people",
+    "negative_prompt": "no brand logos, no watermarks, no text overlays, no identifiable people, no clutter, no cultural appropriation",
+    "technical_specs": "Even lighting to maintain color fidelity, high resolution, balanced composition highlighting accessory details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Wide display of hair accessories with polka dot and crochet textures on neutral background, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-003-4",
+    "concept_id": "concept-2026-06-14-003",
+    "topic": "Playful Hair Accessory Designs",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format ideal for mobile fashion stories and accessory brand promotions.",
+    "positive_prompt": "Vertical close-up of playful hair accessories with polka dots and crochet textures arranged on a neutral background, no people, no brand logos, no clutter",
+    "negative_prompt": "no logos, no watermarks, no text, no people, no cultural insensitivity, no clutter",
+    "technical_specs": "Portrait orientation with soft lighting to highlight textures and colors, high detail and resolution",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical close-up of hair accessories with polka dots and crochet textures on neutral background, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-004-1",
+    "concept_id": "concept-2026-06-14-004",
+    "topic": "Asymmetric Skirt Fashion Trend",
+    "aspect_ratio": "4:5",
+    "aspect_ratio_reason": "Portrait ratio ideal for fashion catalogs and editorial images focusing on garment details.",
+    "positive_prompt": "Mannequin wearing a stylish asymmetric skirt with uneven hemline, paired with minimalist accessories, plain backdrop, no logos, no visible people, clean and minimal composition",
+    "negative_prompt": "no brand logos, no cluttered backgrounds, no people, no text, no watermarks, no cultural insensitivity",
+    "technical_specs": "Soft studio lighting to emphasize fabric texture and skirt shape, high resolution, sharp focus on asymmetry details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Mannequin displaying asymmetric skirt with uneven hemline and minimalist accessories on plain backdrop, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-004-2",
+    "concept_id": "concept-2026-06-14-004",
+    "topic": "Asymmetric Skirt Fashion Trend",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format for social media and online fashion retailer product images.",
+    "positive_prompt": "Front view of mannequin dressed in asymmetric skirt with uneven hemline, minimalist accessories, neutral plain background, no visible people, no logos, clean styling",
+    "negative_prompt": "no brand logos, no text, no watermarks, no people, no clutter",
+    "technical_specs": "Studio lighting with focus on garment texture and silhouette, high resolution, balanced contrast",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square image of mannequin wearing asymmetric skirt with minimalist accessories on plain background, no brands or people."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-004-3",
+    "concept_id": "concept-2026-06-14-004",
+    "topic": "Asymmetric Skirt Fashion Trend",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format suited for fashion magazine spreads and online banners highlighting the trend.",
+    "positive_prompt": "Wide shot of mannequin showcasing asymmetric skirt with uneven hemline and minimalist accessories against a plain backdrop, no people, no logos, clean and elegant composition",
+    "negative_prompt": "no brand logos, no clutter, no visible people, no text, no watermarks",
+    "technical_specs": "Even studio lighting with high resolution, sharp focus on skirt design and accessories, neutral color balance",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Wide image of mannequin wearing asymmetric skirt and minimalist accessories on plain backdrop, no people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-004-4",
+    "concept_id": "concept-2026-06-14-004",
+    "topic": "Asymmetric Skirt Fashion Trend",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format for mobile fashion content and online retailer stories focusing on garment shape.",
+    "positive_prompt": "Vertical close-up of mannequin dressed in asymmetric skirt with uneven hemline and minimalist accessories, plain neutral background, no logos, no people, minimalistic styling",
+    "negative_prompt": "no brand logos, no text, no watermarks, no visible people, no clutter",
+    "technical_specs": "Portrait lighting with soft shadows to emphasize skirt texture and shape, high resolution, clean composition",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical close-up of mannequin wearing asymmetric skirt with minimalist accessories on plain background, no brands or people."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-005-1",
+    "concept_id": "concept-2026-06-14-005",
+    "topic": "AI-Enhanced Stock Photography Workflow",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio ideal for tech tutorials, blogs, and stock photography platform banners.",
+    "positive_prompt": "Digital workspace featuring a computer screen showing AI-powered photo editing software, professional camera and editing equipment neatly arranged, modern desk setup, no people, no brand logos or visible software brand names, clean and organized",
+    "negative_prompt": "no identifiable brands, no visible people, no cluttered workspace, no text, no watermarks, no logos in software interface",
+    "technical_specs": "Bright, even lighting to highlight equipment details, high resolution, sharp focus on screen and tools, neutral color tones",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern digital workspace with computer showing AI photo editing software, camera and editing tools arranged neatly, no people or brand logos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-005-2",
+    "concept_id": "concept-2026-06-14-005",
+    "topic": "AI-Enhanced Stock Photography Workflow",
+    "aspect_ratio": "4:5",
+    "aspect_ratio_reason": "Portrait format suitable for tech magazine covers and digital workspace close-ups.",
+    "positive_prompt": "Close-up of computer screen displaying AI-powered image editing software, professional camera and editing devices on desk, clean modern workspace, no visible people, no brand logos, no clutter",
+    "negative_prompt": "no identifiable brands, no text, no watermarks, no people, no clutter, no logos on software interface",
+    "technical_specs": "Soft diffused lighting to minimize reflections on screen, high resolution, sharp focus on screen content and camera gear",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Close-up of computer with AI image editing software, camera and editing tools on clean desk, no people or brand logos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-005-3",
+    "concept_id": "concept-2026-06-14-005",
+    "topic": "AI-Enhanced Stock Photography Workflow",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format for social media posts and blog feature images focusing on AI editing workflow.",
+    "positive_prompt": "Square composition of a digital workspace with computer running AI photo editing software, camera and editing equipment neatly placed, neutral background, no people, no visible brand logos or names",
+    "negative_prompt": "no brand logos, no text, no watermarks, no people, no clutter, no logos on software interface",
+    "technical_specs": "Balanced lighting to avoid screen glare, high resolution, sharp detail on computer and camera gear",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square image of digital workspace with AI photo editing software on computer and camera equipment, no people or brand logos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-14-005-4",
+    "concept_id": "concept-2026-06-14-005",
+    "topic": "AI-Enhanced Stock Photography Workflow",
+    "aspect_ratio": "9:16",
+    "aspect_ratio_reason": "Vertical format optimized for mobile tech tutorials and social media stories about photography workflows.",
+    "positive_prompt": "Vertical view of a modern digital workspace with computer showing AI-powered image editing software, camera and editing tools arranged cleanly, no visible people, no brand logos or text, tidy and minimalistic",
+    "negative_prompt": "no brand logos, no watermarks, no text overlays, no people, no clutter, no logos on software interface",
+    "technical_specs": "Portrait lighting with soft illumination to highlight screen and equipment, high resolution, clear focus, neutral colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vertical image of digital workspace with AI photo editing software on computer, camera and editing tools, no people or brands."
+          }
+        ]
+      }
+    }
+  }
+]

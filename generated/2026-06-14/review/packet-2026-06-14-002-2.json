@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image depicts a cozy living room corner with textured fabrics and a rich color palette, matching the positive prompt.",
+    "No people, brand logos, or clutter are visible in the image.",
+    "The lighting is soft and natural, emphasizing textures and colors as specified.",
+    "The image is visually coherent, commercially useful, and suitable for Adobe Stock.",
+    "No visible text, watermarks, or editorial content present."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

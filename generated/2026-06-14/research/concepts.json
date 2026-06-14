@@ -1,0 +1,146 @@
+[
+  {
+    "id": "concept-2026-06-14-001",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Emerging nail color trends for summer 2026, including futuristic blues and fruit-inspired hues.",
+    "topic": "Futuristic Nail Color Trends",
+    "stock_safe_concept": "A close-up of hands with nails painted in various shades of blue and fruit-inspired colors, set against a neutral background, highlighting the latest nail color trends.",
+    "buyer_use_cases": [
+      "beauty product marketing",
+      "fashion magazines",
+      "nail salon promotions"
+    ],
+    "visual_elements": [
+      "hands with painted nails",
+      "blue and fruit-inspired nail colors",
+      "neutral background"
+    ],
+    "negative_constraints": [
+      "avoid brand logos",
+      "no specific product names",
+      "no identifiable individuals"
+    ],
+    "risk_notes": [
+      "ensure color accuracy",
+      "avoid cultural appropriation in design elements"
+    ],
+    "score_0_to_100": 85,
+    "score_reason": "Aligns with current beauty trends and has broad commercial applicability."
+  },
+  {
+    "id": "concept-2026-06-14-002",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Shift towards personalized and emotive interior design with textured materials and rich color palettes in 2026.",
+    "topic": "Personalized Interior Design Aesthetics",
+    "stock_safe_concept": "A cozy living room featuring textured fabrics, rich color schemes, and personalized decor items, creating an inviting and emotive space.",
+    "buyer_use_cases": [
+      "interior design magazines",
+      "furniture catalogs",
+      "home decor advertisements"
+    ],
+    "visual_elements": [
+      "textured fabrics",
+      "rich color schemes",
+      "personalized decor items",
+      "cozy ambiance"
+    ],
+    "negative_constraints": [
+      "no identifiable brands",
+      "avoid cluttered spaces",
+      "no visible people"
+    ],
+    "risk_notes": [
+      "ensure design elements are universally appealing",
+      "avoid cultural insensitivity in decor choices"
+    ],
+    "score_0_to_100": 90,
+    "score_reason": "Captures a growing trend in interior design with wide commercial appeal."
+  },
+  {
+    "id": "concept-2026-06-14-003",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Rise of playful and nostalgic hair accessory designs for summer 2026, including polka dots and crochet textures.",
+    "topic": "Playful Hair Accessory Designs",
+    "stock_safe_concept": "A collection of hair accessories featuring polka dots, crochet textures, and vintage-inspired designs, displayed on a neutral background.",
+    "buyer_use_cases": [
+      "fashion blogs",
+      "online boutiques",
+      "hair accessory brands"
+    ],
+    "visual_elements": [
+      "polka dot patterns",
+      "crochet textures",
+      "vintage-inspired designs",
+      "neutral background"
+    ],
+    "negative_constraints": [
+      "no identifiable brands",
+      "avoid cluttered compositions",
+      "no visible people"
+    ],
+    "risk_notes": [
+      "ensure designs are universally appealing",
+      "avoid cultural appropriation in patterns"
+    ],
+    "score_0_to_100": 80,
+    "score_reason": "Reflects current fashion trends with potential for broad commercial use."
+  },
+  {
+    "id": "concept-2026-06-14-004",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Emergence of asymmetric skirts with uneven hemlines as a fashion trend for summer 2026.",
+    "topic": "Asymmetric Skirt Fashion Trend",
+    "stock_safe_concept": "A mannequin displaying a stylish asymmetric skirt with an uneven hemline, paired with minimalist accessories, set against a plain backdrop.",
+    "buyer_use_cases": [
+      "fashion retailers",
+      "online clothing stores",
+      "fashion magazines"
+    ],
+    "visual_elements": [
+      "asymmetric skirt",
+      "uneven hemline",
+      "minimalist accessories",
+      "plain backdrop"
+    ],
+    "negative_constraints": [
+      "no identifiable brands",
+      "avoid cluttered backgrounds",
+      "no visible people"
+    ],
+    "risk_notes": [
+      "ensure design is universally appealing",
+      "avoid cultural insensitivity in styling"
+    ],
+    "score_0_to_100": 75,
+    "score_reason": "Captures a specific fashion trend with potential niche appeal."
+  },
+  {
+    "id": "concept-2026-06-14-005",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Integration of AI-generated content in stock photography workflows in 2026.",
+    "topic": "AI-Enhanced Stock Photography Workflow",
+    "stock_safe_concept": "A digital workspace showcasing a photographer editing images using AI-powered software on a computer, with a camera and editing equipment nearby.",
+    "buyer_use_cases": [
+      "photography blogs",
+      "tech tutorials",
+      "stock photography platforms"
+    ],
+    "visual_elements": [
+      "computer with AI software",
+      "camera equipment",
+      "editing tools",
+      "digital workspace"
+    ],
+    "negative_constraints": [
+      "no identifiable brands",
+      "avoid cluttered workspace",
+      "no visible people"
+    ],
+    "risk_notes": [
+      "ensure technology depicted is up-to-date",
+      "avoid brand logos in software interfaces"
+    ],
+    "score_0_to_100": 70,
+    "score_reason": "Represents a growing trend in the photography industry with specific commercial applications."
+  }
+]

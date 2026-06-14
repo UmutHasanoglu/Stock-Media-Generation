@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "Image shows a mannequin, not a real person, which is allowed.",
+    "No visible brand logos, trademarks, or copyrighted characters.",
+    "No text, watermarks, or editorial framing present.",
+    "The asymmetric skirt with uneven hemline is clearly visible and well-lit.",
+    "Neutral plain background and minimalist styling match the concept and technical specs.",
+    "Image is visually coherent and commercially useful for fashion product display."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

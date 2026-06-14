@@ -1,0 +1,318 @@
+{
+  "generated_count": 20,
+  "approved_count": 19,
+  "rejected_count": 1,
+  "approved": [
+    "packet-2026-06-14-001-1.jpg",
+    "packet-2026-06-14-001-2.jpg",
+    "packet-2026-06-14-001-3.jpg",
+    "packet-2026-06-14-001-4.jpg",
+    "packet-2026-06-14-002-1.jpg",
+    "packet-2026-06-14-002-2.jpg",
+    "packet-2026-06-14-002-3.jpg",
+    "packet-2026-06-14-002-4.jpg",
+    "packet-2026-06-14-003-1.jpg",
+    "packet-2026-06-14-003-2.jpg",
+    "packet-2026-06-14-003-3.jpg",
+    "packet-2026-06-14-003-4.jpg",
+    "packet-2026-06-14-004-1.jpg",
+    "packet-2026-06-14-004-2.jpg",
+    "packet-2026-06-14-004-3.jpg",
+    "packet-2026-06-14-004-4.jpg",
+    "packet-2026-06-14-005-1.jpg",
+    "packet-2026-06-14-005-3.jpg",
+    "packet-2026-06-14-005-4.jpg"
+  ],
+  "rejected": [
+    "packet-2026-06-14-005-2.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "packet-2026-06-14-001-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-001-1.json",
+      "reasons": [
+        "The image is a close-up of hands with nails painted in various vibrant colors, matching the futuristic and fruit-inspired color theme.",
+        "The background is neutral and uncluttered, ensuring focus on the nails.",
+        "There are no visible logos, brand names, or text in the image.",
+        "The image is visually coherent, sharp, and well-lit, suitable for commercial use in beauty and nail polish contexts.",
+        "No identifiable individuals or editorial content present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-001-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-001-2.json",
+      "reasons": [
+        "The image is commercially useful for beauty and nail art marketing.",
+        "The image is visually coherent with clear focus on the nails.",
+        "The colors are vibrant and match the futuristic and fruit-inspired theme.",
+        "No logos, brands, watermarks, or text are present.",
+        "No identifiable individuals or editorial content.",
+        "The image is high quality with good lighting and suitable composition."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-001-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-001-3.json",
+      "reasons": [
+        "The image is commercially useful for beauty and fashion marketing.",
+        "The image is visually coherent with a clear focus on nail art.",
+        "No real or public persons are identifiable.",
+        "No brands, logos, watermarks, or text are visible.",
+        "The image matches the prompt description well with futuristic and fruit-inspired nail colors.",
+        "The background is neutral and uncluttered, suitable for stock use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-14-001-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-001-4.json",
+      "reasons": [
+        "The image is a clear, vertical close-up of hands with nails painted in various vibrant colors including futuristic blue and fruit-inspired hues.",
+        "The background is smooth and neutral, providing good contrast without distractions.",
+        "There are no logos, text, watermarks, or identifiable individuals present in the image.",
+        "The image is visually coherent, well-lit with soft diffused lighting, and suitable for commercial use in beauty marketing and social media.",
+        "The image matches the prompt and technical specifications provided."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-002-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-002-1.json",
+      "reasons": [
+        "The image depicts a cozy living room with textured fabrics and warm color schemes as requested.",
+        "No visible people, brand logos, or clutter are present in the image.",
+        "The composition is clean and balanced, suitable for commercial use in interior design contexts.",
+        "The lighting is warm and enhances the textures and ambiance effectively.",
+        "The image is visually coherent and matches the concept of personalized interior design aesthetics."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-002-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-002-2.json",
+      "reasons": [
+        "The image depicts a cozy living room corner with textured fabrics and a rich color palette, matching the positive prompt.",
+        "No people, brand logos, or clutter are visible in the image.",
+        "The lighting is soft and natural, emphasizing textures and colors as specified.",
+        "The image is visually coherent, commercially useful, and suitable for Adobe Stock.",
+        "No visible text, watermarks, or editorial content present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-002-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-002-3.json",
+      "reasons": [
+        "The image is a close-up of cozy living room elements with textured fabrics and personalized decorative items, matching the prompt.",
+        "No people, logos, brands, or text are visible in the image.",
+        "The image is visually coherent, well-lit, and suitable for commercial use in interior design or home decor promotions.",
+        "No obvious AI artifacts or distortions are present.",
+        "The square crop is appropriate for social media and online promotion as described."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-14-002-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-002-4.json",
+      "reasons": [
+        "The image is commercially useful for interior design and home decor themes.",
+        "The vertical format suits mobile ads and social media stories as intended.",
+        "The image is visually coherent with warm lighting and a cozy atmosphere.",
+        "No people, brand logos, watermarks, or text overlays are present.",
+        "The decor and textures are clear and well-focused, matching the prompt.",
+        "No editorial or unsafe content detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-003-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-003-1.json",
+      "reasons": [
+        "The image is commercially useful for fashion and accessory promotion.",
+        "No people, brands, logos, or watermarks are visible.",
+        "The composition is clean and visually coherent.",
+        "The lighting and focus highlight the texture and details of the hair accessories.",
+        "The image matches the prompt description well."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-003-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-003-2.json",
+      "reasons": [
+        "The image shows a clear, vertical arrangement of hair accessories as requested.",
+        "No people, brands, logos, or watermarks are visible in the image.",
+        "The background is neutral and uncluttered, emphasizing the products.",
+        "The image is sharp with good lighting that highlights textures and colors.",
+        "The image is commercially useful for product catalogues or promotional use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-003-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-003-3.json",
+      "reasons": [
+        "The image shows a clear, well-composed wide shot of various hair accessories including polka dot and crochet textures as requested.",
+        "There are no people, logos, watermarks, or text overlays present in the image.",
+        "The lighting is even and color fidelity is maintained, highlighting the accessory details effectively.",
+        "The neutral background and wooden surface provide a clean, non-distracting setting suitable for commercial use.",
+        "The image matches the prompt and technical specifications well, making it commercially useful and visually coherent."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-003-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-003-4.json",
+      "reasons": [
+        "The image is a vertical close-up of playful hair accessories with polka dots and crochet textures as described in the prompt.",
+        "No people, brand logos, watermarks, or text are present in the image.",
+        "The composition is visually coherent and suitable for commercial use in fashion or accessory promotions.",
+        "The image quality is high with good detail and soft lighting highlighting the textures and colors.",
+        "The background is neutral and uncluttered, enhancing the focus on the accessories."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-004-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-004-1.json",
+      "reasons": [
+        "The image depicts a mannequin wearing a stylish asymmetric skirt with an uneven hemline, matching the concept and positive prompt.",
+        "No real or public persons are visible; the mannequin is faceless and neutral.",
+        "No brand logos, trademarks, or copyrighted characters are present.",
+        "The background is plain and minimal, without clutter or text.",
+        "The lighting is soft and studio-like, emphasizing fabric texture and skirt shape.",
+        "The image is visually coherent, high resolution, and suitable for commercial fashion use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-004-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-004-2.json",
+      "reasons": [
+        "Image shows a mannequin, not a real person, which is allowed.",
+        "No visible brand logos, trademarks, or copyrighted characters.",
+        "No text, watermarks, or editorial framing present.",
+        "The asymmetric skirt with uneven hemline is clearly visible and well-lit.",
+        "Neutral plain background and minimalist styling match the concept and technical specs.",
+        "Image is visually coherent and commercially useful for fashion product display."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-004-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-004-3.json",
+      "reasons": [
+        "Image depicts a mannequin wearing an asymmetric skirt with uneven hemline as requested.",
+        "No people, logos, brands, or watermarks are visible.",
+        "Clean and elegant composition with a plain backdrop.",
+        "High visual coherence and commercial usefulness for fashion-related content.",
+        "Technical quality appears high with even lighting and sharp focus."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-004-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-004-4.json",
+      "reasons": [
+        "The image features a mannequin wearing an asymmetric skirt with an uneven hemline, matching the fashion trend concept.",
+        "No real people, brands, logos, or watermarks are visible.",
+        "The background is plain and neutral, ensuring focus on the garment.",
+        "The composition is clean and visually coherent with good lighting emphasizing texture and shape.",
+        "The image is suitable for commercial use in fashion retail or editorial contexts."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-005-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-005-1.json",
+      "reasons": [
+        "The image depicts a clean, modern digital workspace with no people present.",
+        "No visible brand logos, trademarks, or copyrighted characters are present on the equipment or software interface.",
+        "The photo editing software interface shown on the monitor is generic and does not display any identifiable brand names or logos.",
+        "The workspace is neat and organized, visually coherent, and suitable for commercial use in tech tutorials, blogs, or stock photography platforms.",
+        "The image quality is high with sharp focus, bright and even lighting, and neutral color tones as requested.",
+        "No text, watermarks, or editorial framing are present."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "packet-2026-06-14-005-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-005-2.json",
+      "reasons": [
+        "Visible user interface text on the computer screen",
+        "Potentially identifiable software interface elements",
+        "Presence of text on the screen violates no text requirement"
+      ],
+      "issues": [
+        "Screen content shows readable text and UI elements",
+        "Software interface includes text labels and buttons"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-14-005-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-005-3.json",
+      "reasons": [
+        "The image is commercially useful as a stock photo depicting a digital workspace with AI photo editing software.",
+        "The composition is visually coherent and matches the square aspect ratio requirement.",
+        "No people, brand logos, or trademarks are visible in the image.",
+        "The image is free of watermarks, text, or editorial framing.",
+        "The lighting and detail quality are high, with no visible AI artifacts or distortions."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-14-005-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-14/review/packet-2026-06-14-005-4.json",
+      "reasons": [
+        "Image is commercially useful as a clean, modern digital workspace setup.",
+        "No visible people, brands, logos, or text overlays.",
+        "Visually coherent and matches the vertical aspect ratio requirement.",
+        "No obvious AI artifacts or distortions.",
+        "Neutral colors and soft lighting enhance the professional look."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    }
+  ]
+}
