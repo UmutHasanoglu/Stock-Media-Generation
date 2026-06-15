@@ -1,0 +1,303 @@
+{
+  "generated_count": 20,
+  "approved_count": 9,
+  "rejected_count": 11,
+  "approved": [
+    "concept-2026-06-15-001-packet-2.jpg",
+    "concept-2026-06-15-001-packet-4.jpg",
+    "concept-2026-06-15-003-packet-4.jpg",
+    "concept-2026-06-15-004-packet-2.jpg",
+    "concept-2026-06-15-004-packet-4.jpg",
+    "concept-2026-06-15-005-packet-1.jpg",
+    "concept-2026-06-15-005-packet-2.jpg",
+    "concept-2026-06-15-005-packet-3.jpg",
+    "concept-2026-06-15-005-packet-4.jpg"
+  ],
+  "rejected": [
+    "concept-2026-06-15-001-packet-1.jpg",
+    "concept-2026-06-15-001-packet-3.jpg",
+    "concept-2026-06-15-002-packet-1.jpg",
+    "concept-2026-06-15-002-packet-2.jpg",
+    "concept-2026-06-15-002-packet-3.jpg",
+    "concept-2026-06-15-002-packet-4.jpg",
+    "concept-2026-06-15-003-packet-1.jpg",
+    "concept-2026-06-15-003-packet-2.jpg",
+    "concept-2026-06-15-003-packet-3.jpg",
+    "concept-2026-06-15-004-packet-1.jpg",
+    "concept-2026-06-15-004-packet-3.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "concept-2026-06-15-001-packet-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-001-packet-1.json",
+      "reasons": [
+        "Contains identifiable people in framed photo",
+        "Contains text on book spines and book cover",
+        "Contains personal and potentially copyrighted artwork"
+      ],
+      "issues": [
+        "Identifiable individuals in framed photograph on bookshelf",
+        "Readable text on book spines and book cover on table",
+        "Artwork on walls and shelves may be copyrighted or personal"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-001-packet-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-001-packet-2.json",
+      "reasons": [
+        "The image depicts a cozy, inviting living room with layered textured fabrics such as woven rugs and linen curtains.",
+        "The color palette includes rich jewel tones with emerald and sapphire hues, matching the prompt.",
+        "Personalized decor items like handmade ceramics and vintage books are present.",
+        "Warm ambient lighting creates a cozy atmosphere as requested.",
+        "No identifiable individuals, brand names, logos, or watermarks are visible.",
+        "The image is visually coherent, commercially useful, and suitable for Adobe Stock."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-001-packet-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-001-packet-3.json",
+      "reasons": [
+        "Presence of identifiable people in framed photos"
+      ],
+      "issues": [
+        "Framed photos on the table and wall contain blurred but still recognizable images of people, which is not allowed."
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-001-packet-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-001-packet-4.json",
+      "reasons": [
+        "The image depicts a cozy living room corner with textured fabrics such as faux fur pillows and velvet throws.",
+        "The color palette includes rich deep colors like burgundy and navy blue as requested.",
+        "Personalized decor items such as handmade candles and unique vases are present.",
+        "The lighting is warm and intimate, enhancing the cozy atmosphere.",
+        "No logos, brands, identifiable individuals, text, or watermarks are visible.",
+        "The image is visually coherent, commercially useful, and suitable for Adobe Stock."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-002-packet-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-002-packet-1.json",
+      "reasons": [
+        "Contains identifiable people"
+      ],
+      "issues": [
+        "Identifiable individuals present in the image"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-002-packet-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-002-packet-2.json",
+      "reasons": [
+        "Contains identifiable people"
+      ],
+      "issues": [
+        "Identifiable individuals present"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-002-packet-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-002-packet-3.json",
+      "reasons": [
+        "Image contains real identifiable people",
+        "Does not meet requirement of no identifiable individuals"
+      ],
+      "issues": [
+        "Presence of real people identifiable by facial features"
+      ],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-002-packet-4.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-002-packet-4.json",
+      "reasons": [
+        "Image contains identifiable people",
+        "Faces are visible and recognizable",
+        "Does not meet requirement of no identifiable individuals"
+      ],
+      "issues": [
+        "Identifiable individuals present in the image"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-003-packet-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-003-packet-1.json",
+      "reasons": [
+        "Image contains identifiable real people",
+        "Faces of individuals are visible and recognizable",
+        "Does not meet requirement of no identifiable individuals"
+      ],
+      "issues": [
+        "Identifiable real persons present"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-003-packet-2.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-003-packet-2.json",
+      "reasons": [
+        "Image contains identifiable people",
+        "Faces of people are visible and recognizable",
+        "Does not comply with requirement of no identifiable individuals"
+      ],
+      "issues": [
+        "Identifiable individuals present in the image"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-003-packet-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-003-packet-3.json",
+      "reasons": [
+        "Image contains identifiable individuals",
+        "Image contains people with visible faces"
+      ],
+      "issues": [
+        "Identifiable individuals present",
+        "Faces clearly visible"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-003-packet-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-003-packet-4.json",
+      "reasons": [
+        "The image is commercially useful and visually coherent.",
+        "It features a vibrant summer shopping display with diverse colorful products including fresh fruits, flowers, and handmade items.",
+        "There are no identifiable people, brand logos, text, or watermarks present.",
+        "The image has bright natural lighting and saturated vivid colors as specified.",
+        "The composition fits the square format ideal for social media and promotional use."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-004-packet-1.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-004-packet-1.json",
+      "reasons": [
+        "Image contains readable text on labels."
+      ],
+      "issues": [
+        "Readable text on jars labeled 'Spices', 'Lentils', and 'Grains'."
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-004-packet-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-004-packet-2.json",
+      "reasons": [
+        "The image visually represents zero-waste kitchen items as described in the prompt.",
+        "No identifiable people, logos, brand names, or watermarks are present.",
+        "The composition is commercially useful and visually coherent for eco-friendly product displays.",
+        "The image has natural warm lighting and detailed textures, matching the technical specifications.",
+        "No single-use plastic items or editorial content are visible."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-004-packet-3.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-004-packet-3.json",
+      "reasons": [
+        "Image contains readable text on labels attached to jars"
+      ],
+      "issues": [
+        "Readable text on product labels"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "concept-2026-06-15-004-packet-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-004-packet-4.json",
+      "reasons": [
+        "Image depicts zero-waste kitchen essentials as described in the prompt.",
+        "No identifiable people, logos, brands, or text present.",
+        "Visually coherent and commercially useful for sustainable lifestyle or kitchen product themes.",
+        "High-quality image with soft natural lighting and detailed textures.",
+        "No AI artifacts or distortions detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-005-packet-1.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-005-packet-1.json",
+      "reasons": [
+        "Image depicts a serene yoga and meditation corner as described in the prompt.",
+        "No identifiable individuals, logos, brand names, text, or watermarks present.",
+        "Visually coherent and commercially useful for wellness and lifestyle themes.",
+        "No obvious AI artifacts or distortions.",
+        "Warm ambient lighting and cozy interior setting match the technical specifications."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-005-packet-2.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-005-packet-2.json",
+      "reasons": [
+        "The image depicts a cozy, well-composed yoga and meditation corner as described in the prompt.",
+        "No identifiable individuals, logos, text, or watermarks are present.",
+        "The lighting is warm and soft, enhancing the serene wellness environment.",
+        "The image is visually coherent and commercially useful for wellness lifestyle and home fitness themes."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-005-packet-3.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-005-packet-3.json",
+      "reasons": [
+        "The image depicts a peaceful at-home yoga and meditation corner consistent with the prompt.",
+        "No identifiable people, brand logos, text, or watermarks are present.",
+        "The composition is visually coherent and commercially useful for lifestyle and wellness content.",
+        "The warm ambient lighting and calm atmosphere meet the technical specifications.",
+        "No obvious AI artifacts or distorted objects detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    },
+    {
+      "filename": "concept-2026-06-15-005-packet-4.jpg",
+      "approved": true,
+      "review_path": "generated/2026-06-15/review/concept-2026-06-15-005-packet-4.json",
+      "reasons": [
+        "Image depicts a cozy yoga and meditation corner as described in the prompt.",
+        "No identifiable people, logos, text, or watermarks present.",
+        "Visually coherent and commercially useful for wellness and lifestyle content.",
+        "High-quality image with warm, soft lighting and a calm atmosphere.",
+        "No AI artifacts or distorted objects detected."
+      ],
+      "issues": [],
+      "confidence_0_to_100": 98
+    }
+  ]
+}

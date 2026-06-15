@@ -1,0 +1,382 @@
+[
+  {
+    "id": "concept-2026-06-15-001-packet-1",
+    "concept_id": "concept-2026-06-15-001",
+    "topic": "Personalized and Authentic Experiences",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic interior photography aspect ratio that highlights room details and creates a balanced cozy atmosphere.",
+    "positive_prompt": "Cozy living room with textured fabrics like knitted throws and velvet cushions, rich warm color schemes including deep reds and golds, personalized decor items such as framed art and unique trinkets on shelves, inviting and emotive atmosphere, soft natural lighting, no brand logos, no identifiable people, no text or watermarks",
+    "negative_prompt": "no logos, no brands, no text, no watermarks, no identifiable individuals, no copyrighted materials, no modern electronic devices, no bright neon colors",
+    "technical_specs": "High resolution, soft natural lighting, warm tones, focus on textures and decor details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy living room with textured fabrics like knitted throws and velvet cushions, rich warm color schemes including deep reds and golds, personalized decor items such as framed art and unique trinkets on shelves, inviting and emotive atmosphere, soft natural lighting, no brand logos, no identifiable people, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-001-packet-2",
+    "concept_id": "concept-2026-06-15-001",
+    "topic": "Personalized and Authentic Experiences",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Widely used aspect ratio suitable for lifestyle and home decor imagery emphasizing the cozy space and personalized details.",
+    "positive_prompt": "Inviting living room featuring layered textured fabrics such as woven rugs and linen curtains, rich jewel tone color palette with emerald and sapphire hues, personalized decor items including handmade ceramics and vintage books, warm ambient lighting creating cozy atmosphere, no identifiable individuals, no brand names, no logos, no watermarks",
+    "negative_prompt": "no identifiable people, no logos, no text, no brand names, no watermarks, no modern technology, no harsh lighting",
+    "technical_specs": "High resolution, focus on fabric textures and color richness, ambient warm lighting",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Inviting living room featuring layered textured fabrics such as woven rugs and linen curtains, rich jewel tone color palette with emerald and sapphire hues, personalized decor items including handmade ceramics and vintage books, warm ambient lighting creating cozy atmosphere, no identifiable individuals, no brand names, no logos, no watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-001-packet-3",
+    "concept_id": "concept-2026-06-15-001",
+    "topic": "Personalized and Authentic Experiences",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format suitable for lifestyle and interior design usage showing spacious cozy areas with rich decor elements.",
+    "positive_prompt": "Cozy living room with textured fabrics like chunky knit blankets and soft cushions, rich autumnal color scheme with burnt orange and brown tones, personalized decor items such as framed family photos and handcrafted pottery, warm inviting atmosphere with natural light filtering through windows, no logos, no brands, no identifiable people, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no text, no brand names, no watermarks, no modern technology devices, no bright artificial lighting",
+    "technical_specs": "High resolution, natural window light, warm color grading focusing on texture and comfort",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy living room with textured fabrics like chunky knit blankets and soft cushions, rich autumnal color scheme with burnt orange and brown tones, personalized decor items such as framed family photos and handcrafted pottery, warm inviting atmosphere with natural light filtering through windows, no logos, no brands, no identifiable people, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-001-packet-4",
+    "concept_id": "concept-2026-06-15-001",
+    "topic": "Personalized and Authentic Experiences",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media and lifestyle marketing use emphasizing key personalized decorative elements.",
+    "positive_prompt": "Cozy living room corner with textured fabrics such as faux fur pillows and velvet throws, rich deep color palette featuring burgundy and navy blue, personalized decor items including handmade candles and unique vases, warm intimate lighting, no logos, no brands, no identifiable individuals, no text or watermarks",
+    "negative_prompt": "no identifiable people, no logos, no text, no brand names, no watermarks, no modern electronic devices, no harsh lighting",
+    "technical_specs": "High resolution, warm intimate lighting, focus on fabric textures and decor details",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy living room corner with textured fabrics such as faux fur pillows and velvet throws, rich deep color palette featuring burgundy and navy blue, personalized decor items including handmade candles and unique vases, warm intimate lighting, no logos, no brands, no identifiable individuals, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-002-packet-1",
+    "concept_id": "concept-2026-06-15-002",
+    "topic": "AI Integration in the Workplace",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide aspect ratio well-suited for corporate and technology images showing collaborative workspaces with digital devices.",
+    "positive_prompt": "Modern office with employees collaborating around a conference table, digital devices like laptops and tablets visible, relaxed and inclusive atmosphere, clean and bright environment, no identifiable individuals, no brand logos, no proprietary technology, no text or watermarks",
+    "negative_prompt": "no identifiable people, no brand logos, no text, no watermarks, no proprietary technology, no editorial or news scenes",
+    "technical_specs": "High resolution, bright natural and artificial lighting, sharp focus on devices and workspace",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Modern office with employees collaborating around a conference table, digital devices like laptops and tablets visible, relaxed and inclusive atmosphere, clean and bright environment, no identifiable individuals, no brand logos, no proprietary technology, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-002-packet-2",
+    "concept_id": "concept-2026-06-15-002",
+    "topic": "AI Integration in the Workplace",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio that balances focus on people and technology in a collaborative office setting.",
+    "positive_prompt": "Contemporary office space with collaborative team around a conference table, digital devices such as tablets and monitors present, relaxed atmosphere with natural light, inclusive setting, no identifiable people, no brand logos, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no text, no brand names, no watermarks, no proprietary technology, no editorial content",
+    "technical_specs": "High resolution, natural lighting, clear view of office environment and devices",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Contemporary office space with collaborative team around a conference table, digital devices such as tablets and monitors present, relaxed atmosphere with natural light, inclusive setting, no identifiable people, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-002-packet-3",
+    "concept_id": "concept-2026-06-15-002",
+    "topic": "AI Integration in the Workplace",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio ideal for showing interaction and technology integration in workspaces for corporate use.",
+    "positive_prompt": "Bright modern office with team collaborating at a large table, various digital devices including laptops and smartphones, relaxed and inclusive vibe, no identifiable individuals, no brand logos, no proprietary technology depicted, no text or watermarks",
+    "negative_prompt": "no logos, no identifiable people, no text, no brand names, no watermarks, no proprietary tech, no editorial scenes",
+    "technical_specs": "High resolution, bright even lighting, focus on collaboration and devices",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Bright modern office with team collaborating at a large table, various digital devices including laptops and smartphones, relaxed and inclusive vibe, no identifiable individuals, no brand logos, no proprietary technology depicted, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-002-packet-4",
+    "concept_id": "concept-2026-06-15-002",
+    "topic": "AI Integration in the Workplace",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format suited for technology and corporate social media imagery focusing on collaboration and devices.",
+    "positive_prompt": "Collaborative office environment with digital devices on table, modern furniture, relaxed and open atmosphere, no identifiable people, no brand logos, no text or watermarks, generic and inclusive setting",
+    "negative_prompt": "no identifiable individuals, no logos, no text, no brand names, no watermarks, no proprietary technology, no editorial content",
+    "technical_specs": "High resolution, clean lighting, focus on workspace and devices",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Collaborative office environment with digital devices on table, modern furniture, relaxed and open atmosphere, no identifiable people, no brand logos, no text or watermarks, generic and inclusive setting"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-003-packet-1",
+    "concept_id": "concept-2026-06-15-003",
+    "topic": "Optimistic Summer Shopping",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format captures vibrant summer shopping scenes with diverse products and enthusiastic shoppers.",
+    "positive_prompt": "Vibrant summer shopping scene featuring diverse colorful products displayed on market stalls, enthusiastic shoppers browsing, bright summer ambiance with natural sunlight, diverse inclusive crowd without identifiable features, no brand logos, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no brand names, no text, no watermarks, no editorial or news scenes",
+    "technical_specs": "High resolution, bright natural lighting, saturated vibrant colors to evoke summer optimism",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Vibrant summer shopping scene featuring diverse colorful products displayed on market stalls, enthusiastic shoppers browsing, bright summer ambiance with natural sunlight, diverse inclusive crowd without identifiable features, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-003-packet-2",
+    "concept_id": "concept-2026-06-15-003",
+    "topic": "Optimistic Summer Shopping",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio ideal for retail marketing and seasonal promotions showing products and shopper energy.",
+    "positive_prompt": "Summer outdoor market with diverse products including fresh fruits, handmade crafts, and colorful clothing, enthusiastic shoppers browsing happily, warm sunlight enhancing vibrant colors, no identifiable people, no brand logos, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no brand names, no text, no watermarks, no editorial scenes",
+    "technical_specs": "High resolution, warm natural lighting, vivid saturated colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Summer outdoor market with diverse products including fresh fruits, handmade crafts, and colorful clothing, enthusiastic shoppers browsing happily, warm sunlight enhancing vibrant colors, no identifiable people, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-003-packet-3",
+    "concept_id": "concept-2026-06-15-003",
+    "topic": "Optimistic Summer Shopping",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic format highlighting colorful products and lively summer shopping energy suitable for consumer behavior visuals.",
+    "positive_prompt": "Colorful summer market scene with diverse products like flowers, fruits, and artisanal goods, happy shoppers browsing inclusively without identifiable features, bright sunny day with vibrant warm colors, no brand logos, no text, no watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no brand names, no text, no watermarks, no editorial or news content",
+    "technical_specs": "High resolution, natural sunlight, vivid colors emphasizing summer optimism",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Colorful summer market scene with diverse products like flowers, fruits, and artisanal goods, happy shoppers browsing inclusively without identifiable features, bright sunny day with vibrant warm colors, no brand logos, no text, no watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-003-packet-4",
+    "concept_id": "concept-2026-06-15-003",
+    "topic": "Optimistic Summer Shopping",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media and promotional use focusing on product diversity and summer vibrancy.",
+    "positive_prompt": "Close-up vibrant summer shopping display with diverse colorful products such as fresh fruits, flowers, and handmade items, bright natural lighting, inviting summer ambiance, no identifiable people, no brand logos, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no brand names, no text, no watermarks, no editorial scenes",
+    "technical_specs": "High resolution, bright natural light, saturated vivid colors",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Close-up vibrant summer shopping display with diverse colorful products such as fresh fruits, flowers, and handmade items, bright natural lighting, inviting summer ambiance, no identifiable people, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-004-packet-1",
+    "concept_id": "concept-2026-06-15-004",
+    "topic": "Zero-Waste Lifestyle Essentials",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Ideal for detailed product shots showcasing zero-waste kitchen items arranged neatly on counter.",
+    "positive_prompt": "Collection of zero-waste kitchen essentials on clean rustic wooden countertop, including reusable glass jars, bamboo utensils, beeswax wraps, cloth produce bags, soft natural lighting highlighting textures, no brand logos, no identifiable people, no text or watermarks",
+    "negative_prompt": "no logos, no brands, no identifiable individuals, no text, no watermarks, no plastic or disposable items",
+    "technical_specs": "High resolution, soft natural lighting, focus on textures and materials",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Collection of zero-waste kitchen essentials on clean rustic wooden countertop, including reusable glass jars, bamboo utensils, beeswax wraps, cloth produce bags, soft natural lighting highlighting textures, no brand logos, no identifiable people, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-004-packet-2",
+    "concept_id": "concept-2026-06-15-004",
+    "topic": "Zero-Waste Lifestyle Essentials",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio suitable for eco-friendly product displays and kitchen organization visuals.",
+    "positive_prompt": "Zero-waste kitchen items arranged on rustic countertop, featuring reusable glass jars with dried goods, bamboo utensils, beeswax wraps covering produce, cloth bags, natural warm lighting, no logos, no identifiable people, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no brand names, no text, no watermarks, no single-use plastic items",
+    "technical_specs": "High resolution, natural warm lighting, detailed textures emphasis",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Zero-waste kitchen items arranged on rustic countertop, featuring reusable glass jars with dried goods, bamboo utensils, beeswax wraps covering produce, cloth bags, natural warm lighting, no logos, no identifiable people, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-004-packet-3",
+    "concept_id": "concept-2026-06-15-004",
+    "topic": "Zero-Waste Lifestyle Essentials",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format ideal for lifestyle and sustainable living editorial images showing zero-waste kitchen setup.",
+    "positive_prompt": "Rustic kitchen countertop displaying zero-waste essentials: reusable glass jars, bamboo utensils, beeswax wraps, cloth produce bags, warm natural light enhancing textures and eco-friendly vibe, no brand logos, no identifiable individuals, no text or watermarks",
+    "negative_prompt": "no logos, no brands, no identifiable people, no text, no watermarks, no plastic disposables",
+    "technical_specs": "High resolution, warm natural lighting, focus on eco-friendly materials and rustic textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Rustic kitchen countertop displaying zero-waste essentials: reusable glass jars, bamboo utensils, beeswax wraps, cloth produce bags, warm natural light enhancing textures and eco-friendly vibe, no brand logos, no identifiable individuals, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-004-packet-4",
+    "concept_id": "concept-2026-06-15-004",
+    "topic": "Zero-Waste Lifestyle Essentials",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format perfect for social media and e-commerce focused on sustainable kitchen essentials.",
+    "positive_prompt": "Close-up zero-waste kitchen essentials arranged on rustic wood surface: reusable glass jars filled with dry goods, bamboo utensils, beeswax wraps, cloth produce bags, soft natural light, no logos, no brands, no identifiable people, no text or watermarks",
+    "negative_prompt": "no identifiable individuals, no logos, no text, no brand names, no watermarks, no plastic disposables",
+    "technical_specs": "High resolution, soft natural lighting, detailed textures",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Close-up zero-waste kitchen essentials arranged on rustic wood surface: reusable glass jars filled with dry goods, bamboo utensils, beeswax wraps, cloth produce bags, soft natural light, no logos, no brands, no identifiable people, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-005-packet-1",
+    "concept_id": "concept-2026-06-15-005",
+    "topic": "At-Home Yoga and Meditation Corner",
+    "aspect_ratio": "4:3",
+    "aspect_ratio_reason": "Classic aspect ratio for intimate interior and wellness lifestyle imagery focused on calm, cozy spaces.",
+    "positive_prompt": "Serene yoga and meditation corner in cozy living room, yoga mat laid out with cushions, lit candles, small indoor plants nearby, water bottle on floor, soft warm ambient lighting, no identifiable individuals, no brand logos, no text or watermarks",
+    "negative_prompt": "no identifiable people, no logos, no brand names, no text, no watermarks, no electronic devices, no harsh lighting",
+    "technical_specs": "High resolution, warm ambient lighting, focus on calm and cozy wellness setup",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Serene yoga and meditation corner in cozy living room, yoga mat laid out with cushions, lit candles, small indoor plants nearby, water bottle on floor, soft warm ambient lighting, no identifiable individuals, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-005-packet-2",
+    "concept_id": "concept-2026-06-15-005",
+    "topic": "At-Home Yoga and Meditation Corner",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Balanced ratio ideal for wellness lifestyle and home fitness imagery highlighting peaceful corners.",
+    "positive_prompt": "Cozy living room corner set up for yoga and meditation: yoga mat on floor with cushions, lit candles and small indoor plants on side table, water bottle close by, warm soft lighting, no identifiable individuals, no brand logos, no text or watermarks",
+    "negative_prompt": "no identifiable people, no logos, no text, no brand names, no watermarks, no electronic devices, no harsh lighting",
+    "technical_specs": "High resolution, warm gentle lighting, focus on serene wellness environment",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy living room corner set up for yoga and meditation: yoga mat on floor with cushions, lit candles and small indoor plants on side table, water bottle close by, warm soft lighting, no identifiable individuals, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-005-packet-3",
+    "concept_id": "concept-2026-06-15-005",
+    "topic": "At-Home Yoga and Meditation Corner",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Wide format suitable for lifestyle editorial and wellness content showing spacious calm corners.",
+    "positive_prompt": "Peaceful at-home yoga and meditation corner with yoga mat, cushions, candles lit softly, small leafy indoor plants, water bottle nearby, cozy living room setting with warm ambient light, no identifiable people, no brand logos, no text or watermarks",
+    "negative_prompt": "no logos, no identifiable individuals, no brand names, no text, no watermarks, no electronics, no harsh light",
+    "technical_specs": "High resolution, warm ambient lighting, calm and inviting atmosphere",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Peaceful at-home yoga and meditation corner with yoga mat, cushions, candles lit softly, small leafy indoor plants, water bottle nearby, cozy living room setting with warm ambient light, no identifiable people, no brand logos, no text or watermarks"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "concept-2026-06-15-005-packet-4",
+    "concept_id": "concept-2026-06-15-005",
+    "topic": "At-Home Yoga and Meditation Corner",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format ideal for social media wellness content focusing on intimate yoga corners.",
+    "positive_prompt": "Cozy yoga and meditation corner with yoga mat, cushions, small lit candles, indoor plants, water bottle, warm inviting lighting, no brand logos, no identifiable individuals, no text or watermarks",
+    "negative_prompt": "no identifiable people, no logos, no text, no brand names, no watermarks, no electronic devices, no harsh lighting",
+    "technical_specs": "High resolution, warm soft lighting, focus on calm and cozy wellness setup",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Cozy yoga and meditation corner with yoga mat, cushions, small lit candles, indoor plants, water bottle, warm inviting lighting, no brand logos, no identifiable individuals, no text or watermarks"
+          }
+        ]
+      }
+    }
+  }
+]

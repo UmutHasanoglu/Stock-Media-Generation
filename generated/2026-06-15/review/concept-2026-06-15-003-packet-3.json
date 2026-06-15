@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains identifiable individuals",
+    "Image contains people with visible faces"
+  ],
+  "issues": [
+    "Identifiable individuals present",
+    "Faces clearly visible"
+  ],
+  "confidence_0_to_100": 95
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "concept-2026-06-15-001",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Rising consumer interest in personalized and authentic experiences in various aspects of life, including interior design and consumer products.",
+    "topic": "Personalized and Authentic Experiences",
+    "stock_safe_concept": "A cozy living room featuring textured fabrics, rich color schemes, and personalized decor items, creating an inviting and emotive space.",
+    "buyer_use_cases": [
+      "Interior design",
+      "Home decor",
+      "Lifestyle imagery"
+    ],
+    "visual_elements": [
+      "Textured fabrics",
+      "Rich color schemes",
+      "Personalized decor items",
+      "Cozy atmosphere"
+    ],
+    "negative_constraints": [
+      "Avoid specific brand names",
+      "No identifiable individuals"
+    ],
+    "risk_notes": [
+      "Ensure no copyrighted materials are depicted",
+      "Maintain a neutral and inclusive aesthetic"
+    ],
+    "score_0_to_100": 85,
+    "score_reason": "Strong alignment with current consumer behavior trends emphasizing personalization and authenticity."
+  },
+  {
+    "id": "concept-2026-06-15-002",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Growing adoption of AI technologies in daily life, including workplace settings, leading to changes in workplace dynamics and benefits.",
+    "topic": "AI Integration in the Workplace",
+    "stock_safe_concept": "A modern office environment with employees collaborating around a conference table, featuring digital devices and a relaxed atmosphere, symbolizing the shift in workplace dynamics and benefits.",
+    "buyer_use_cases": [
+      "Corporate environments",
+      "Technology integration",
+      "Workplace collaboration"
+    ],
+    "visual_elements": [
+      "Modern office setting",
+      "Digital devices",
+      "Collaborative workspace",
+      "Relaxed atmosphere"
+    ],
+    "negative_constraints": [
+      "No identifiable individuals",
+      "Avoid specific brand logos"
+    ],
+    "risk_notes": [
+      "Ensure no proprietary technology is depicted",
+      "Maintain a generic and inclusive representation"
+    ],
+    "score_0_to_100": 80,
+    "score_reason": "Reflects the increasing role of AI in workplace settings and its impact on workplace dynamics."
+  },
+  {
+    "id": "concept-2026-06-15-003",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Increased consumer spending during summer, indicating a season of optimism and higher purchase intent.",
+    "topic": "Optimistic Summer Shopping",
+    "stock_safe_concept": "A vibrant summer shopping scene featuring diverse products and enthusiastic shoppers, capturing the season's optimism and spending intent.",
+    "buyer_use_cases": [
+      "Retail marketing",
+      "Seasonal promotions",
+      "Consumer behavior analysis"
+    ],
+    "visual_elements": [
+      "Diverse products",
+      "Enthusiastic shoppers",
+      "Summer ambiance",
+      "Vibrant colors"
+    ],
+    "negative_constraints": [
+      "No identifiable individuals",
+      "Avoid specific brand logos"
+    ],
+    "risk_notes": [
+      "Ensure no copyrighted materials are depicted",
+      "Maintain a neutral and inclusive aesthetic"
+    ],
+    "score_0_to_100": 75,
+    "score_reason": "Captures the positive consumer sentiment and increased spending during the summer season."
+  },
+  {
+    "id": "concept-2026-06-15-004",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Growing interest in sustainable living and eco-conscious lifestyle choices, including zero-waste practices in daily life.",
+    "topic": "Zero-Waste Lifestyle Essentials",
+    "stock_safe_concept": "A collection of zero-waste kitchen items arranged on a clean countertop: reusable glass jars, bamboo utensils, beeswax wraps, and cloth produce bags, with a rustic backdrop.",
+    "buyer_use_cases": [
+      "Sustainable living",
+      "Eco-friendly products",
+      "Kitchen organization"
+    ],
+    "visual_elements": [
+      "Reusable glass jars",
+      "Bamboo utensils",
+      "Beeswax wraps",
+      "Cloth produce bags",
+      "Rustic backdrop"
+    ],
+    "negative_constraints": [
+      "No identifiable individuals",
+      "Avoid specific brand logos"
+    ],
+    "risk_notes": [
+      "Ensure no copyrighted materials are depicted",
+      "Maintain a neutral and inclusive aesthetic"
+    ],
+    "score_0_to_100": 70,
+    "score_reason": "Aligns with the increasing consumer focus on sustainability and eco-friendly practices."
+  },
+  {
+    "id": "concept-2026-06-15-005",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Emphasis on health and wellness, particularly in the context of home fitness and mindfulness practices.",
+    "topic": "At-Home Yoga and Meditation Corner",
+    "stock_safe_concept": "A serene yoga mat setup with cushions, candles, small indoor plants, and a water bottle in a cozy living room corner.",
+    "buyer_use_cases": [
+      "Home fitness",
+      "Mindfulness practices",
+      "Interior design"
+    ],
+    "visual_elements": [
+      "Yoga mat",
+      "Cushions",
+      "Candles",
+      "Indoor plants",
+      "Water bottle",
+      "Cozy living room corner"
+    ],
+    "negative_constraints": [
+      "No identifiable individuals",
+      "Avoid specific brand logos"
+    ],
+    "risk_notes": [
+      "Ensure no copyrighted materials are depicted",
+      "Maintain a neutral and inclusive aesthetic"
+    ],
+    "score_0_to_100": 65,
+    "score_reason": "Reflects the growing trend of incorporating wellness practices into home environments."
+  }
+]

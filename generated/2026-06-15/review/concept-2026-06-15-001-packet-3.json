@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Presence of identifiable people in framed photos"
+  ],
+  "issues": [
+    "Framed photos on the table and wall contain blurred but still recognizable images of people, which is not allowed."
+  ],
+  "confidence_0_to_100": 95
+}

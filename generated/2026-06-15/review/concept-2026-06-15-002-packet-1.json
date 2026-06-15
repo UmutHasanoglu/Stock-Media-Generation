@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains identifiable people"
+  ],
+  "issues": [
+    "Identifiable individuals present in the image"
+  ],
+  "confidence_0_to_100": 95
+}

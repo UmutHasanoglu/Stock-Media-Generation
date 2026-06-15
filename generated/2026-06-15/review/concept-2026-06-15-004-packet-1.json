@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on labels."
+  ],
+  "issues": [
+    "Readable text on jars labeled 'Spices', 'Lentils', and 'Grains'."
+  ],
+  "confidence_0_to_100": 95
+}

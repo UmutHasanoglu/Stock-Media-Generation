@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains identifiable people in framed photo",
+    "Contains text on book spines and book cover",
+    "Contains personal and potentially copyrighted artwork"
+  ],
+  "issues": [
+    "Identifiable individuals in framed photograph on bookshelf",
+    "Readable text on book spines and book cover on table",
+    "Artwork on walls and shelves may be copyrighted or personal"
+  ],
+  "confidence_0_to_100": 95
+}

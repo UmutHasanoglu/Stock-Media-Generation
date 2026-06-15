@@ -1,0 +1,12 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains real identifiable people",
+    "Does not meet requirement of no identifiable individuals"
+  ],
+  "issues": [
+    "Presence of real people identifiable by facial features"
+  ],
+  "confidence_0_to_100": 98
+}

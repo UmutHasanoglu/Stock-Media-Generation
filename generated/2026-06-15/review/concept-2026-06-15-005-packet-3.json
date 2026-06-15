@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "decision": "approve",
+  "reasons": [
+    "The image depicts a peaceful at-home yoga and meditation corner consistent with the prompt.",
+    "No identifiable people, brand logos, text, or watermarks are present.",
+    "The composition is visually coherent and commercially useful for lifestyle and wellness content.",
+    "The warm ambient lighting and calm atmosphere meet the technical specifications.",
+    "No obvious AI artifacts or distorted objects detected."
+  ],
+  "issues": [],
+  "confidence_0_to_100": 98
+}

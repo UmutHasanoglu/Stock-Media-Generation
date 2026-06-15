@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Contains identifiable people"
+  ],
+  "issues": [
+    "Identifiable individuals present"
+  ],
+  "confidence_0_to_100": 95
+}
