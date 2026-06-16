@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Presence of real people",
+    "Visible faces",
+    "Readable text on products and signage"
+  ],
+  "issues": [
+    "Two people with visible faces in the background",
+    "Readable monogram initials on products",
+    "Readable text on the sign 'YOUR CUSTOM TOUCH MAKE IT YOURS'"
+  ],
+  "confidence_0_to_100": 95
+}

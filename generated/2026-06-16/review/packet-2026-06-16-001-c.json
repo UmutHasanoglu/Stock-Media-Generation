@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Presence of silhouettes representing people",
+    "Silhouettes may be interpreted as real people",
+    "Potentially misleading representation of consumers"
+  ],
+  "issues": [
+    "Silhouettes of people are clearly visible and identifiable as human figures"
+  ],
+  "confidence_0_to_100": 95
+}

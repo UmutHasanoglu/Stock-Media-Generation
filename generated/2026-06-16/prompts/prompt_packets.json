@@ -1,0 +1,78 @@
+[
+  {
+    "id": "packet-2026-06-16-001-a",
+    "concept_id": "concept-2026-06-16-001",
+    "topic": "Personalized Retail Experiences",
+    "aspect_ratio": "4:5",
+    "aspect_ratio_reason": "Optimal for product catalog visuals and e-commerce website imagery highlighting product details.",
+    "positive_prompt": "A curated retail display featuring customizable products like monogrammed items and bespoke designs, emphasizing individuality and personal style, arranged neatly in a bright, inviting retail environment, with diverse hands interacting subtly with products, no faces visible, clean and modern styling, soft natural lighting, no brand logos or trademarks, no text or watermarks.",
+    "negative_prompt": "real people, faces, brand logos, trademarks, specific locations, news events, political content, sensitive topics, editorial scenes, recognizable designs, text, watermarks",
+    "technical_specs": "High resolution, 4K, soft natural lighting, shallow depth of field to highlight product details, neutral color palette with warm accents.",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "A curated retail display of customizable monogrammed and bespoke products emphasizing individuality and personal style in a clean retail environment without showing real people or brands."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-16-001-b",
+    "concept_id": "concept-2026-06-16-001",
+    "topic": "Personalized Retail Experiences",
+    "aspect_ratio": "3:2",
+    "aspect_ratio_reason": "Versatile aspect ratio suitable for retail marketing materials and general use.",
+    "positive_prompt": "Close-up view of customizable retail products including engraved and personalized items displayed on minimalist shelves, soft natural lighting, no real people visible, diverse consumer presence suggested by hands only, clean and modern retail environment with neutral colors, no brand logos, trademarks, or text, no watermarks.",
+    "negative_prompt": "real people, faces, brand logos, trademarks, specific locations, news events, political content, sensitive topics, editorial scenes, recognizable designs, text, watermarks",
+    "technical_specs": "4K resolution, high detail on product textures, shallow depth of field focusing on product features, neutral and warm tones.",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Close-up of customizable retail products like engraved and personalized items in a clean retail setting with no real people or brand markings."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-16-001-c",
+    "concept_id": "concept-2026-06-16-001",
+    "topic": "Personalized Retail Experiences",
+    "aspect_ratio": "16:9",
+    "aspect_ratio_reason": "Ideal for wide-format e-commerce banners and marketing presentations showcasing retail environments.",
+    "positive_prompt": "Wide view of a modern retail environment featuring curated displays of customizable products such as monogrammed accessories and bespoke designs, diverse consumers represented by silhouettes or hands only, bright and airy atmosphere, no identifiable people, no logos or trademarks, neutral colors with pops of color in products, clean retail setting, no text or watermarks.",
+    "negative_prompt": "real people, faces, brand logos, trademarks, specific locations, news events, political content, sensitive topics, editorial scenes, recognizable designs, text, watermarks",
+    "technical_specs": "4K resolution, bright ambient lighting, wide depth of field to capture environment and products, color balanced for clarity and appeal.",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Wide shot of a modern retail space with curated customizable products and subtle diverse consumer presence without real people or logos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "packet-2026-06-16-001-d",
+    "concept_id": "concept-2026-06-16-001",
+    "topic": "Personalized Retail Experiences",
+    "aspect_ratio": "1:1",
+    "aspect_ratio_reason": "Square format optimized for social media marketing and product catalog thumbnails.",
+    "positive_prompt": "Square format image of a retail display featuring bespoke and monogrammed customizable products arranged artfully on shelves, diverse consumer interaction implied by hands only, clean minimalist retail environment with neutral background, no real people, no brand logos or trademarks, no text, no watermarks, soft natural lighting highlighting textures and details.",
+    "negative_prompt": "real people, faces, brand logos, trademarks, specific locations, news events, political content, sensitive topics, editorial scenes, recognizable designs, text, watermarks",
+    "technical_specs": "4K resolution, soft natural lighting, shallow depth of field to focus on product textures, neutral tones with warm highlights.",
+    "nano_banana_payload": {
+      "contents": {
+        "parts": [
+          {
+            "text": "Square image of a retail display with bespoke and monogrammed products, emphasizing customization and style without showing real people or brands."
+          }
+        ]
+      }
+    }
+  }
+]

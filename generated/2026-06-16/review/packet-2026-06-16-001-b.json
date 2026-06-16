@@ -1,0 +1,16 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains readable text on products",
+    "Image contains visible brand-like logos or trademarks",
+    "Presence of personalized text and logos on items makes it unsuitable for generic commercial use"
+  ],
+  "issues": [
+    "Text 'MEMORIES [CUSTOM NAME]' on wooden box",
+    "Text 'HOME' and date placeholders on photo frame",
+    "Text 'ADVENTURES' and mountain logo on leather item",
+    "Text 'M' and date on mug and keychains"
+  ],
+  "confidence_0_to_100": 95
+}

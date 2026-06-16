@@ -1,0 +1,167 @@
+[
+  {
+    "id": "concept-2026-06-16-001",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Rising consumer interest in personalized and authentic experiences in retail settings.",
+    "topic": "Personalized Retail Experiences",
+    "stock_safe_concept": "A curated display of customizable products, such as monogrammed items and bespoke designs, highlighting individuality and personal style in a retail setting.",
+    "buyer_use_cases": [
+      "Retail marketing materials",
+      "E-commerce website imagery",
+      "Product catalog visuals"
+    ],
+    "visual_elements": [
+      "Customizable products",
+      "Personalized items",
+      "Retail environment",
+      "Diverse consumers"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Trademarks",
+      "Specific locations",
+      "News events",
+      "Political content",
+      "Sensitive topics"
+    ],
+    "risk_notes": [
+      "Ensure no identifiable individuals are depicted",
+      "Avoid any brand-specific imagery to maintain stock image neutrality"
+    ],
+    "score_0_to_100": 85,
+    "score_reason": "Strong alignment with current consumer behavior trends emphasizing personalization and authenticity in retail experiences."
+  },
+  {
+    "id": "concept-2026-06-16-002",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Increased adoption of AI technologies in workplace settings to enhance operational efficiency.",
+    "topic": "AI Integration in the Workplace",
+    "stock_safe_concept": "A modern office environment with employees collaborating around a conference table, featuring digital devices and a relaxed atmosphere, symbolizing the shift in workplace dynamics and benefits.",
+    "buyer_use_cases": [
+      "Corporate training materials",
+      "Business presentations",
+      "Office design brochures"
+    ],
+    "visual_elements": [
+      "Modern office",
+      "Digital devices",
+      "Collaborative workspace",
+      "Diverse professionals"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Trademarks",
+      "Specific locations",
+      "News events",
+      "Political content",
+      "Sensitive topics"
+    ],
+    "risk_notes": [
+      "Ensure no identifiable individuals are depicted",
+      "Avoid any brand-specific imagery to maintain stock image neutrality"
+    ],
+    "score_0_to_100": 80,
+    "score_reason": "Reflects the growing trend of AI integration in workplace settings to enhance operational efficiency."
+  },
+  {
+    "id": "concept-2026-06-16-003",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers seeking professional-grade wellness solutions for everyday use.",
+    "topic": "Professional-Grade Wellness Products",
+    "stock_safe_concept": "A collection of high-quality wellness products, such as ergonomic yoga mats, premium water bottles, and advanced fitness trackers, displayed in a clean, minimalist setting.",
+    "buyer_use_cases": [
+      "Health and wellness product catalogs",
+      "E-commerce websites",
+      "Fitness center promotional materials"
+    ],
+    "visual_elements": [
+      "Wellness products",
+      "Minimalist design",
+      "Clean setting",
+      "Neutral colors"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Trademarks",
+      "Specific locations",
+      "News events",
+      "Political content",
+      "Sensitive topics"
+    ],
+    "risk_notes": [
+      "Ensure no identifiable individuals are depicted",
+      "Avoid any brand-specific imagery to maintain stock image neutrality"
+    ],
+    "score_0_to_100": 75,
+    "score_reason": "Aligns with the trend of consumers seeking professional-grade wellness solutions for everyday use."
+  },
+  {
+    "id": "concept-2026-06-16-004",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Retailers implementing AI-powered shopping tools to enhance customer experience.",
+    "topic": "AI-Powered Retail Shopping",
+    "stock_safe_concept": "A person interacting with a digital interface displaying product options and AI-generated recommendations, set in a modern retail environment.",
+    "buyer_use_cases": [
+      "Retail marketing materials",
+      "E-commerce website imagery",
+      "Product catalog visuals"
+    ],
+    "visual_elements": [
+      "Digital interface",
+      "AI recommendations",
+      "Retail environment",
+      "Diverse consumers"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Trademarks",
+      "Specific locations",
+      "News events",
+      "Political content",
+      "Sensitive topics"
+    ],
+    "risk_notes": [
+      "Ensure no identifiable individuals are depicted",
+      "Avoid any brand-specific imagery to maintain stock image neutrality"
+    ],
+    "score_0_to_100": 70,
+    "score_reason": "Reflects the trend of retailers implementing AI-powered shopping tools to enhance customer experience."
+  },
+  {
+    "id": "concept-2026-06-16-005",
+    "recency_window": 10,
+    "anonymized_trend_signal": "Consumers reorganizing summer spending around value, convenience, and intentional experiences.",
+    "topic": "Intentional Summer Spending",
+    "stock_safe_concept": "A family enjoying a picnic in a park, with a focus on simple, affordable activities and homemade food, emphasizing value and intentional experiences.",
+    "buyer_use_cases": [
+      "Family lifestyle magazines",
+      "Summer event promotions",
+      "Community newsletters"
+    ],
+    "visual_elements": [
+      "Family picnic",
+      "Park setting",
+      "Homemade food",
+      "Simple activities"
+    ],
+    "negative_constraints": [
+      "Depiction of real people",
+      "Brand logos",
+      "Trademarks",
+      "Specific locations",
+      "News events",
+      "Political content",
+      "Sensitive topics"
+    ],
+    "risk_notes": [
+      "Ensure no identifiable individuals are depicted",
+      "Avoid any brand-specific imagery to maintain stock image neutrality"
+    ],
+    "score_0_to_100": 65,
+    "score_reason": "Captures the trend of consumers reorganizing summer spending around value, convenience, and intentional experiences."
+  }
+]

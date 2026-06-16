@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "decision": "reject",
+  "reasons": [
+    "Image contains visible monogrammed initials which can be considered as personalized text.",
+    "Presence of readable text on multiple products (initials and names) which may limit commercial use.",
+    "Hands shown in the image may imply real person presence, which is restricted by the prompt."
+  ],
+  "issues": [
+    "Readable monogrammed initials on products",
+    "Readable names on fabric pouches",
+    "Visible hands of a person interacting with products"
+  ],
+  "confidence_0_to_100": 90
+}

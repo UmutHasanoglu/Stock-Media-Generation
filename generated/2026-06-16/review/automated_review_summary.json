@@ -1,0 +1,77 @@
+{
+  "generated_count": 4,
+  "approved_count": 0,
+  "rejected_count": 4,
+  "approved": [],
+  "rejected": [
+    "packet-2026-06-16-001-a.jpg",
+    "packet-2026-06-16-001-b.jpg",
+    "packet-2026-06-16-001-c.jpg",
+    "packet-2026-06-16-001-d.jpg"
+  ],
+  "decisions": [
+    {
+      "filename": "packet-2026-06-16-001-a.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-16/review/packet-2026-06-16-001-a.json",
+      "reasons": [
+        "Presence of real people",
+        "Visible faces",
+        "Readable text on products and signage"
+      ],
+      "issues": [
+        "Two people with visible faces in the background",
+        "Readable monogram initials on products",
+        "Readable text on the sign 'YOUR CUSTOM TOUCH MAKE IT YOURS'"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-16-001-b.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-16/review/packet-2026-06-16-001-b.json",
+      "reasons": [
+        "Image contains readable text on products",
+        "Image contains visible brand-like logos or trademarks",
+        "Presence of personalized text and logos on items makes it unsuitable for generic commercial use"
+      ],
+      "issues": [
+        "Text 'MEMORIES [CUSTOM NAME]' on wooden box",
+        "Text 'HOME' and date placeholders on photo frame",
+        "Text 'ADVENTURES' and mountain logo on leather item",
+        "Text 'M' and date on mug and keychains"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-16-001-c.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-16/review/packet-2026-06-16-001-c.json",
+      "reasons": [
+        "Presence of silhouettes representing people",
+        "Silhouettes may be interpreted as real people",
+        "Potentially misleading representation of consumers"
+      ],
+      "issues": [
+        "Silhouettes of people are clearly visible and identifiable as human figures"
+      ],
+      "confidence_0_to_100": 95
+    },
+    {
+      "filename": "packet-2026-06-16-001-d.jpg",
+      "approved": false,
+      "review_path": "generated/2026-06-16/review/packet-2026-06-16-001-d.json",
+      "reasons": [
+        "Image contains visible monogrammed initials which can be considered as personalized text.",
+        "Presence of readable text on multiple products (initials and names) which may limit commercial use.",
+        "Hands shown in the image may imply real person presence, which is restricted by the prompt."
+      ],
+      "issues": [
+        "Readable monogrammed initials on products",
+        "Readable names on fabric pouches",
+        "Visible hands of a person interacting with products"
+      ],
+      "confidence_0_to_100": 90
+    }
+  ]
+}
